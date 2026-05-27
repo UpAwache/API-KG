@@ -6,11 +6,11 @@ Static API knowledge graph resource built from ToolBench-style JSON catalogs (CI
 
 | Path | Description |
 |------|-------------|
-| generated_stats/category_stats.csv | Machine-readable per-category counts for **50** ToolLLM marketplace partitions (batch build under *_sample_v4). |
+| `generated_stats/category_stats.csv` | Machine-readable per-category counts for **50** ToolLLM marketplace partitions (batch build under `*_sample_v4`). |
 
 ## ToolLLM category scale (N = 50)
 
-Counts from one uild_report.md per marketplace category. **Nodes** / **Edges** are graph totals; **Tools** = category_to_tool edges; **APIs** = 	ool_to_api edges; **Dep.** = depends_on edges (semantic-key default).
+Counts from one `build_report.md` per marketplace category. **Nodes** / **Edges** are graph totals; **Tools** = `category_to_tool` edges; **APIs** = `tool_to_api` edges; **Dep.** = `depends_on` edges (semantic-key default).
 
 | Category | Nodes | Edges | Tools | APIs | Dep. | Param. slots |
 |----------|------:|------:|------:|-----:|-----:|-------------:|
