@@ -1,0 +1,546 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+
+        
+<center>
+<h1>API-KG - Customized</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1>API-KG - Customized</h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 920px;
+                 background-color: #0f172a;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+
+<div id="kg-legend">
+  <div class="lg-title">API-KG · Customized</div>
+  <div class="lg-sub">完整（含 Parameter） · 样式: viz_style.json</div>
+  <div class="lg-section">节点</div>
+  <div class="lg-row"><span class="sw" style="background:#7c3aed"></span>Category</div><div class="lg-row"><span class="sw" style="background:#2563eb"></span>Tool</div><div class="lg-row"><span class="sw" style="background:#0e7490"></span>API</div><div class="lg-row"><span class="sw" style="background:#475569"></span>Parameter</div>
+  <div class="lg-section">边</div>
+  <div class="lg-row"><span class="ln" style="background:#a78bfa"></span>category → tool</div><div class="lg-row"><span class="ln" style="background:#60a5fa"></span>tool → api</div><div class="lg-row"><span class="ln" style="background:#94a3b8"></span>parameter ⇢ api (虚线)</div><div class="lg-row"><span class="ln" style="background:#2dd4bf"></span>api ⇢ parameter (虚线)</div><div class="lg-row"><span class="ln" style="background:#ea580c"></span>depends_on</div>
+</div>
+<style>
+#kg-legend {
+  position: fixed; top: 10px; left: 10px; z-index: 9;
+  font: 13px/1.4 system-ui, Segoe UI, sans-serif;
+  color: #e2e8f0;
+  background: rgba(15,23,42,.92);
+  border: 1px solid #334155; border-radius: 8px; padding: 10px 12px;
+  max-width: 280px; box-shadow: 0 4px 20px rgba(0,0,0,.35);
+}
+#kg-legend .lg-title { font-weight: 700; font-size: 14px; margin-bottom: 2px; }
+#kg-legend .lg-sub { font-size: 11px; color: #94a3b8; margin-bottom: 8px; }
+#kg-legend .lg-section { font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+  color: #94a3b8; margin: 8px 0 4px; }
+#kg-legend .lg-row { display: flex; align-items: center; gap: 8px; margin: 3px 0; }
+#kg-legend .sw { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0;
+  border: 1px solid rgba(255,255,255,.25); }
+#kg-legend .ln { width: 18px; height: 3px; border-radius: 1px; flex-shrink: 0; }
+</style>
+
+<div id="kg-controls">
+  <div class="kc-title">交互控制</div>
+  <div class="kc-sub">可切换参数节点与边类型；启用 API 焦点后仅显示所选 API 邻域。</div>
+  <label class="kc-row"><input id="kc-show-hierarchy" type="checkbox" checked> 显示层级边（category→tool, tool→api）</label>
+  <label class="kc-row"><input id="kc-show-param-edge" type="checkbox" checked> 显示参数边（parameter⇄api）</label>
+  <label class="kc-row"><input id="kc-show-depends" type="checkbox" checked> 显示 depends_on</label>
+  <label class="kc-row"><input id="kc-show-param-node" type="checkbox" checked > 显示 parameter 节点</label>
+  <label class="kc-row"><input id="kc-api-focus" type="checkbox"> API 焦点模式（点击 API 只看局部）</label>
+  <div class="kc-btns">
+    <button id="kc-clear-focus" type="button">清除焦点</button>
+    <button id="kc-toggle-physics" type="button">冻结/恢复布局</button>
+  </div>
+  <div class="kc-stat" id="kc-stat">visible nodes: - · visible edges: -</div>
+  <div class="kc-info-title">节点/边详情（动态）</div>
+  <pre id="kc-info">点击节点或边查看属性。</pre>
+</div>
+<style>
+#kg-controls {
+  position: fixed; top: 10px; right: 10px; z-index: 10;
+  width: min(360px, 36vw); max-height: calc(100vh - 24px); overflow: auto;
+  font: 13px/1.4 system-ui, Segoe UI, sans-serif;
+  color: #e2e8f0; background: rgba(2,6,23,.92);
+  border: 1px solid #334155; border-radius: 8px; padding: 10px 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,.35);
+}
+#kg-controls .kc-title { font-weight: 700; font-size: 14px; margin-bottom: 2px; }
+#kg-controls .kc-sub { font-size: 11px; color: #94a3b8; margin-bottom: 10px; }
+#kg-controls .kc-row { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+#kg-controls .kc-btns { display: flex; gap: 8px; margin: 10px 0; }
+#kg-controls button {
+  background: #1e293b; color: #e2e8f0; border: 1px solid #334155;
+  border-radius: 6px; padding: 4px 8px; cursor: pointer;
+}
+#kg-controls .kc-stat { font-size: 12px; color: #93c5fd; margin: 8px 0; }
+#kg-controls .kc-info-title { margin-top: 8px; font-size: 12px; color: #94a3b8; }
+#kg-controls pre {
+  margin: 6px 0 0; white-space: pre-wrap; word-break: break-word;
+  background: #0f172a; border: 1px solid #334155; border-radius: 6px;
+  padding: 8px; font-size: 12px; max-height: 240px; overflow: auto;
+}
+</style>
+<script>
+(function() {
+  if (typeof nodes === "undefined" || typeof edges === "undefined" || typeof network === "undefined") {
+    return;
+  }
+  const $ = (id) => document.getElementById(id);
+  const showHierarchyEl = $("kc-show-hierarchy");
+  const showParamEdgeEl = $("kc-show-param-edge");
+  const showDependsEl = $("kc-show-depends");
+  const showParamNodeEl = $("kc-show-param-node");
+  const apiFocusEl = $("kc-api-focus");
+  const clearFocusBtn = $("kc-clear-focus");
+  const togglePhysicsBtn = $("kc-toggle-physics");
+  const statEl = $("kc-stat");
+  const infoEl = $("kc-info");
+
+  const baseNodes = nodes.get();
+  const baseEdges = edges.get();
+  const nodeById = new Map(baseNodes.map((n) => [n.id, n]));
+  const adjacency = new Map();
+  for (const e of baseEdges) {
+    const a = e.from, b = e.to;
+    if (!adjacency.has(a)) adjacency.set(a, []);
+    if (!adjacency.has(b)) adjacency.set(b, []);
+    adjacency.get(a).push({ node: b, edge: e.id });
+    adjacency.get(b).push({ node: a, edge: e.id });
+  }
+
+  let focusedApiId = null;
+  let physicsOn = true;
+
+  const edgeKind = (et) => (et || "").toString();
+  const isHierarchyEdge = (et) => et === "category_to_tool" || et === "tool_to_api";
+  const isParamEdge = (et) => et === "parameter_to_api" || et === "api_to_parameter";
+  const isDependsEdge = (et) => et === "depends_on";
+
+  function focusSet(apiId) {
+    if (!apiId) return null;
+    const s = new Set([apiId]);
+    const nb = adjacency.get(apiId) || [];
+    for (const x of nb) s.add(x.node);
+    return s;
+  }
+
+  function shouldShowEdgeType(et) {
+    if (isHierarchyEdge(et)) return !!showHierarchyEl.checked;
+    if (isParamEdge(et)) return !!showParamEdgeEl.checked;
+    if (isDependsEdge(et)) return !!showDependsEl.checked;
+    return true;
+  }
+
+  function applyVisibility() {
+    const fset = apiFocusEl.checked ? focusSet(focusedApiId) : null;
+    const nodeUpdates = [];
+    const nodeVisible = new Map();
+    for (const n of baseNodes) {
+      let hidden = false;
+      if (!showParamNodeEl.checked && n.node_type === "parameter") {
+        hidden = true;
+      }
+      if (!hidden && fset && !fset.has(n.id)) {
+        hidden = true;
+      }
+      nodeVisible.set(n.id, !hidden);
+      nodeUpdates.push({ id: n.id, hidden });
+    }
+    nodes.update(nodeUpdates);
+
+    const edgeUpdates = [];
+    for (const e of baseEdges) {
+      const et = edgeKind(e.edge_type);
+      let hidden = !shouldShowEdgeType(et);
+      if (!hidden) {
+        hidden = !nodeVisible.get(e.from) || !nodeVisible.get(e.to);
+      }
+      edgeUpdates.push({ id: e.id, hidden });
+    }
+    edges.update(edgeUpdates);
+
+    const vNodes = nodeUpdates.filter((x) => !x.hidden).length;
+    const vEdges = edgeUpdates.filter((x) => !x.hidden).length;
+    statEl.textContent = `visible nodes: ${vNodes} / ${baseNodes.length} · visible edges: ${vEdges} / ${baseEdges.length}`;
+  }
+
+  function cleanObj(o) {
+    const out = {};
+    for (const [k, v] of Object.entries(o || {})) {
+      if (k === "x" || k === "y" || k === "vx" || k === "vy") continue;
+      out[k] = v;
+    }
+    return out;
+  }
+
+  function showNodeInfo(id) {
+    const n = nodes.get(id) || nodeById.get(id);
+    if (!n) return;
+    infoEl.textContent = JSON.stringify(cleanObj(n), null, 2);
+  }
+
+  function showEdgeInfo(id) {
+    const e = edges.get(id);
+    if (!e) return;
+    infoEl.textContent = JSON.stringify(cleanObj(e), null, 2);
+  }
+
+  showHierarchyEl.addEventListener("change", applyVisibility);
+  showParamEdgeEl.addEventListener("change", applyVisibility);
+  showDependsEl.addEventListener("change", applyVisibility);
+  showParamNodeEl.addEventListener("change", applyVisibility);
+  apiFocusEl.addEventListener("change", () => {
+    if (!apiFocusEl.checked) {
+      focusedApiId = null;
+      network.unselectAll();
+    }
+    applyVisibility();
+  });
+
+  clearFocusBtn.addEventListener("click", () => {
+    focusedApiId = null;
+    apiFocusEl.checked = false;
+    network.unselectAll();
+    applyVisibility();
+    infoEl.textContent = "点击节点或边查看属性。";
+  });
+
+  togglePhysicsBtn.addEventListener("click", () => {
+    physicsOn = !physicsOn;
+    network.setOptions({ physics: { enabled: physicsOn } });
+  });
+
+  network.on("selectNode", (params) => {
+    const id = params.nodes && params.nodes[0];
+    if (!id) return;
+    showNodeInfo(id);
+    const n = nodeById.get(id);
+    if (apiFocusEl.checked && n && n.node_type === "api") {
+      focusedApiId = id;
+      applyVisibility();
+    }
+  });
+  network.on("selectEdge", (params) => {
+    const id = params.edges && params.edges[0];
+    if (!id) return;
+    showEdgeInfo(id);
+  });
+  network.on("deselectNode", () => {
+    if (!apiFocusEl.checked) return;
+    focusedApiId = null;
+    applyVisibility();
+  });
+
+  applyVisibility();
+})();
+</script>
+
+
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"borderWidth": 3, "color": {"background": "#7c3aed", "border": "#ddd6fe", "highlight": {"background": "#7c3aed", "border": "#f8fafc"}}, "font": {"color": "#e2e8f0"}, "id": "category:Customized", "label": "Customized", "node_type": "category", "shadow": true, "shape": "box", "size": 34, "title": "\u003cb\u003ecategory:Customized\u003c/b\u003e\u003cbr/\u003etype: category\u003cbr/\u003elabel: Customized"}, {"borderWidth": 3, "color": {"background": "#2563eb", "border": "#93c5fd", "highlight": {"background": "#2563eb", "border": "#f8fafc"}}, "font": {"color": "#e2e8f0"}, "id": "tool:Customized:hello_world", "label": "hello world", "node_type": "tool", "shadow": true, "shape": "ellipse", "size": 28, "title": "\u003cb\u003etool:Customized:hello_world\u003c/b\u003e\u003cbr/\u003etype: tool\u003cbr/\u003ehost: \u003cbr/\u003esource_relpath: Customized/hello_world.json\u003cbr/\u003etool_name: hello world"}, {"borderWidth": 3, "color": {"background": "#0e7490", "border": "#22d3ee", "highlight": {"background": "#0e7490", "border": "#f8fafc"}}, "font": {"color": "#e2e8f0"}, "id": "api::d86404f9e91e2112", "label": "get_hello_world GET:/", "node_type": "api", "shadow": true, "shape": "hexagon", "size": 24, "title": "\u003cb\u003eapi::d86404f9e91e2112\u003c/b\u003e\u003cbr/\u003etype: api\u003cbr/\u003eindex_in_tool: 0\u003cbr/\u003emethod: GET\u003cbr/\u003ename: get_hello_world\u003cbr/\u003epath_key: GET:/\u003cbr/\u003etool_id: tool:Customized:hello_world\u003cbr/\u003eurl: "}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": {"color": "#a78bfa", "highlight": "#f8fafc"}, "edge_type": "category_to_tool", "from": "category:Customized", "title": "\u003cb\u003ecategory_to_tool\u003c/b\u003e\u003cbr/\u003ecategory:Customized \u2192 tool:Customized:hello_world", "to": "tool:Customized:hello_world", "width": 2.0}, {"arrows": "to", "color": {"color": "#60a5fa", "highlight": "#f8fafc"}, "edge_type": "tool_to_api", "from": "tool:Customized:hello_world", "title": "\u003cb\u003etool_to_api\u003c/b\u003e\u003cbr/\u003etool:Customized:hello_world \u2192 api::d86404f9e91e2112", "to": "api::d86404f9e91e2112", "width": 2.0}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"shadow": true}, "edges": {"smooth": {"type": "continuous"}}, "physics": {"enabled": true, "solver": "forceAtlas2Based", "forceAtlas2Based": {"gravitationalConstant": -42, "centralGravity": 0.006, "springLength": 150, "springConstant": 0.038, "damping": 0.55, "avoidOverlap": 0.65}, "stabilization": {"iterations": 240}}, "interaction": {"hover": true, "tooltipDelay": 120, "multiselect": true, "navigationButtons": true}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

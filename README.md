@@ -6,12 +6,7 @@ Static API knowledge graph resource built from ToolBench-style JSON catalogs (CI
 
 | Path | Description |
 |------|-------------|
-| `pipeline/` | Static KG build code (`DataProcess/run_pipeline.py`, `build_static_kg.py`, …). |
-| `source_data/<Category>/00_source_copy/` | Per-category ToolBench JSON snapshots (build input). |
-| `graphs/out/<Category>_sample_v4/` | Built `nodes.jsonl`, `edges.jsonl`, `build_report.md`. |
 | `generated_stats/category_stats.csv` | Machine-readable per-category counts for **50** ToolLLM marketplace partitions (batch build under `*_sample_v4`). |
-| `scripts/aggregate_toolllm_category_stats.py` | Regenerate `generated_stats/category_stats.csv` from `graphs/out`. |
-| `OMITTED_LARGE_FILES.txt` | Files skipped for GitHub size limits (regenerate locally). |
 
 ## ToolLLM category scale (N = 50)
 
@@ -81,14 +76,6 @@ Draft: *API-KG: A Static API Knowledge Graph Resource from Real-World API Ecosys
 ## License
 
 TBD — align with ToolBench / RapidAPI third-party terms before public artifact release.
-
-## Reproduce stats
-
-```bash
-python scripts/aggregate_toolllm_category_stats.py \
-  --graphs-root graphs/out \
-  --out-dir generated_stats
-```
 
 ## Extended artifact layout (this sync)
 

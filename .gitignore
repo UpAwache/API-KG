@@ -8,9 +8,6 @@ __pycache__/
 # ToolBench full tree (fetch separately)
 ToolBench-master/
 
-# Oversized / interactive viz (regenerate locally; see OMITTED_LARGE_FILES.txt)
-**/viz/kg_interactive.html
-
 # OS
 .DS_Store
 Thumbs.db
