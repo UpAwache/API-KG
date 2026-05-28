@@ -83,12 +83,17 @@ TBD — align with ToolBench / RapidAPI third-party terms before public artifact
 |------|-------------|
 | `pipeline/` | Static KG build code (`DataProcess/run_pipeline.py`, `build_static_kg.py`, …). |
 | `source_data/<Category>/00_source_copy/` | Per-category ToolBench JSON snapshots used as build input. |
-| `graphs/out/<Category>_sample_v4/` | Built `nodes.jsonl`, `edges.jsonl`, `build_report.md`, optional `viz/`. |
+| `graphs/out/<Category>_sample_v4/` | Built `nodes.jsonl`, `edges.jsonl`, `build_report.md`, and `viz/kg_interactive.html` when <100MB. |
 | `scripts/aggregate_toolllm_category_stats.py` | Regenerate `generated_stats/category_stats.csv` from `graphs/out`. |
+| `OMITTED_LARGE_FILES.txt` | Blobs skipped (GitHub 100MB hard limit); regenerate with `pipeline/visualize_kg.py`. |
 
-### Large files
+### Visualization
 
-Individual `edges.jsonl` files larger than 95MB are omitted from Git; regenerate locally via `pipeline/`.
+Interactive HTML is included for **50/51** `*_sample_v4` categories. **eCommerce** (`graphs/out/eCommerce_sample_v4/viz/kg_interactive.html`, ~169MB) exceeds GitHub's 100MB blob limit—regenerate locally or use [Git LFS](https://git-lfs.github.com) if you need it in-repo.
+
+### Large source JSON
+
+A few raw ToolBench JSON files in `source_data/` also exceed 100MB; see `OMITTED_LARGE_FILES.txt`.
 
 ### Reproduce stats
 
