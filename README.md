@@ -89,7 +89,7 @@ TBD — align with ToolBench / RapidAPI third-party terms before public artifact
 
 ### Visualization
 
-Interactive HTML is included for **50/51** `*_sample_v4` categories. **eCommerce** (`graphs/out/eCommerce_sample_v4/viz/kg_interactive.html`, ~169MB) exceeds GitHub's 100MB blob limit—regenerate locally or use [Git LFS](https://git-lfs.github.com) if you need it in-repo.
+Interactive HTML is included for **all 51** `*_sample_v4` categories. **eCommerce** `viz/kg_interactive.html` (~169MB) is stored via **Git LFS** (see `.gitattributes`); clone with `git lfs pull` to fetch the full file.
 
 ### Large source JSON
 

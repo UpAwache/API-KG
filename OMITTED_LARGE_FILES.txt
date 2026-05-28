@@ -1,3 +1,5 @@
-skipped (>100MB GitHub limit): eCommerce_sample_v4\viz\kg_interactive.html (168 MB)
 skipped (>100MB GitHub limit): tools_Finance\prague_stock_exchange.json (539 MB)
 skipped (>100MB GitHub limit): tools_Medical\the_cancer_imaging_archive.json (183 MB)
+
+# eCommerce viz is stored via Git LFS:
+# graphs/out/eCommerce_sample_v4/viz/kg_interactive.html
