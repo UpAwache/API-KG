@@ -1,0 +1,233 @@
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:aka_bmp"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:aka_bmp", "dst": "api:aka-bmp.p.rapidapi.com:ba32896c468c02da"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:amazon_web_services_aws_guardduty_detector"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:amazon_web_services_aws_guardduty_detector", "dst": "api:amazon-web-services-aws-guardduty-detector.p.rapidapi.com:c80ef7c6851d818f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:detectorid", "dst": "api:amazon-web-services-aws-guardduty-detector.p.rapidapi.com:c80ef7c6851d818f"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:amazon_web_services_aws_guardduty_detector", "dst": "api:amazon-web-services-aws-guardduty-detector.p.rapidapi.com:c8da8967207c8ac7"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:brandsek_breach_check"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:brandsek_breach_check", "dst": "api:brandsek-breach-check1.p.rapidapi.com:5849e0749631c1f6"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:corbado"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:720d53334c16fcb8"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:31c4e804059468b3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:userid", "dst": "api:corbado1.p.rapidapi.com:31c4e804059468b3"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:0df123066172ddc6"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:90386c4482ca5bb8"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:3c4c3957d6b52d31"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:33c09fc41605f185"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:fcce72149290f54c"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:adee9f385cd755d5"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:948a8fe1a88aeeb8"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:0edfc23491212bb1"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:84ac794f18e32d24"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:f4185d630934d718"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:9e834118b2e1f9c4"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:1b4cd1f290a85df9"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:8f81e420143e6884"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:userid", "dst": "api:corbado1.p.rapidapi.com:8f81e420143e6884"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:02afe2fd3ca14188"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:c82783d33a5c9a8f"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:19792f5f91d5c7f7"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:cdbff94521b05c94"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:userid", "dst": "api:corbado1.p.rapidapi.com:cdbff94521b05c94"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:b30527419d287bdf"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:0cf79d36b5ef6c19"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:2b748432dffa4702"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:21d5e919826f9717"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:25493f746bba35ab"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:corbado", "dst": "api:corbado1.p.rapidapi.com:cb1e524f6c038a0d"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:demo_project"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:demo_project", "dst": "api:demo-project51070.p.rapidapi.com:c84a2625c0da0df6"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:demo_project", "dst": "api:demo-project51070.p.rapidapi.com:312c63d31dc27206"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:demo_project", "dst": "api:demo-project51070.p.rapidapi.com:0797e2f55d510d6d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:demo-project51070.p.rapidapi.com:0797e2f55d510d6d"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:demo_project", "dst": "api:demo-project51070.p.rapidapi.com:dd4af26e5c2fcb90"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:demo_project", "dst": "api:demo-project51070.p.rapidapi.com:396864e8dacd92cd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:demo-project51070.p.rapidapi.com:396864e8dacd92cd"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:demo_project", "dst": "api:demo-project51070.p.rapidapi.com:42eef7df9acac9fe"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:email_validator"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:email_validator", "dst": "api:email-validator42.p.rapidapi.com:e05b11abd3a028d9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:email-validator42.p.rapidapi.com:e05b11abd3a028d9"}
+{"edge_type": "api_to_parameter", "src": "api:email-validator42.p.rapidapi.com:e05b11abd3a028d9", "dst": "parameter_norm:BOOLEAN:ok"}
+{"edge_type": "api_to_parameter", "src": "api:email-validator42.p.rapidapi.com:e05b11abd3a028d9", "dst": "parameter_norm:STRING:message_text"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:greip"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:greip", "dst": "api:greip.p.rapidapi.com:1167bf12b073a31e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:greip.p.rapidapi.com:1167bf12b073a31e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:bin", "dst": "api:greip.p.rapidapi.com:1167bf12b073a31e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:greip.p.rapidapi.com:1167bf12b073a31e"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:greip", "dst": "api:greip.p.rapidapi.com:9a8803a2a4f6c978"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:greip.p.rapidapi.com:9a8803a2a4f6c978"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:text_payload", "dst": "api:greip.p.rapidapi.com:9a8803a2a4f6c978"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:scoreonly", "dst": "api:greip.p.rapidapi.com:9a8803a2a4f6c978"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:greip.p.rapidapi.com:9a8803a2a4f6c978"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:listbadwords", "dst": "api:greip.p.rapidapi.com:9a8803a2a4f6c978"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:greip", "dst": "api:greip.p.rapidapi.com:5e26c3a07c363916"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:countrycode", "dst": "api:greip.p.rapidapi.com:5e26c3a07c363916"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:phone", "dst": "api:greip.p.rapidapi.com:5e26c3a07c363916"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:greip.p.rapidapi.com:5e26c3a07c363916"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:greip.p.rapidapi.com:5e26c3a07c363916"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:greip", "dst": "api:greip.p.rapidapi.com:00e32b2eb4a1808f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:greip.p.rapidapi.com:00e32b2eb4a1808f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ips", "dst": "api:greip.p.rapidapi.com:00e32b2eb4a1808f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:params", "dst": "api:greip.p.rapidapi.com:00e32b2eb4a1808f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:greip.p.rapidapi.com:00e32b2eb4a1808f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:greip.p.rapidapi.com:00e32b2eb4a1808f"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:greip", "dst": "api:greip.p.rapidapi.com:b78856780100c5ee"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ip", "dst": "api:greip.p.rapidapi.com:b78856780100c5ee"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:greip.p.rapidapi.com:b78856780100c5ee"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:greip.p.rapidapi.com:b78856780100c5ee"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:params", "dst": "api:greip.p.rapidapi.com:b78856780100c5ee"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:greip.p.rapidapi.com:b78856780100c5ee"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:greip", "dst": "api:greip.p.rapidapi.com:17aa97c4407745c1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:countrycode", "dst": "api:greip.p.rapidapi.com:17aa97c4407745c1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:greip.p.rapidapi.com:17aa97c4407745c1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:greip.p.rapidapi.com:17aa97c4407745c1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:greip.p.rapidapi.com:17aa97c4407745c1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:params", "dst": "api:greip.p.rapidapi.com:17aa97c4407745c1"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:greip", "dst": "api:greip.p.rapidapi.com:31f50ff03ff7f35c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:greip.p.rapidapi.com:31f50ff03ff7f35c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:greip.p.rapidapi.com:31f50ff03ff7f35c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:greip.p.rapidapi.com:31f50ff03ff7f35c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:params", "dst": "api:greip.p.rapidapi.com:31f50ff03ff7f35c"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:greip", "dst": "api:greip.p.rapidapi.com:fa1740cdc883cf5d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:greip.p.rapidapi.com:fa1740cdc883cf5d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:greip.p.rapidapi.com:fa1740cdc883cf5d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:greip.p.rapidapi.com:fa1740cdc883cf5d"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:greip", "dst": "api:greip.p.rapidapi.com:d5e96e1dae966b71"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:greip.p.rapidapi.com:d5e96e1dae966b71"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:asn", "dst": "api:greip.p.rapidapi.com:d5e96e1dae966b71"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:islist", "dst": "api:greip.p.rapidapi.com:d5e96e1dae966b71"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:greip.p.rapidapi.com:d5e96e1dae966b71"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:ip_threat_lookup"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:ip_threat_lookup", "dst": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59"}
+{"edge_type": "api_to_parameter", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:javascript_vulnerability_scan"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:javascript_vulnerability_scan", "dst": "api:javascript-vulnerability-scan.p.rapidapi.com:dc720733bfe5b45a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:url", "dst": "api:javascript-vulnerability-scan.p.rapidapi.com:dc720733bfe5b45a"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:loginllama"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:loginllama", "dst": "api:loginllama.p.rapidapi.com:d11d71eb5c50138b"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:mact_ai"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:mact_ai", "dst": "api:mact-ai.p.rapidapi.com:16511d68ab9c4aaa"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:netdetective"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:netdetective", "dst": "api:netdetective.p.rapidapi.com:3c7cf81ba00b8df2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address", "dst": "api:netdetective.p.rapidapi.com:3c7cf81ba00b8df2"}
+{"edge_type": "api_to_parameter", "src": "api:netdetective.p.rapidapi.com:3c7cf81ba00b8df2", "dst": "parameter_norm:BOOLEAN:success"}
+{"edge_type": "api_to_parameter", "src": "api:netdetective.p.rapidapi.com:3c7cf81ba00b8df2", "dst": "parameter_norm:OBJECT:result"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:netdetective", "dst": "api:netdetective.p.rapidapi.com:794438bf542eaebc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address", "dst": "api:netdetective.p.rapidapi.com:794438bf542eaebc"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:pawscan"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:pawscan", "dst": "api:pawscan.p.rapidapi.com:c513e9512a0a63ff"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:penteston_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:penteston_api", "dst": "api:penteston-api.p.rapidapi.com:97cacd1b230c4f83"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:target_name", "dst": "api:penteston-api.p.rapidapi.com:97cacd1b230c4f83"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:target_host", "dst": "api:penteston-api.p.rapidapi.com:97cacd1b230c4f83"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:penteston_api", "dst": "api:penteston-api.p.rapidapi.com:0aaed715122c01c6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:host_http_user", "dst": "api:penteston-api.p.rapidapi.com:0aaed715122c01c6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:scan_type", "dst": "api:penteston-api.p.rapidapi.com:0aaed715122c01c6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:host_http_pass", "dst": "api:penteston-api.p.rapidapi.com:0aaed715122c01c6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:target_name", "dst": "api:penteston-api.p.rapidapi.com:0aaed715122c01c6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tools", "dst": "api:penteston-api.p.rapidapi.com:0aaed715122c01c6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:test_name", "dst": "api:penteston-api.p.rapidapi.com:0aaed715122c01c6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:target_host", "dst": "api:penteston-api.p.rapidapi.com:0aaed715122c01c6"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:penteston_api", "dst": "api:penteston-api.p.rapidapi.com:8915cb706bca3ef9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:target_id", "dst": "api:penteston-api.p.rapidapi.com:8915cb706bca3ef9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:test_name", "dst": "api:penteston-api.p.rapidapi.com:8915cb706bca3ef9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:host_http_pass", "dst": "api:penteston-api.p.rapidapi.com:8915cb706bca3ef9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:host_http_user", "dst": "api:penteston-api.p.rapidapi.com:8915cb706bca3ef9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tools", "dst": "api:penteston-api.p.rapidapi.com:8915cb706bca3ef9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:scan_type", "dst": "api:penteston-api.p.rapidapi.com:8915cb706bca3ef9"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:phishyscan_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:phishyscan_api", "dst": "api:phishyscan-api.p.rapidapi.com:ea714121fcc7cb94"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:port_scanner_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:port_scanner_api", "dst": "api:port-scanner-api.p.rapidapi.com:1f6551a38440decf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:scan_id", "dst": "api:port-scanner-api.p.rapidapi.com:1f6551a38440decf"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:port_scanner_api", "dst": "api:port-scanner-api.p.rapidapi.com:ee78a42307b4e141"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:scan_id", "dst": "api:port-scanner-api.p.rapidapi.com:ee78a42307b4e141"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:port_scanner_api", "dst": "api:port-scanner-api.p.rapidapi.com:f53024d8e0fdc0b2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:target", "dst": "api:port-scanner-api.p.rapidapi.com:f53024d8e0fdc0b2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:command", "dst": "api:port-scanner-api.p.rapidapi.com:f53024d8e0fdc0b2"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:port_scanner_api", "dst": "api:port-scanner-api.p.rapidapi.com:5644e1c3201d60ee"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:scan_id", "dst": "api:port-scanner-api.p.rapidapi.com:5644e1c3201d60ee"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:quantum_ready_check"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:quantum_ready_check", "dst": "api:quantum-ready-check.p.rapidapi.com:0dab658e0b6da492"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:rungutan_fastest_load_tester_in_the_jungle"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:rungutan_fastest_load_tester_in_the_jungle", "dst": "api:rungutan-fastest-load-tester-in-the-jungle.p.rapidapi.com:ba05561fc8bb92b6"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:rungutan_fastest_load_tester_in_the_jungle", "dst": "api:rungutan-fastest-load-tester-in-the-jungle.p.rapidapi.com:672ee3126d411bef"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:secure_password_generator"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:secure_password_generator", "dst": "api:secure-password-generator3.p.rapidapi.com:8f0b7a29e65b19a4"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:simple_otp"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:simple_otp", "dst": "api:simple-otp.p.rapidapi.com:d6bba9a61762f0e6"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:sus_guru_malicious_website_ai_detector_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:sus_guru_malicious_website_ai_detector_api", "dst": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:report_id", "dst": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "parameter_norm:NUMBER:id"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "parameter_norm:NUMBER:model_prediction"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "parameter_norm:NUMBER:model_probability"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "parameter_norm:STRING:url"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "parameter_norm:STRING:report_timestamp"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "parameter_norm:NUMBER:upvotes"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "parameter_norm:NUMBER:downvotes"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "parameter_norm:STRING:user_vote"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "parameter_norm:BOOLEAN:error"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:sus_guru_malicious_website_ai_detector_api", "dst": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:0dda83368335f343"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:0dda83368335f343", "dst": "parameter_norm:NUMBER:new_report_id"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:0dda83368335f343", "dst": "parameter_norm:BOOLEAN:scanning"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:0dda83368335f343", "dst": "parameter_norm:NUMBER:queue_position"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:sus_guru_malicious_website_ai_detector_api", "dst": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:d947c020fbd40ed9"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:d947c020fbd40ed9", "dst": "parameter_norm:BOOLEAN:scanning"}
+{"edge_type": "api_to_parameter", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:d947c020fbd40ed9", "dst": "parameter_norm:NUMBER:queue_size"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:sus_guru_malicious_website_ai_detector_api", "dst": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:9867b6e99b73e440"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:token_scanner_multichain_honeypot_checker_multichain"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:token_scanner_multichain_honeypot_checker_multichain", "dst": "api:token-scanner-multichain-honeypot-checker-multichain.p.rapidapi.com:90c2b1cfe2bbdc34"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:chain", "dst": "api:token-scanner-multichain-honeypot-checker-multichain.p.rapidapi.com:90c2b1cfe2bbdc34"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:token_scanner_multichain_honeypot_checker_multichain", "dst": "api:token-scanner-multichain-honeypot-checker-multichain.p.rapidapi.com:d5f2b53e118be10a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:token-scanner-multichain-honeypot-checker-multichain.p.rapidapi.com:d5f2b53e118be10a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:chain", "dst": "api:token-scanner-multichain-honeypot-checker-multichain.p.rapidapi.com:d5f2b53e118be10a"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:tweetfeed"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:tweetfeed", "dst": "api:tweetfeed.p.rapidapi.com:1f6d96c72f7c5705"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:time", "dst": "api:tweetfeed.p.rapidapi.com:1f6d96c72f7c5705"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:filter1", "dst": "api:tweetfeed.p.rapidapi.com:1f6d96c72f7c5705"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:filter2", "dst": "api:tweetfeed.p.rapidapi.com:1f6d96c72f7c5705"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:vortex"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:vortex", "dst": "api:vortex2.p.rapidapi.com:67d69f61c98a2652"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BINARY:file_blob", "dst": "api:vortex2.p.rapidapi.com:67d69f61c98a2652"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:password", "dst": "api:vortex2.p.rapidapi.com:67d69f61c98a2652"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:vortex", "dst": "api:vortex2.p.rapidapi.com:4e1db66b75789587"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:vortex", "dst": "api:vortex2.p.rapidapi.com:b2becfc02e50b0b1"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:vortex", "dst": "api:vortex2.p.rapidapi.com:ea0c324764b64aea"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:vortex", "dst": "api:vortex2.p.rapidapi.com:bc4d184e9615aed8"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:weblasso"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:weblasso", "dst": "api:weblasso.p.rapidapi.com:90725e6f1e51985c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:scan_id", "dst": "api:weblasso.p.rapidapi.com:90725e6f1e51985c"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:weblasso", "dst": "api:weblasso.p.rapidapi.com:551ee1b7b67f86c8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:callback_url", "dst": "api:weblasso.p.rapidapi.com:551ee1b7b67f86c8"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:weblasso", "dst": "api:weblasso.p.rapidapi.com:5143cf005acc3ffa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:target", "dst": "api:weblasso.p.rapidapi.com:5143cf005acc3ffa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:callback_url", "dst": "api:weblasso.p.rapidapi.com:5143cf005acc3ffa"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:weblasso", "dst": "api:weblasso.p.rapidapi.com:7e2732980a698004"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:scan_id", "dst": "api:weblasso.p.rapidapi.com:7e2732980a698004"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:whipcode"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:whipcode", "dst": "api:whipcode.p.rapidapi.com:ed1e57aafd53e870"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:xss_shield"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:xss_shield", "dst": "api:xss-shield.p.rapidapi.com:86af8b77303c53d3"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:xss_shield", "dst": "api:xss-shield.p.rapidapi.com:56efd8f4d3d8f475"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload", "dst": "api:xss-shield.p.rapidapi.com:56efd8f4d3d8f475"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:xss_shield", "dst": "api:xss-shield.p.rapidapi.com:2c6da896819119d2"}
+{"edge_type": "category_to_tool", "src": "category:Cybersecurity", "dst": "tool:Cybersecurity:zorrosign_esign"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:zorrosign_esign", "dst": "api:zorrosign-esign.p.rapidapi.com:3c96cb61031f18a6"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:zorrosign_esign", "dst": "api:zorrosign-esign.p.rapidapi.com:29dd636f689ac576"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:zorrosign_esign", "dst": "api:zorrosign-esign.p.rapidapi.com:634480bf4750bc1a"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:zorrosign_esign", "dst": "api:zorrosign-esign.p.rapidapi.com:852eb11e9f968a4c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:process_id", "dst": "api:zorrosign-esign.p.rapidapi.com:852eb11e9f968a4c"}
+{"edge_type": "tool_to_api", "src": "tool:Cybersecurity:zorrosign_esign", "dst": "api:zorrosign-esign.p.rapidapi.com:56fb4b046d914a73"}
+{"edge_type": "depends_on", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "api:greip.p.rapidapi.com:00e32b2eb4a1808f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.162, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "api:greip.p.rapidapi.com:1167bf12b073a31e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.162, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "api:greip.p.rapidapi.com:17aa97c4407745c1", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.162, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "api:greip.p.rapidapi.com:31f50ff03ff7f35c", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.162, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "api:greip.p.rapidapi.com:5e26c3a07c363916", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.162, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "api:greip.p.rapidapi.com:9a8803a2a4f6c978", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.162, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "api:greip.p.rapidapi.com:b78856780100c5ee", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.162, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "api:greip.p.rapidapi.com:d5e96e1dae966b71", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.162, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ip-threat-lookup.p.rapidapi.com:54a8bdb622bfae59", "dst": "api:greip.p.rapidapi.com:fa1740cdc883cf5d", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.162, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:sus-guru-malicious-website-ai-detector-api.p.rapidapi.com:2b895cacd9d79dc0", "dst": "api:javascript-vulnerability-scan.p.rapidapi.com:dc720733bfe5b45a", "mapping_signature": "match_key:STRING:url", "match_confidence": 1.0, "semantic_role": "url", "est_cost": 0.65, "success_freq_prior": 0.5}

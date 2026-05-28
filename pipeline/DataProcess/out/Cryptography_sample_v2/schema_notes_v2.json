@@ -1,0 +1,6 @@
+{
+  "version": "v2_norm",
+  "parameter_node_mode": "canonical_norm",
+  "canonical_param_id": "<TYPE>:<semantic_role>:<tool_domain>",
+  "depends_on_rule": "API output canonical_param intersects API input canonical_param"
+}

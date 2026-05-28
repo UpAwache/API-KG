@@ -1,0 +1,736 @@
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:23andme"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:23andme", "dst": "api:23andme-23andme.p.rapidapi.com:ad7c7c28571b32e3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:ad7c7c28571b32e3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:feature_id", "dst": "api:23andme-23andme.p.rapidapi.com:ad7c7c28571b32e3"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:23andme", "dst": "api:23andme-23andme.p.rapidapi.com:90bde3cb0ec5ed32"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:90bde3cb0ec5ed32"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:abdulkarim_alhalai"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:abdulkarim_alhalai", "dst": "api:abdulkarim-alhalai.p.rapidapi.com:590e3fcbd7051c42"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:asia_lab"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:asia_lab", "dst": "api:asia-lab1.p.rapidapi.com:a1dbe04fc81b65a2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:asialab", "dst": "api:asia-lab1.p.rapidapi.com:a1dbe04fc81b65a2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:covid_19", "dst": "api:asia-lab1.p.rapidapi.com:a1dbe04fc81b65a2"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:bmi_calculator"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:bmi_calculator", "dst": "api:bmi.p.rapidapi.com:4058f7e9fa932ef4"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:body_calculator"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:body_calculator", "dst": "api:body-calculator.p.rapidapi.com:e95106c8da245208"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:body_calculator", "dst": "api:body-calculator.p.rapidapi.com:96954a1115430cda"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:body_calculator", "dst": "api:body-calculator.p.rapidapi.com:4109eacc7c878e2b"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:body_calculator", "dst": "api:body-calculator.p.rapidapi.com:bbc3f8722322bae7"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:body_shape_analyzer"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:body_shape_analyzer", "dst": "api:body-shape-analyzer.p.rapidapi.com:adc3e22c028c9f56"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:body-shape-analyzer.p.rapidapi.com:adc3e22c028c9f56"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:body-shape-analyzer.p.rapidapi.com:adc3e22c028c9f56"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:body_shape_analyzer", "dst": "api:body-shape-analyzer.p.rapidapi.com:31d5f546b4d10ed0"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:body_shape_analyzer", "dst": "api:body-shape-analyzer.p.rapidapi.com:a6e4b91713dd7a0c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:body-shape-analyzer.p.rapidapi.com:a6e4b91713dd7a0c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:body-shape-analyzer.p.rapidapi.com:a6e4b91713dd7a0c"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:calcolo_danno_biologico"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:calcolo_danno_biologico", "dst": "api:calcolo-danno-biologico.p.rapidapi.com:cb3320327fdb6f43"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:chemists_pharmacy_and_drugstores_of_india"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chemists_pharmacy_and_drugstores_of_india", "dst": "api:chemists-pharmacy-and-drugstores-of-india.p.rapidapi.com:23490ac900cf48e5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:chemists-pharmacy-and-drugstores-of-india.p.rapidapi.com:23490ac900cf48e5"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chemists_pharmacy_and_drugstores_of_india", "dst": "api:chemists-pharmacy-and-drugstores-of-india.p.rapidapi.com:1a5c7796008efc58"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:chemists-pharmacy-and-drugstores-of-india.p.rapidapi.com:1a5c7796008efc58"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chemists_pharmacy_and_drugstores_of_india", "dst": "api:chemists-pharmacy-and-drugstores-of-india.p.rapidapi.com:dae16a587fc04c79"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:chemists-pharmacy-and-drugstores-of-india.p.rapidapi.com:dae16a587fc04c79"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:chile_coronapi"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:352f9b7b7027c500"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:dc6044cf3663304a"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:94fa6521d68be351"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:id", "dst": "api:chile-coronapi1.p.rapidapi.com:94fa6521d68be351"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:5c609b59ddccb1d5"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:0e1e13c18a1cc52e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:id", "dst": "api:chile-coronapi1.p.rapidapi.com:0e1e13c18a1cc52e"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:f70ac8cccf10c792"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:402e1687a20c5c64"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:b6bf8c6b47e920c8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:id", "dst": "api:chile-coronapi1.p.rapidapi.com:b6bf8c6b47e920c8"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:bc5efec745d2b170"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:989d19acf6dbafdf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:id", "dst": "api:chile-coronapi1.p.rapidapi.com:989d19acf6dbafdf"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:c5ec067aa176c1dc"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:chile_coronapi", "dst": "api:chile-coronapi1.p.rapidapi.com:4d66fbf40342587d"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:clia_lab_search"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:a432946ccc6f50b7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:expiration_date", "dst": "api:clia-lab-search.p.rapidapi.com:a432946ccc6f50b7"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:b193075d9eee7beb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:general_facility_type", "dst": "api:clia-lab-search.p.rapidapi.com:b193075d9eee7beb"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:59974525ec564d22"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:type", "dst": "api:clia-lab-search.p.rapidapi.com:59974525ec564d22"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:17695fc08cacfee7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:phone_number", "dst": "api:clia-lab-search.p.rapidapi.com:17695fc08cacfee7"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:241863f77ab748bc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:zip_code", "dst": "api:clia-lab-search.p.rapidapi.com:241863f77ab748bc"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:17fb6f13ae5a4600"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:state_code", "dst": "api:clia-lab-search.p.rapidapi.com:17fb6f13ae5a4600"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:db013a9a1ee08740"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:city_name", "dst": "api:clia-lab-search.p.rapidapi.com:db013a9a1ee08740"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:35bfe02480a946e3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address", "dst": "api:clia-lab-search.p.rapidapi.com:35bfe02480a946e3"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:60fc6679bb5d0d3d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:provider_number", "dst": "api:clia-lab-search.p.rapidapi.com:60fc6679bb5d0d3d"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clia_lab_search", "dst": "api:clia-lab-search.p.rapidapi.com:47930337c4efdc9a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:facility", "dst": "api:clia-lab-search.p.rapidapi.com:47930337c4efdc9a"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:clinicaltext"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:clinicaltext", "dst": "api:clinicaltext.p.rapidapi.com:6e6a91e84aae3a45"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:convert_hl7_2x_message_to_json"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:convert_hl7_2x_message_to_json", "dst": "api:convert-hl7-2x-message-to-json.p.rapidapi.com:a738425a991dff01"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:coronavirus_disease_statistics"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:coronavirus_disease_statistics", "dst": "api:coronavirus-disease-statistics.p.rapidapi.com:298a7fedbf855e3f"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:coronavirus_disease_statistics", "dst": "api:coronavirus-disease-statistics.p.rapidapi.com:141b4b2d68096ceb"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:coronavirus_disease_statistics", "dst": "api:coronavirus-disease-statistics.p.rapidapi.com:7b449629916d9900"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:covid_19_by_api_ninjas"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:covid_19_by_api_ninjas", "dst": "api:covid-19-by-api-ninjas.p.rapidapi.com:3bbb734645eb4cf1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:type", "dst": "api:covid-19-by-api-ninjas.p.rapidapi.com:3bbb734645eb4cf1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:country", "dst": "api:covid-19-by-api-ninjas.p.rapidapi.com:3bbb734645eb4cf1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date", "dst": "api:covid-19-by-api-ninjas.p.rapidapi.com:3bbb734645eb4cf1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:county", "dst": "api:covid-19-by-api-ninjas.p.rapidapi.com:3bbb734645eb4cf1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:region", "dst": "api:covid-19-by-api-ninjas.p.rapidapi.com:3bbb734645eb4cf1"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:covid_19_live_vaccination_finder"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:covid_19_live_vaccination_finder", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:2dc2d38ecf827afe"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:med_name", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:2dc2d38ecf827afe"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:covid_19_live_vaccination_finder", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:791cf6e3708093d5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:in_stock", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:791cf6e3708093d5"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:covid_19_live_vaccination_finder", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:5a67b0e88d7566be"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:city", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:5a67b0e88d7566be"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:state", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:5a67b0e88d7566be"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:covid_19_live_vaccination_finder", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:dd2c980731cb430e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ne_longitude", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:dd2c980731cb430e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sw_longitude", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:dd2c980731cb430e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ne_latitude", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:dd2c980731cb430e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sw_latitude", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:dd2c980731cb430e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:in_stock", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:dd2c980731cb430e"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:covid_19_live_vaccination_finder", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:487cffdecfd819ec"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:zip", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:487cffdecfd819ec"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:covid_19_live_vaccination_finder", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:state", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9"}
+{"edge_type": "api_to_parameter", "src": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:covid_19_live_vaccination_finder", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:873b574a247dd3f7"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:covid_19_world_vaccination_data"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:covid_19_world_vaccination_data", "dst": "api:covid-19-world-vaccination-data.p.rapidapi.com:6384676e0b5b5290"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:iso", "dst": "api:covid-19-world-vaccination-data.p.rapidapi.com:6384676e0b5b5290"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:demo_project"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:demo_project", "dst": "api:demo-project53603.p.rapidapi.com:2313d37863c986d6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:demo-project53603.p.rapidapi.com:2313d37863c986d6"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:demo_project", "dst": "api:demo-project53603.p.rapidapi.com:29c6304040d5148b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:demo-project53603.p.rapidapi.com:29c6304040d5148b"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:demo_project", "dst": "api:demo-project53603.p.rapidapi.com:fb523c7bdd419faf"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:demo_project", "dst": "api:demo-project53603.p.rapidapi.com:e38e5f60fd17824b"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:demo_project", "dst": "api:demo-project53603.p.rapidapi.com:fde7786dfe976889"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:demo_project", "dst": "api:demo-project53603.p.rapidapi.com:edf347d3a171e5b3"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:detect_skin_disease"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:detect_skin_disease", "dst": "api:detect-skin-disease.p.rapidapi.com:ea6f4660b357d756"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:image_blob", "dst": "api:detect-skin-disease.p.rapidapi.com:ea6f4660b357d756"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:diagnosis"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:diagnosis", "dst": "api:diagnosis.p.rapidapi.com:383cc904ac280613"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:diagnosis", "dst": "api:diagnosis.p.rapidapi.com:3182f2e38f4d49c0"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:diagnosis", "dst": "api:diagnosis.p.rapidapi.com:178b34d74b18edd8"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:diagnosis", "dst": "api:diagnosis.p.rapidapi.com:48a88c8c6989b92b"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:diagnosis", "dst": "api:diagnosis.p.rapidapi.com:c4ce385c5d7fb8a9"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:diagnosis", "dst": "api:diagnosis.p.rapidapi.com:194fea3dbb0cad4d"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:doctors_and_medical_professionals_of_jaipur_india"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:doctors_and_medical_professionals_of_jaipur_india", "dst": "api:doctors-and-medical-professionals-of-jaipur-india.p.rapidapi.com:612f4c5582011fff"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:doctors-and-medical-professionals-of-jaipur-india.p.rapidapi.com:612f4c5582011fff"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:doctors-and-medical-professionals-of-jaipur-india.p.rapidapi.com:612f4c5582011fff"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:document_insight"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:document_insight", "dst": "api:document-insight.p.rapidapi.com:4e7cbde6ed7236c2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:document-insight.p.rapidapi.com:4e7cbde6ed7236c2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:document-insight.p.rapidapi.com:4e7cbde6ed7236c2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:useontology", "dst": "api:document-insight.p.rapidapi.com:4e7cbde6ed7236c2"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:document_insight", "dst": "api:document-insight.p.rapidapi.com:83710bee266c1b8b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:document-insight.p.rapidapi.com:83710bee266c1b8b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:document-insight.p.rapidapi.com:83710bee266c1b8b"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:drug_info_and_price_history"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:drug_info_and_price_history", "dst": "api:drug-info-and-price-history.p.rapidapi.com:3d19da185a83c500"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:drug", "dst": "api:drug-info-and-price-history.p.rapidapi.com:3d19da185a83c500"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:drug_info_and_price_history", "dst": "api:drug-info-and-price-history.p.rapidapi.com:29a8a8d5680b0b83"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:drug", "dst": "api:drug-info-and-price-history.p.rapidapi.com:29a8a8d5680b0b83"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:drug_info_and_price_history", "dst": "api:drug-info-and-price-history.p.rapidapi.com:3f73192cbf0a7ce2"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:drugapi"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:drugapi", "dst": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:druglink", "dst": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:drugapi", "dst": "api:drugapi.p.rapidapi.com:1047e956c69718f5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:drugapi.p.rapidapi.com:1047e956c69718f5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:page_cursor", "dst": "api:drugapi.p.rapidapi.com:1047e956c69718f5"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:1047e956c69718f5", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:1047e956c69718f5", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:drugapi", "dst": "api:drugapi.p.rapidapi.com:45a977dd921f37f4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:page_cursor", "dst": "api:drugapi.p.rapidapi.com:45a977dd921f37f4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:letter", "dst": "api:drugapi.p.rapidapi.com:45a977dd921f37f4"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:45a977dd921f37f4", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:45a977dd921f37f4", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:drugapi", "dst": "api:drugapi.p.rapidapi.com:01aa64d63b561e75"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:drugapi.p.rapidapi.com:01aa64d63b561e75"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:01aa64d63b561e75", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:01aa64d63b561e75", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:drugapi", "dst": "api:drugapi.p.rapidapi.com:8bd0392f63edea59"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:letter", "dst": "api:drugapi.p.rapidapi.com:8bd0392f63edea59"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:8bd0392f63edea59", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:drugapi.p.rapidapi.com:8bd0392f63edea59", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:drugpatentwatch"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:drugpatentwatch", "dst": "api:drugpatentwatch-drugpatentwatch-v1.p.rapidapi.com:b70b23fcf0b4f6b9"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:eczanem"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:eczanem", "dst": "api:eczanem.p.rapidapi.com:0182359722719123"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ilce", "dst": "api:eczanem.p.rapidapi.com:0182359722719123"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:il", "dst": "api:eczanem.p.rapidapi.com:0182359722719123"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:egfr_calculator_glomerular_filtration_rate_calculator"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:egfr_calculator_glomerular_filtration_rate_calculator", "dst": "api:egfr-calculator-glomerular-filtration-rate-calculator.p.rapidapi.com:82eece39430becb7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:female", "dst": "api:egfr-calculator-glomerular-filtration-rate-calculator.p.rapidapi.com:82eece39430becb7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:creatmicromol", "dst": "api:egfr-calculator-glomerular-filtration-rate-calculator.p.rapidapi.com:82eece39430becb7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:age", "dst": "api:egfr-calculator-glomerular-filtration-rate-calculator.p.rapidapi.com:82eece39430becb7"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:egfr_calculator_glomerular_filtration_rate_calculator", "dst": "api:egfr-calculator-glomerular-filtration-rate-calculator.p.rapidapi.com:0e77c066d6f6d27b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:age", "dst": "api:egfr-calculator-glomerular-filtration-rate-calculator.p.rapidapi.com:0e77c066d6f6d27b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:creat", "dst": "api:egfr-calculator-glomerular-filtration-rate-calculator.p.rapidapi.com:0e77c066d6f6d27b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:female", "dst": "api:egfr-calculator-glomerular-filtration-rate-calculator.p.rapidapi.com:0e77c066d6f6d27b"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:endlessmedicalapi"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:67a225fd12724639"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:endlessmedicalapi1.p.rapidapi.com:67a225fd12724639"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:value", "dst": "api:endlessmedicalapi1.p.rapidapi.com:67a225fd12724639"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sessionid", "dst": "api:endlessmedicalapi1.p.rapidapi.com:67a225fd12724639"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:ad2e705e7d3df2c2"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:82e999bd3546d3fb"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:be9b5495848ba328"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sessionid", "dst": "api:endlessmedicalapi1.p.rapidapi.com:be9b5495848ba328"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:passphrase", "dst": "api:endlessmedicalapi1.p.rapidapi.com:be9b5495848ba328"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:9cce6a21aeb0c374"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:endlessmedicalapi1.p.rapidapi.com:9cce6a21aeb0c374"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sessionid", "dst": "api:endlessmedicalapi1.p.rapidapi.com:9cce6a21aeb0c374"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:16476ceb06a884c3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sessionid", "dst": "api:endlessmedicalapi1.p.rapidapi.com:16476ceb06a884c3"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:786f67db7f72c7b8"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:3fe1f17f0457a107"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:endlessmedicalapi1.p.rapidapi.com:3fe1f17f0457a107"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:value", "dst": "api:endlessmedicalapi1.p.rapidapi.com:3fe1f17f0457a107"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sessionid", "dst": "api:endlessmedicalapi1.p.rapidapi.com:3fe1f17f0457a107"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:4a4b6d4a62800c3e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sessionid", "dst": "api:endlessmedicalapi1.p.rapidapi.com:4a4b6d4a62800c3e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:passphrase", "dst": "api:endlessmedicalapi1.p.rapidapi.com:4a4b6d4a62800c3e"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:endlessmedicalapi", "dst": "api:endlessmedicalapi1.p.rapidapi.com:390d1072a18478fd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:endlessmedicalapi1.p.rapidapi.com:390d1072a18478fd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sessionid", "dst": "api:endlessmedicalapi1.p.rapidapi.com:390d1072a18478fd"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:english_speaking_medical_facilities"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:english_speaking_medical_facilities", "dst": "api:english-speaking-medical-facilities.p.rapidapi.com:bc7cc18ff016307c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:country", "dst": "api:english-speaking-medical-facilities.p.rapidapi.com:bc7cc18ff016307c"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:english_speaking_medical_facilities", "dst": "api:english-speaking-medical-facilities.p.rapidapi.com:f827c16bf126a154"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:get_23andme"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:5336be867a51e75c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:5336be867a51e75c"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:22be15e8d9b7c075"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:22be15e8d9b7c075"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:feature_id", "dst": "api:23andme-23andme.p.rapidapi.com:22be15e8d9b7c075"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:4f1989349e714a96"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:4f1989349e714a96"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:feature_id", "dst": "api:23andme-23andme.p.rapidapi.com:4f1989349e714a96"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:link_id", "dst": "api:23andme-23andme.p.rapidapi.com:4f1989349e714a96"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:faa2179d197ad8b9"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:a8f284909daf9052"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:a8f284909daf9052"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:8f08c714903f7961"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:8f08c714903f7961"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:554b1e1de3d5b73e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:554b1e1de3d5b73e"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:26f778ab1c57b360"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:threshold", "dst": "api:23andme-23andme.p.rapidapi.com:26f778ab1c57b360"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:26f778ab1c57b360"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:a144c9a7b5b0f18f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:a144c9a7b5b0f18f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:locations", "dst": "api:23andme-23andme.p.rapidapi.com:a144c9a7b5b0f18f"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:5b7f3b12cda07fe3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:5b7f3b12cda07fe3"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:ce3ef8d77fcea6fb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:ce3ef8d77fcea6fb"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:e8b9497082ead59f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:e8b9497082ead59f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:limit", "dst": "api:23andme-23andme.p.rapidapi.com:e8b9497082ead59f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:offset", "dst": "api:23andme-23andme.p.rapidapi.com:e8b9497082ead59f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:since", "dst": "api:23andme-23andme.p.rapidapi.com:e8b9497082ead59f"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:8a920b3981c39296"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:8a920b3981c39296"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:9a43b07a04c92659"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:9a43b07a04c92659"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:get_23andme", "dst": "api:23andme-23andme.p.rapidapi.com:771f525a03ad6e14"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:23andme-23andme.p.rapidapi.com:771f525a03ad6e14"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:getguidelines"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:getguidelines", "dst": "api:getguidelines.p.rapidapi.com:480ad0b46c57d443"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:getguidelines", "dst": "api:getguidelines.p.rapidapi.com:2bdb862f5952891e"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:gulfdoctor"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:gulfdoctor", "dst": "api:gulfdoctor.p.rapidapi.com:d9a97d27565a6cff"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:hapihub"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:hapihub", "dst": "api:hapihub.p.rapidapi.com:36762e20a5baec05"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:hapihub", "dst": "api:hapihub.p.rapidapi.com:fe6f3622dfc0e693"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:hapihub", "dst": "api:hapihub.p.rapidapi.com:a685edd4eb494a65"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:healthy"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:healthy", "dst": "api:healthy.p.rapidapi.com:de8003f79aed80b8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:researchid", "dst": "api:healthy.p.rapidapi.com:de8003f79aed80b8"}
+{"edge_type": "api_to_parameter", "src": "api:healthy.p.rapidapi.com:de8003f79aed80b8", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:healthy.p.rapidapi.com:de8003f79aed80b8", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:healthy", "dst": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99"}
+{"edge_type": "api_to_parameter", "src": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:hospital_indonesia"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:hospital_indonesia", "dst": "api:hospital-indonesia.p.rapidapi.com:c32f48eb70acd5c0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:val", "dst": "api:hospital-indonesia.p.rapidapi.com:c32f48eb70acd5c0"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:hospital_indonesia", "dst": "api:hospital-indonesia.p.rapidapi.com:5bd3710ef40c6b64"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:val", "dst": "api:hospital-indonesia.p.rapidapi.com:5bd3710ef40c6b64"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:hospital_indonesia", "dst": "api:hospital-indonesia.p.rapidapi.com:1b066fc239c2c3bf"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:indian_doctors_and_jaipur_medical_professionals"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:indian_doctors_and_jaipur_medical_professionals", "dst": "api:indian-doctors-and-jaipur-medical-professionals.p.rapidapi.com:068532d68a9e76d2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:no", "dst": "api:indian-doctors-and-jaipur-medical-professionals.p.rapidapi.com:068532d68a9e76d2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:1", "dst": "api:indian-doctors-and-jaipur-medical-professionals.p.rapidapi.com:068532d68a9e76d2"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:indian_pharmacy_chemists_and_drugstores"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:indian_pharmacy_chemists_and_drugstores", "dst": "api:indian-pharmacy-chemists-and-drugstores.p.rapidapi.com:06b48b0f74689879"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:indian-pharmacy-chemists-and-drugstores.p.rapidapi.com:06b48b0f74689879"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:international_disease_classification_10th_edition_icd10"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:international_disease_classification_10th_edition_icd10", "dst": "api:international-disease-classification-10th-edition-icd10.p.rapidapi.com:d450de33688621a0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:malattia", "dst": "api:international-disease-classification-10th-edition-icd10.p.rapidapi.com:d450de33688621a0"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:international_disease_classification_10th_edition_icd10", "dst": "api:international-disease-classification-10th-edition-icd10.p.rapidapi.com:0f130139efb05fe3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:disease", "dst": "api:international-disease-classification-10th-edition-icd10.p.rapidapi.com:0f130139efb05fe3"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:international_disease_classification_10th_edition_icd10", "dst": "api:international-disease-classification-10th-edition-icd10.p.rapidapi.com:2186fe4216b8af91"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:disease", "dst": "api:international-disease-classification-10th-edition-icd10.p.rapidapi.com:2186fe4216b8af91"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:konviere_drugsapi"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:konviere_drugsapi", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:drgrte", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:drgnm", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:konviere_drugsapi", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:drgnm", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:sex", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:reaction", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:agegrp", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:konviere_drugsapi", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:agegrp", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:sex", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:reaction", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:konviere_drugsapi", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:reaction", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:konviere_drugsapi", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:sex", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:reaction", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:konviere_drugsapi", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:pharmacologicclass", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:life_expectancy"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:life_expectancy", "dst": "api:life-left.p.rapidapi.com:807980e8f061149c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:birth", "dst": "api:life-left.p.rapidapi.com:807980e8f061149c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:end_marker", "dst": "api:life-left.p.rapidapi.com:807980e8f061149c"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:medapi"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:f697a1e80a69195f"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:27a97fde5846b98e"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:452780d22a89e052"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:b288e77b24f2d960"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:839d030e7742371b"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:e0759ae823d2fef8"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:ab45fc3b5258db92"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:ca54052d1c1bc043"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:4d9ab6611ccc1682"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:5807ee4db6460705"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:804dc0a5432402fb"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:4536c2922d1b1997"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:a5e4a2fc58f960cf"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:c93b30d181f8a9e2"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:4a21aac053324332"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:f2fee82f13ea9a9b"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:59987be1864e1c93"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:d4812c0d3dca59d9"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:0791aab78974c565"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:6087d6fa377dbdac"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:1d08db5c4c490405"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:8c868e34b1180e7a"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:4494d9eec6d3eef4"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:9600f1f76bfa7adf"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:64bce3469113355e"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:fe1db1031df16977"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:868920a872603b91"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:36a0927b73c8de1a"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:ddc475e83c7f1ba1"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:e2a6c93b677e45a7"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:0b11326f9b7392a9"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:88af60e21f208c86"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:071767e2efd2f483"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:40adf74d09ecb2bd"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:55e5fac1a309531c"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:889d71a99cb618b2"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:8285198c114de0ba"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:b239bdc2a9a6336d"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:84728737db6dcf27"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:b13619594b6a3fb8"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:41344eb249afb161"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:488aec99afca910f"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:964b2e122e52443a"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:c93a06442eeb02f5"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:12140873a01df732"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:591e6fc3b5e37080"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:7151fe26224242b5"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:e93c533472b84254"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medapi", "dst": "api:medapi2.p.rapidapi.com:44870e74b2e1216f"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:medicine_name_and_details"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medicine_name_and_details", "dst": "api:medicine-name-and-details.p.rapidapi.com:3cd2b51ab6e03522"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:medicinename", "dst": "api:medicine-name-and-details.p.rapidapi.com:3cd2b51ab6e03522"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:medius_disease_medication"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medius_disease_medication", "dst": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:country", "dst": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:medius_id", "dst": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d"}
+{"edge_type": "api_to_parameter", "src": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medius_disease_medication", "dst": "api:medius-disease-medication.p.rapidapi.com:7f854870a0c7a563"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:query", "dst": "api:medius-disease-medication.p.rapidapi.com:7f854870a0c7a563"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:age", "dst": "api:medius-disease-medication.p.rapidapi.com:7f854870a0c7a563"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:birth_sex", "dst": "api:medius-disease-medication.p.rapidapi.com:7f854870a0c7a563"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:specialization", "dst": "api:medius-disease-medication.p.rapidapi.com:7f854870a0c7a563"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:medius_disease_prediction"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medius_disease_prediction", "dst": "api:medius-disease-prediction.p.rapidapi.com:858938017a476ef9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:period", "dst": "api:medius-disease-prediction.p.rapidapi.com:858938017a476ef9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:specialization", "dst": "api:medius-disease-prediction.p.rapidapi.com:858938017a476ef9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:age", "dst": "api:medius-disease-prediction.p.rapidapi.com:858938017a476ef9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:birth_sex", "dst": "api:medius-disease-prediction.p.rapidapi.com:858938017a476ef9"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medius_disease_prediction", "dst": "api:medius-disease-prediction.p.rapidapi.com:e6949d2217dab82b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:query", "dst": "api:medius-disease-prediction.p.rapidapi.com:e6949d2217dab82b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:age", "dst": "api:medius-disease-prediction.p.rapidapi.com:e6949d2217dab82b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:birth_sex", "dst": "api:medius-disease-prediction.p.rapidapi.com:e6949d2217dab82b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:specialization", "dst": "api:medius-disease-prediction.p.rapidapi.com:e6949d2217dab82b"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medius_disease_prediction", "dst": "api:medius-disease-prediction.p.rapidapi.com:09299d3cccb8e42e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:query", "dst": "api:medius-disease-prediction.p.rapidapi.com:09299d3cccb8e42e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:birth_sex", "dst": "api:medius-disease-prediction.p.rapidapi.com:09299d3cccb8e42e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:specialization", "dst": "api:medius-disease-prediction.p.rapidapi.com:09299d3cccb8e42e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:age", "dst": "api:medius-disease-prediction.p.rapidapi.com:09299d3cccb8e42e"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medius_disease_prediction", "dst": "api:medius-disease-prediction.p.rapidapi.com:0d943e96147c0446"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:query", "dst": "api:medius-disease-prediction.p.rapidapi.com:0d943e96147c0446"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medius_disease_prediction", "dst": "api:medius-disease-prediction.p.rapidapi.com:e910e2dbf917ce78"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:query", "dst": "api:medius-disease-prediction.p.rapidapi.com:e910e2dbf917ce78"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medius_disease_prediction", "dst": "api:medius-disease-prediction.p.rapidapi.com:b007d0a4e30786b7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:medius-disease-prediction.p.rapidapi.com:b007d0a4e30786b7"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:medius_disease_prediction", "dst": "api:medius-disease-prediction.p.rapidapi.com:c9df0964e9687d79"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:monkeypox"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:monkeypox", "dst": "api:monkeypox.p.rapidapi.com:f1d4f4aa83b77506"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:monkeypox", "dst": "api:monkeypox.p.rapidapi.com:9183d05dd332bfca"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:country", "dst": "api:monkeypox.p.rapidapi.com:9183d05dd332bfca"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:monkeypox", "dst": "api:monkeypox.p.rapidapi.com:31428b914dd665cf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:state", "dst": "api:monkeypox.p.rapidapi.com:31428b914dd665cf"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:my_test"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:my_test", "dst": "api:my-test52.p.rapidapi.com:87cbe258d7c1cdad"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:myhealthbox"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:myhealthbox", "dst": "api:myhealthbox.p.rapidapi.com:2cd8ddab3dc8f49c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:nman_code", "dst": "api:myhealthbox.p.rapidapi.com:2cd8ddab3dc8f49c"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:2cd8ddab3dc8f49c", "dst": "parameter_norm:ARRAY:result"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:2cd8ddab3dc8f49c", "dst": "parameter_norm:NUMBER:total_results"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:myhealthbox", "dst": "api:myhealthbox.p.rapidapi.com:922752eb8c315f6d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:product_id", "dst": "api:myhealthbox.p.rapidapi.com:922752eb8c315f6d"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:922752eb8c315f6d", "dst": "parameter_norm:ARRAY:result"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:922752eb8c315f6d", "dst": "parameter_norm:NUMBER:total_results"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:myhealthbox", "dst": "api:myhealthbox.p.rapidapi.com:c4aac442e7a7d930"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:document_id", "dst": "api:myhealthbox.p.rapidapi.com:c4aac442e7a7d930"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:c4aac442e7a7d930", "dst": "parameter_norm:STRING:result"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:c4aac442e7a7d930", "dst": "parameter_norm:NUMBER:total_results"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:myhealthbox", "dst": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATE (YYYY-MM-DD):sd", "dst": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:t", "dst": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:from", "dst": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATE (YYYY-MM-DD):ed", "dst": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:c", "dst": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:f", "dst": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:l", "dst": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1", "dst": "parameter_norm:ARRAY:result"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:da2c4c9af7f1c2f1", "dst": "parameter_norm:NUMBER:total_results"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:myhealthbox", "dst": "api:myhealthbox.p.rapidapi.com:ef9b1ce2db2949da"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:q", "dst": "api:myhealthbox.p.rapidapi.com:ef9b1ce2db2949da"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:c", "dst": "api:myhealthbox.p.rapidapi.com:ef9b1ce2db2949da"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:myhealthbox.p.rapidapi.com:ef9b1ce2db2949da"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:l", "dst": "api:myhealthbox.p.rapidapi.com:ef9b1ce2db2949da"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:from", "dst": "api:myhealthbox.p.rapidapi.com:ef9b1ce2db2949da"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:ef9b1ce2db2949da", "dst": "parameter_norm:ARRAY:result"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:ef9b1ce2db2949da", "dst": "parameter_norm:NUMBER:total_results"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:myhealthbox", "dst": "api:myhealthbox.p.rapidapi.com:0cc1dff9aa9f27d5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:q", "dst": "api:myhealthbox.p.rapidapi.com:0cc1dff9aa9f27d5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:from", "dst": "api:myhealthbox.p.rapidapi.com:0cc1dff9aa9f27d5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:f", "dst": "api:myhealthbox.p.rapidapi.com:0cc1dff9aa9f27d5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:l", "dst": "api:myhealthbox.p.rapidapi.com:0cc1dff9aa9f27d5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:c", "dst": "api:myhealthbox.p.rapidapi.com:0cc1dff9aa9f27d5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:myhealthbox.p.rapidapi.com:0cc1dff9aa9f27d5"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:0cc1dff9aa9f27d5", "dst": "parameter_norm:ARRAY:result"}
+{"edge_type": "api_to_parameter", "src": "api:myhealthbox.p.rapidapi.com:0cc1dff9aa9f27d5", "dst": "parameter_norm:NUMBER:total_results"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:nguy_n_h_u_kh_ng"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:nguy_n_h_u_kh_ng", "dst": "api:nguy-n-h-u-kh-ng.p.rapidapi.com:81823727c99fac86"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:nguy-n-h-u-kh-ng.p.rapidapi.com:81823727c99fac86"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:open_fda"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:open_fda", "dst": "api:open-fda.p.rapidapi.com:a44b9a81b00b9030"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:limit", "dst": "api:open-fda.p.rapidapi.com:a44b9a81b00b9030"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:generic_name", "dst": "api:open-fda.p.rapidapi.com:a44b9a81b00b9030"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:pharmaseed"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:pharmaseed", "dst": "api:pharmaseed1.p.rapidapi.com:228d45a35f608bf4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:pattern", "dst": "api:pharmaseed1.p.rapidapi.com:228d45a35f608bf4"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:pharmaseed", "dst": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:skip", "dst": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837"}
+{"edge_type": "api_to_parameter", "src": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:pharmaseed", "dst": "api:pharmaseed1.p.rapidapi.com:a800c0eca4299c3e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:pharmaseed1.p.rapidapi.com:a800c0eca4299c3e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:skip", "dst": "api:pharmaseed1.p.rapidapi.com:a800c0eca4299c3e"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:pharmaseed", "dst": "api:pharmaseed1.p.rapidapi.com:697bd04119d8dedd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:pharmaseed1.p.rapidapi.com:697bd04119d8dedd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:skip", "dst": "api:pharmaseed1.p.rapidapi.com:697bd04119d8dedd"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:pharmaseed", "dst": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c"}
+{"edge_type": "api_to_parameter", "src": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:pharmaseed", "dst": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef"}
+{"edge_type": "api_to_parameter", "src": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:pharmaseed", "dst": "api:pharmaseed1.p.rapidapi.com:8b065d1b7c469fcd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:skip", "dst": "api:pharmaseed1.p.rapidapi.com:8b065d1b7c469fcd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:limit", "dst": "api:pharmaseed1.p.rapidapi.com:8b065d1b7c469fcd"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:risk_score_calculation"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:risk_score_calculation", "dst": "api:risk-score-calculation.p.rapidapi.com:22316abb796ba126"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:singapore_clinics"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:singapore_clinics", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:crypto_key", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:doctor", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name_like", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:doctor_like", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:q", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lisence", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:limit", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:testing_my_first_test"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:testing_my_first_test", "dst": "api:testing-my-first-test.p.rapidapi.com:fb1f1d16eb53f77d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:testing-my-first-test.p.rapidapi.com:fb1f1d16eb53f77d"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:the_cancer_imaging_archive"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:the_cancer_imaging_archive", "dst": "api:tcia.p.rapidapi.com:f403cf494caff971"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:tcia.p.rapidapi.com:f403cf494caff971"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:the_cancer_imaging_archive", "dst": "api:tcia.p.rapidapi.com:81cafcb66c6d41c5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:collection", "dst": "api:tcia.p.rapidapi.com:81cafcb66c6d41c5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:bodypartexamined", "dst": "api:tcia.p.rapidapi.com:81cafcb66c6d41c5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:modality", "dst": "api:tcia.p.rapidapi.com:81cafcb66c6d41c5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:tcia.p.rapidapi.com:81cafcb66c6d41c5"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:the_cancer_imaging_archive", "dst": "api:tcia.p.rapidapi.com:32d5747873f533df"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:tcia.p.rapidapi.com:32d5747873f533df"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:collection", "dst": "api:tcia.p.rapidapi.com:32d5747873f533df"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:bodypartexamined", "dst": "api:tcia.p.rapidapi.com:32d5747873f533df"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:modality", "dst": "api:tcia.p.rapidapi.com:32d5747873f533df"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:the_cancer_imaging_archive", "dst": "api:tcia.p.rapidapi.com:9c1ccd7c1acdd78d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:tcia.p.rapidapi.com:9c1ccd7c1acdd78d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:collection", "dst": "api:tcia.p.rapidapi.com:9c1ccd7c1acdd78d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:patientid", "dst": "api:tcia.p.rapidapi.com:9c1ccd7c1acdd78d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:studyinstanceuid", "dst": "api:tcia.p.rapidapi.com:9c1ccd7c1acdd78d"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:the_cancer_imaging_archive", "dst": "api:tcia.p.rapidapi.com:6801c749af4d7ab6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:tcia.p.rapidapi.com:6801c749af4d7ab6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:collection", "dst": "api:tcia.p.rapidapi.com:6801c749af4d7ab6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:patientid", "dst": "api:tcia.p.rapidapi.com:6801c749af4d7ab6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:studyinstanceuid", "dst": "api:tcia.p.rapidapi.com:6801c749af4d7ab6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:modality", "dst": "api:tcia.p.rapidapi.com:6801c749af4d7ab6"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:the_cancer_imaging_archive", "dst": "api:tcia.p.rapidapi.com:7bb48db16ddcd2bc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:seriesinstanceuid", "dst": "api:tcia.p.rapidapi.com:7bb48db16ddcd2bc"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:the_cancer_imaging_archive", "dst": "api:tcia.p.rapidapi.com:edaaa1cf093d11cb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:tcia.p.rapidapi.com:edaaa1cf093d11cb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:collection", "dst": "api:tcia.p.rapidapi.com:edaaa1cf093d11cb"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:the_cancer_imaging_archive", "dst": "api:tcia.p.rapidapi.com:9790eae24bb06a99"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:tcia.p.rapidapi.com:9790eae24bb06a99"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:collection", "dst": "api:tcia.p.rapidapi.com:9790eae24bb06a99"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:bodypartexamined", "dst": "api:tcia.p.rapidapi.com:9790eae24bb06a99"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:modality", "dst": "api:tcia.p.rapidapi.com:9790eae24bb06a99"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:tiktok_data_api"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:tiktok_data_api", "dst": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:max_time", "dst": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:type", "dst": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:uid", "dst": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:count", "dst": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28"}
+{"edge_type": "api_to_parameter", "src": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28", "dst": "parameter_norm:NUMBER:min_time"}
+{"edge_type": "api_to_parameter", "src": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28", "dst": "parameter_norm:OBJECT:followers"}
+{"edge_type": "api_to_parameter", "src": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28", "dst": "parameter_norm:BOOLEAN:has_more"}
+{"edge_type": "api_to_parameter", "src": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28", "dst": "parameter_norm:NUMBER:total"}
+{"edge_type": "api_to_parameter", "src": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28", "dst": "parameter_norm:OBJECT:extra"}
+{"edge_type": "api_to_parameter", "src": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28", "dst": "parameter_norm:OBJECT:log_pb"}
+{"edge_type": "api_to_parameter", "src": "api:tiktok-data-api.p.rapidapi.com:4675c670108f0f28", "dst": "parameter_norm:NUMBER:status_code"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:top250drugs"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:c0343657eb9fb6ee"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:top250drugs.p.rapidapi.com:c0343657eb9fb6ee"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:c0343657eb9fb6ee", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:4dfcaa50d5a4b0e9"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:09a820c6956a9da0"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:09a820c6956a9da0", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:313c1037dd90872f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:top250drugs.p.rapidapi.com:313c1037dd90872f"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:313c1037dd90872f", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:c072bb376880ddbb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:top250drugs.p.rapidapi.com:c072bb376880ddbb"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:c072bb376880ddbb", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:00a759018c3cc867"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:page_cursor", "dst": "api:top250drugs.p.rapidapi.com:00a759018c3cc867"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:00a759018c3cc867", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:ce4366958cb0c895"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:ce4366958cb0c895", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:dfc59ca460583ea6"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:905edf82a4f1b8c2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:top250drugs.p.rapidapi.com:905edf82a4f1b8c2"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:905edf82a4f1b8c2", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:77ee01e8f7063e80"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:top250drugs.p.rapidapi.com:77ee01e8f7063e80"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:77ee01e8f7063e80", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:fb2c6617aada1a81"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:fb2c6617aada1a81", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:4e00e386803392b9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:top250drugs.p.rapidapi.com:4e00e386803392b9"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:4e00e386803392b9", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:top250drugs", "dst": "api:top250drugs.p.rapidapi.com:7e628bc44f2b68ba"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:top250drugs.p.rapidapi.com:7e628bc44f2b68ba"}
+{"edge_type": "api_to_parameter", "src": "api:top250drugs.p.rapidapi.com:7e628bc44f2b68ba", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:trissomies"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:trissomies", "dst": "api:trissomies.p.rapidapi.com:307f1e55c5e1b977"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:examinationdate", "dst": "api:trissomies.p.rapidapi.com:307f1e55c5e1b977"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:fetalcrl", "dst": "api:trissomies.p.rapidapi.com:307f1e55c5e1b977"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:fetalheartrate", "dst": "api:trissomies.p.rapidapi.com:307f1e55c5e1b977"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:dateofbirth", "dst": "api:trissomies.p.rapidapi.com:307f1e55c5e1b977"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:nuchaltranslucency", "dst": "api:trissomies.p.rapidapi.com:307f1e55c5e1b977"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:previoust18", "dst": "api:trissomies.p.rapidapi.com:307f1e55c5e1b977"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:previoust13", "dst": "api:trissomies.p.rapidapi.com:307f1e55c5e1b977"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:previoust21", "dst": "api:trissomies.p.rapidapi.com:307f1e55c5e1b977"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:vaccines_availability_data_usa"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:vaccines_availability_data_usa", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:c8926f967a5097c7"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:vaccines_availability_data_usa", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:providerid", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:providerid"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:providername"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:address"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:address"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:city"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:state"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:zip"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:phone"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:website"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:notes"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:ARRAY:inventory"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:NUMBER:latitude"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:NUMBER:longitude"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:BOOLEAN:acceptswalkins"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:appointmentsavailable"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:prescreeningsite"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:lastupdated"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:BOOLEAN:acceptsinsurance"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:hoursmonday"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:hourstuesday"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:hourswednesday"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:hoursthursday"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:hoursfriday"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:hourssaturday"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:hourssunday"}
+{"edge_type": "api_to_parameter", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "parameter_norm:STRING:appointmentavailabilitylastupdated"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:vaccines_availability_data_usa", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:e72e551266638cff"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:radius", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:e72e551266638cff"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:zipcode", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:e72e551266638cff"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:medicationids", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:e72e551266638cff"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:vaccines_availability_data_usa", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:db86cd5adedaaf01"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:longitude", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:db86cd5adedaaf01"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:medicationids", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:db86cd5adedaaf01"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:radius", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:db86cd5adedaaf01"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:latitude", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:db86cd5adedaaf01"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:vep"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:vep", "dst": "api:vep.p.rapidapi.com:a43124ad0fa315e5"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:vize_custom_image_classifier"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:vize_custom_image_classifier", "dst": "api:vizeai.p.rapidapi.com:fd747a1f6f229df2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:image_blob", "dst": "api:vizeai.p.rapidapi.com:fd747a1f6f229df2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:task_no", "dst": "api:vizeai.p.rapidapi.com:fd747a1f6f229df2"}
+{"edge_type": "category_to_tool", "src": "category:Medical", "dst": "tool:Medical:zomidictionary"}
+{"edge_type": "tool_to_api", "src": "tool:Medical:zomidictionary", "dst": "api:zomidictionary.p.rapidapi.com:78a2b8ca3869c6f5"}
+{"edge_type": "depends_on", "src": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:01aa64d63b561e75", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:01aa64d63b561e75", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:01aa64d63b561e75", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:01aa64d63b561e75", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:01aa64d63b561e75", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:01aa64d63b561e75", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:01aa64d63b561e75", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:1047e956c69718f5", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:1047e956c69718f5", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:1047e956c69718f5", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:1047e956c69718f5", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:1047e956c69718f5", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:1047e956c69718f5", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:1047e956c69718f5", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:45a977dd921f37f4", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:45a977dd921f37f4", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:45a977dd921f37f4", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:45a977dd921f37f4", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:45a977dd921f37f4", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:45a977dd921f37f4", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:45a977dd921f37f4", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:7ea803fd04edbc5f", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:8bd0392f63edea59", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:8bd0392f63edea59", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:8bd0392f63edea59", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:8bd0392f63edea59", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:8bd0392f63edea59", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:8bd0392f63edea59", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:drugapi.p.rapidapi.com:8bd0392f63edea59", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.224, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:8c5a8bb34537ff99", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:de8003f79aed80b8", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:de8003f79aed80b8", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:de8003f79aed80b8", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:de8003f79aed80b8", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:de8003f79aed80b8", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:de8003f79aed80b8", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:healthy.p.rapidapi.com:de8003f79aed80b8", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.512, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:medius-disease-medication.p.rapidapi.com:0c9e3076cd533b1d", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:143bc479a8326fef", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:ccb02b36579c0837", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c", "dst": "api:konviere-drugsapi.p.rapidapi.com:2d4f6d0233a82a25", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c", "dst": "api:konviere-drugsapi.p.rapidapi.com:3be79f84d93f707a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c", "dst": "api:konviere-drugsapi.p.rapidapi.com:898549d9526a27bd", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c", "dst": "api:konviere-drugsapi.p.rapidapi.com:c6f027382e59e806", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c", "dst": "api:konviere-drugsapi.p.rapidapi.com:e1ad8f2df3ab7d1b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c", "dst": "api:konviere-drugsapi.p.rapidapi.com:e545dee1693f48a0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:pharmaseed1.p.rapidapi.com:fcd8f981c0cf814c", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "api:clia-lab-search.p.rapidapi.com:35bfe02480a946e3", "mapping_signature": "match_key:STRING:address", "match_confidence": 1.0, "semantic_role": "address", "est_cost": 0.169, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:049c86b53f26e9c9", "mapping_signature": "match_key:STRING:state", "match_confidence": 1.0, "semantic_role": "state", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:487cffdecfd819ec", "mapping_signature": "match_key:STRING:zip", "match_confidence": 1.0, "semantic_role": "zip", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "api:covid-19-live-vaccination-finder.p.rapidapi.com:5a67b0e88d7566be", "mapping_signature": "match_key:STRING:city", "match_confidence": 1.0, "semantic_role": "city", "est_cost": 1.152, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "api:monkeypox.p.rapidapi.com:31428b914dd665cf", "mapping_signature": "match_key:STRING:state", "match_confidence": 1.0, "semantic_role": "state", "est_cost": 0.172, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "api:singapore-clinics.p.rapidapi.com:84c3aa5136cce307", "mapping_signature": "match_key:STRING:address", "match_confidence": 1.0, "semantic_role": "address", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:vaccines-availability-data-usa.p.rapidapi.com:dd0062fea908d5a8", "dst": "api:vaccines-availability-data-usa.p.rapidapi.com:db86cd5adedaaf01", "mapping_signature": "match_key:NUMBER:latitude", "match_confidence": 1.0, "semantic_role": "latitude", "est_cost": 0.65, "success_freq_prior": 0.5}

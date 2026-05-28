@@ -1,0 +1,728 @@
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:airvantage_m2m_cloud"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:28de874d7f9f9196"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:e0bef50ae8d7c198"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:3c575af34d40fe07"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:bfaf0fbd68ebcc75"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:071e553172161eba"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:ed06618d2a437f1a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:b2ebc9b2a880eba9"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:cfa1ce825e930f15"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:7a34843a68497eb3"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:cde1c825720f150e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:uid", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:cde1c825720f150e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:a6ea1e957f47b59e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:1658ebf6dc98ed8c"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:0058057df0b6e095"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:b2ab720ce829c1bf"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:0a9c1d0bf4e8115e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:58550e8b9cc7927e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:d3793406b6fde847"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:airvantage_m2m_cloud", "dst": "api:dsciamma-airvantage-m2m-cloud.p.rapidapi.com:6d97fa18ceddf9c1"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:asdasd"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:asdasd", "dst": "api:asdasd23.p.rapidapi.com:f98d857bf23bcad7"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:bas_ip_multiapartment_panels"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:a3344df9e9a6ad50"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:0e59d45ecf655f3b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:68d406f66bfb41a1"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f1bf2d0a2a991db7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:unit", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f1bf2d0a2a991db7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:device", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f1bf2d0a2a991db7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:building", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f1bf2d0a2a991db7"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f95e30b3291d182b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:language", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f95e30b3291d182b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:a92b18bb38c56915"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:4059fb88696460f7"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:c3a9280c03b13ff3"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:b99b0f915d35de26"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:9ca26220d7503dcd"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:15582e0e3cdc4937"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:9c032598cc409bb3"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:12c99e2a6d89697b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:4341590d46b45f1a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:ae4cccf5aa2254ed"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:278e366e62a90b7c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:file_blob", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:278e366e62a90b7c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:identifieruid", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:278e366e62a90b7c"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:c2bca90ed0b1eb6a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:4dad27f17906a0f2"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:30de9ac81ce6f94b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:75f5dab181ea117a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:7dc2200e6f5ddad8"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:45def04084a3a6ab"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:c42c4836a31d2949"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:8a0630ac1a01b892"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:d274c8cfb83327a3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:identifieruid", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:d274c8cfb83327a3"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:e602a45f6d82870b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:d2cba2f970c403a6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:oldpassword", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:d2cba2f970c403a6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:newpassword", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:d2cba2f970c403a6"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:fa7925e376c7a984"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:1f71a78d2f916495"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:cce9f0a5319eef19"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:77eb5224f939846f"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:aad648f2fa1146c0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:locknumber", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:aad648f2fa1146c0"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:073db1edcf0a4fc2"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:4303845384be73c9"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:0d45f4bdd69ba579"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:dc475145eb37b57a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:53b8219ad0b3d0ed"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:ce2c61bd0e3d43da"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:8d444c74a1e33f97"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:d2daf2152a9bf0b3"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f311715e7861e22d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:a1288be30740116c"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:b341acaf3542e634"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:de50c21dbdd854d5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:forwarduid", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:de50c21dbdd854d5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:apartmentuid", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:de50c21dbdd854d5"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:accd3ac0dbeb0f16"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:apartmentnumber", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:accd3ac0dbeb0f16"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:726182fd44160056"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:221320c542e90391"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:e927c685e245536f"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f9bc48d3116701e2"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:21f7a2daaaec2ca6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:nounit", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:21f7a2daaaec2ca6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:device", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:21f7a2daaaec2ca6"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:36c085583c7f6e5a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:6c059a4cb6a3cf7a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:65a4abb7958bd4ec"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:e635cf4f36b4c481"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:1844a8f4fd991cfb"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:6cfb568d39ed5ebc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:apartmentuid", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:6cfb568d39ed5ebc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:identifieruid", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:6cfb568d39ed5ebc"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:ae9cd168353f6d99"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:locknumber", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:ae9cd168353f6d99"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:c5be9ba3f97b875b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:cd12364ace8b53fb"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f48efc954555369a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:184136066f990afc"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:29dd587e3a8177ff"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:4a51316a8b9ff09e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:47af6aa335294e39"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:oldpassword", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:47af6aa335294e39"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:newpassword", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:47af6aa335294e39"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:d23db95b9ec4f14e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:9e99ab6b90b06216"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:1a3d18eb481af6b7"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:13e02aec7a17b88b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:df24d4adad5ff59e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:identifieruid", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:df24d4adad5ff59e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:f9933ad8dd6f5c1b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:0af99d300584168b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:8c7fe9772481f238"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:3014aaf51eb5a03c"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:e7019a0baab70974"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:2eb3191ac9c42afd"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:e23236c86a86e603"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:68905ebda14a54fe"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:b952faa187dfa58f"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:9e5578da0f76197b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:d3005ca4f1851dce"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:4e45bbb070720522"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:aa05c2575de54dd0"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:b57dbff2d4ae1795"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:1c58158bd536dbe3"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:ffbc4f59bae08000"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:bas_ip_multiapartment_panels", "dst": "api:bas-ip-multiapartment-panels.p.rapidapi.com:8e7a73026c684b4a"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:cellphones"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:cellphones", "dst": "api:cellphones.p.rapidapi.com:6415b5e57adc9fb8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:brandid", "dst": "api:cellphones.p.rapidapi.com:6415b5e57adc9fb8"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:cellphones", "dst": "api:cellphones.p.rapidapi.com:bc0230fbd210a3a8"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:cellphones", "dst": "api:cellphones.p.rapidapi.com:0031c170e689c984"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:phoneid", "dst": "api:cellphones.p.rapidapi.com:0031c170e689c984"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:NUMBER:id"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:NUMBER:brandid"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:title"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:thumbnail"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:releasedate"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:dimension"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:os"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:storage"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:url"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:displaysize"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:resolution"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:ram"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:chipset"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:batterysize"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:batterytype"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:photosurl"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:price"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:STRING:brand"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:ARRAY:phonephotoes"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:ARRAY:phonespecs"}
+{"edge_type": "api_to_parameter", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "parameter_norm:ARRAY:variants"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:eswipe"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:eswipe", "dst": "api:eswipe.p.rapidapi.com:b0a1ce6665130d25"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:eswipe", "dst": "api:eswipe.p.rapidapi.com:f0d161366c5e5a45"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:eswipe", "dst": "api:eswipe.p.rapidapi.com:b5906cc57ba055ce"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:eswipe", "dst": "api:eswipe.p.rapidapi.com:5b5c624799d63f27"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:face_recognition"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:face_recognition", "dst": "api:hci.p.rapidapi.com:f4dc296161c98f92"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:application_id", "dst": "api:hci.p.rapidapi.com:f4dc296161c98f92"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:hci.p.rapidapi.com:f4dc296161c98f92"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:hci.p.rapidapi.com:f4dc296161c98f92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:pwd", "dst": "api:hci.p.rapidapi.com:f4dc296161c98f92"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:face_recognition", "dst": "api:hci.p.rapidapi.com:09f27571d137d262"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:hci.p.rapidapi.com:09f27571d137d262"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:secret", "dst": "api:hci.p.rapidapi.com:09f27571d137d262"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:image_blob", "dst": "api:hci.p.rapidapi.com:09f27571d137d262"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:job", "dst": "api:hci.p.rapidapi.com:09f27571d137d262"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:usename", "dst": "api:hci.p.rapidapi.com:09f27571d137d262"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:mode", "dst": "api:hci.p.rapidapi.com:09f27571d137d262"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:face_recognition", "dst": "api:hci.p.rapidapi.com:b500172bcf0ed3b7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:matchingid", "dst": "api:hci.p.rapidapi.com:b500172bcf0ed3b7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:hci.p.rapidapi.com:b500172bcf0ed3b7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:secret", "dst": "api:hci.p.rapidapi.com:b500172bcf0ed3b7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:image_blob", "dst": "api:hci.p.rapidapi.com:b500172bcf0ed3b7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:threshold", "dst": "api:hci.p.rapidapi.com:b500172bcf0ed3b7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:mode", "dst": "api:hci.p.rapidapi.com:b500172bcf0ed3b7"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:face_recognition", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:secret", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:football"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:football", "dst": "api:football201.p.rapidapi.com:0b601e2a86ee7a2b"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:geolocation_simulation_for_mobile_apps"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:dba5ea05d7c0679d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:8fa737c61e44bc81"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:8fa737c61e44bc81"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:1e86aaccdf8d5b5a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:1e86aaccdf8d5b5a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:0ca56001e41dc330"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:0ca56001e41dc330"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:d4a1d2cf61c3ad07"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:d4a1d2cf61c3ad07"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:84c67067ae5abe90"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:84c67067ae5abe90"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:dc8e026256e2e3c0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:dc8e026256e2e3c0"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ddceb476a1ad105c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ddceb476a1ad105c"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:87dc95fc951ba7ea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:87dc95fc951ba7ea"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:2bd5e01d4b9b8b8c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:2bd5e01d4b9b8b8c"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:7f81719a00b98236"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:7f81719a00b98236"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ffe0767cdfa0a21e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ffe0767cdfa0a21e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:4c9cc09644cf4251"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:4c9cc09644cf4251"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:031edde730e4ba99"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:031edde730e4ba99"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:a769431c8e1526f6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:a769431c8e1526f6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:a769431c8e1526f6"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:09355a686ef9111b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:09355a686ef9111b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ee3cb3213077413f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ee3cb3213077413f"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:14ea8142b8f23015"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:14ea8142b8f23015"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:0b163f57b1f3bf2c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:0b163f57b1f3bf2c"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:1e261a758e9f45a1"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:823c8f356b5de705"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:icon", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:823c8f356b5de705"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:5cfee7623c15384e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:5cfee7623c15384e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:af4b2d3460de463f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:af4b2d3460de463f"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:45833123aba1ce99"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:45833123aba1ce99"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:5d1531b13adb2375"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:5d1531b13adb2375"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:84a085db5851ea2b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:84a085db5851ea2b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:3367ac3e49ae97ce"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:3367ac3e49ae97ce"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:75dcce09478de189"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:75dcce09478de189"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:d3ceb7f714760b5d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:d3ceb7f714760b5d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:3f3c5d18799e8d64"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:3f3c5d18799e8d64"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:419e50c9ad6e7f00"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:419e50c9ad6e7f00"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:511c854afd35042e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:511c854afd35042e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:6527f1976d5e7959"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:6527f1976d5e7959"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:da8d84c336a062ef"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:da8d84c336a062ef"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:e5a7de1ae276a798"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:e5a7de1ae276a798"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:388ede822ef7c5ff"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:388ede822ef7c5ff"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:31240f82d39b72f5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:31240f82d39b72f5"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:51ebaebc099fce04"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ee4953054a4a0b77"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:8a5f44d9c782874b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:94186d8107bed037"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:f4b4a1edc16bbea9"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:c68d2a7ca12492ee"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:038cc889f38ec04d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:fff37a58e6392564"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ffd83167b4661455"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:a1c384dddaa37147"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:c14f6b1088d962c2"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:6c3f7837e0e1df01"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:741d89b317eb1fc2"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:52f0ae3d4af12e16"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:52f0ae3d4af12e16"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:69bc89545135514e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:9b9321f89511146b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:a9b08d7f9c131536"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ff5d2b8ddc10dbd5"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:3321fd43e41221df"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:c7254f7fbbdc6c5a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:icon", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:c7254f7fbbdc6c5a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:7f686593dcae4294"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:geolocation_simulation_for_mobile_apps", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:929c3ca85f76068c"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:hipmob"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:hipmob", "dst": "api:community-hipmob.p.rapidapi.com:dbef4e7f072f5084"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:status", "dst": "api:community-hipmob.p.rapidapi.com:dbef4e7f072f5084"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:username", "dst": "api:community-hipmob.p.rapidapi.com:dbef4e7f072f5084"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:hipmob", "dst": "api:community-hipmob.p.rapidapi.com:5306325dc21d424b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:end_marker", "dst": "api:community-hipmob.p.rapidapi.com:5306325dc21d424b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:app_id", "dst": "api:community-hipmob.p.rapidapi.com:5306325dc21d424b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:host_application_identifier", "dst": "api:community-hipmob.p.rapidapi.com:5306325dc21d424b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:hipmob", "dst": "api:community-hipmob.p.rapidapi.com:583e76c88d506c74"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:text_payload", "dst": "api:community-hipmob.p.rapidapi.com:583e76c88d506c74"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:app_id", "dst": "api:community-hipmob.p.rapidapi.com:583e76c88d506c74"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:host_application_identifier", "dst": "api:community-hipmob.p.rapidapi.com:583e76c88d506c74"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:autocreate", "dst": "api:community-hipmob.p.rapidapi.com:583e76c88d506c74"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:imei"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:imei", "dst": "api:imei5.p.rapidapi.com:8371c60714066a2a"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:iot_payload_decoder"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:afa7b908cb3a23bf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:afa7b908cb3a23bf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:afa7b908cb3a23bf"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:e6377fae04f1a68e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:e6377fae04f1a68e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:e6377fae04f1a68e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:d17c5ff8b27ab650"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:d17c5ff8b27ab650"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:d17c5ff8b27ab650"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:0b71555baca76823"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:0b71555baca76823"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:0b71555baca76823"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:8686afc617f6bf13"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:8686afc617f6bf13"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:8686afc617f6bf13"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:9d89158251c0a0bb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:9d89158251c0a0bb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:9d89158251c0a0bb"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:4c8d902d29f18b13"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:4c8d902d29f18b13"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:4c8d902d29f18b13"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:7d82c95d6219c481"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:7d82c95d6219c481"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:7d82c95d6219c481"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:7dda67f2e8acada5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:7dda67f2e8acada5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:7dda67f2e8acada5"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:a7290c5893326798"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:a7290c5893326798"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:a7290c5893326798"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iot_payload_decoder", "dst": "api:iot-payload-decoder.p.rapidapi.com:72a9746de675744c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:iot-payload-decoder.p.rapidapi.com:72a9746de675744c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:encoding", "dst": "api:iot-payload-decoder.p.rapidapi.com:72a9746de675744c"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:iotvas"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iotvas", "dst": "api:iotvas.p.rapidapi.com:73f431ddc0869525"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:firmware_hash", "dst": "api:iotvas.p.rapidapi.com:73f431ddc0869525"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:73f431ddc0869525", "dst": "parameter_norm:STRING:name"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:73f431ddc0869525", "dst": "parameter_norm:STRING:pwd_hash"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:73f431ddc0869525", "dst": "parameter_norm:STRING:hash_algorithm"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:73f431ddc0869525", "dst": "parameter_norm:STRING:shell"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:73f431ddc0869525", "dst": "parameter_norm:NUMBER:uid"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:73f431ddc0869525", "dst": "parameter_norm:NUMBER:gid"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:73f431ddc0869525", "dst": "parameter_norm:STRING:home_dir"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iotvas", "dst": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:firmware_hash", "dst": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680", "dst": "parameter_norm:STRING:file_blob"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680", "dst": "parameter_norm:STRING:file_blob"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680", "dst": "parameter_norm:STRING:thumb_print"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680", "dst": "parameter_norm:STRING:sign_algorithm"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680", "dst": "parameter_norm:STRING:subject_name"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680", "dst": "parameter_norm:STRING:valid_from"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680", "dst": "parameter_norm:STRING:valid_to"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iotvas", "dst": "api:iotvas.p.rapidapi.com:9d0d086908b0d914"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:firmware_hash", "dst": "api:iotvas.p.rapidapi.com:9d0d086908b0d914"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:9d0d086908b0d914", "dst": "parameter_norm:STRING:file_blob"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:9d0d086908b0d914", "dst": "parameter_norm:STRING:file_blob"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:9d0d086908b0d914", "dst": "parameter_norm:STRING:thumb_print"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:9d0d086908b0d914", "dst": "parameter_norm:OBJECT:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:9d0d086908b0d914", "dst": "parameter_norm:STRING:subject_name"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:9d0d086908b0d914", "dst": "parameter_norm:STRING:valid_from"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:9d0d086908b0d914", "dst": "parameter_norm:STRING:valid_to"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iotvas", "dst": "api:iotvas.p.rapidapi.com:a2b59af8be6121bb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:firmware_hash", "dst": "api:iotvas.p.rapidapi.com:a2b59af8be6121bb"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a2b59af8be6121bb", "dst": "parameter_norm:STRING:file_blob"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a2b59af8be6121bb", "dst": "parameter_norm:STRING:file_blob"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a2b59af8be6121bb", "dst": "parameter_norm:STRING:pem_type"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a2b59af8be6121bb", "dst": "parameter_norm:STRING:algorithm"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a2b59af8be6121bb", "dst": "parameter_norm:NUMBER:bits"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iotvas", "dst": "api:iotvas.p.rapidapi.com:55d018e7c31d1977"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:55d018e7c31d1977", "dst": "parameter_norm:STRING:manufacturer"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:55d018e7c31d1977", "dst": "parameter_norm:STRING:model_name"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:55d018e7c31d1977", "dst": "parameter_norm:STRING:firmware_version"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:55d018e7c31d1977", "dst": "parameter_norm:BOOLEAN:is_discontinued"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:55d018e7c31d1977", "dst": "parameter_norm:ARRAY:cve_list"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:55d018e7c31d1977", "dst": "parameter_norm:STRING:device_type"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:55d018e7c31d1977", "dst": "parameter_norm:OBJECT:firmware_info"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:55d018e7c31d1977", "dst": "parameter_norm:OBJECT:latest_firmware_info"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iotvas", "dst": "api:iotvas.p.rapidapi.com:a39949e816e852d1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:firmware_hash", "dst": "api:iotvas.p.rapidapi.com:a39949e816e852d1"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a39949e816e852d1", "dst": "parameter_norm:STRING:file_blob"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a39949e816e852d1", "dst": "parameter_norm:STRING:file_blob"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a39949e816e852d1", "dst": "parameter_norm:STRING:pem_type"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a39949e816e852d1", "dst": "parameter_norm:STRING:algorithm"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:a39949e816e852d1", "dst": "parameter_norm:NUMBER:bits"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iotvas", "dst": "api:iotvas.p.rapidapi.com:c708473159b3106d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:firmware_hash", "dst": "api:iotvas.p.rapidapi.com:c708473159b3106d"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:c708473159b3106d", "dst": "parameter_norm:STRING:service_name"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:c708473159b3106d", "dst": "parameter_norm:STRING:file_blob"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:c708473159b3106d", "dst": "parameter_norm:ARRAY:issues"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:c708473159b3106d", "dst": "parameter_norm:ARRAY:suggestions"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iotvas", "dst": "api:iotvas.p.rapidapi.com:38f9970ba4d4de20"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:firmware_hash", "dst": "api:iotvas.p.rapidapi.com:38f9970ba4d4de20"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:38f9970ba4d4de20", "dst": "parameter_norm:OBJECT:risk_summary"}
+{"edge_type": "api_to_parameter", "src": "api:iotvas.p.rapidapi.com:38f9970ba4d4de20", "dst": "parameter_norm:ARRAY:vulnerable_components"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:iotvas", "dst": "api:iotvas.p.rapidapi.com:1c18728fb48e495e"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:jawbone_up"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:jawbone_up", "dst": "api:community-jawbone-up.p.rapidapi.com:c783d11ee87a3d03"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:time_created", "dst": "api:community-jawbone-up.p.rapidapi.com:c783d11ee87a3d03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:sub_type", "dst": "api:community-jawbone-up.p.rapidapi.com:c783d11ee87a3d03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time_completed", "dst": "api:community-jawbone-up.p.rapidapi.com:c783d11ee87a3d03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tz", "dst": "api:community-jawbone-up.p.rapidapi.com:c783d11ee87a3d03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:calories", "dst": "api:community-jawbone-up.p.rapidapi.com:c783d11ee87a3d03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:distance", "dst": "api:community-jawbone-up.p.rapidapi.com:c783d11ee87a3d03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:image_blob", "dst": "api:community-jawbone-up.p.rapidapi.com:c783d11ee87a3d03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:intensity", "dst": "api:community-jawbone-up.p.rapidapi.com:c783d11ee87a3d03"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:jawbone_up", "dst": "api:community-jawbone-up.p.rapidapi.com:978fea5510f6625e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:community-jawbone-up.p.rapidapi.com:978fea5510f6625e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:verb", "dst": "api:community-jawbone-up.p.rapidapi.com:978fea5510f6625e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:attributes", "dst": "api:community-jawbone-up.p.rapidapi.com:978fea5510f6625e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:note", "dst": "api:community-jawbone-up.p.rapidapi.com:978fea5510f6625e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:image_blob", "dst": "api:community-jawbone-up.p.rapidapi.com:978fea5510f6625e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time_created", "dst": "api:community-jawbone-up.p.rapidapi.com:978fea5510f6625e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tz", "dst": "api:community-jawbone-up.p.rapidapi.com:978fea5510f6625e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:jawbone_up", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:note", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:photo_url", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BINARY:photo", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:place_lat", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:place_lon", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:place_acc", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:place_name", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time_created", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tz", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:items", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:jawbone_up", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:weight", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:body_fat", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lean_mass", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:bmi", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:note", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:image_blob", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time_created", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tz", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:jawbone_up", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:heart_rate", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:systolic_pressure", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:diastolic_pressure", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:note", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:image_blob", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time_created", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tz", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:jawbone_up", "dst": "api:community-jawbone-up.p.rapidapi.com:830d91e65afd3dfe"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:time_created", "dst": "api:community-jawbone-up.p.rapidapi.com:830d91e65afd3dfe"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:time_completed", "dst": "api:community-jawbone-up.p.rapidapi.com:830d91e65afd3dfe"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tz", "dst": "api:community-jawbone-up.p.rapidapi.com:830d91e65afd3dfe"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:jawbone_up", "dst": "api:community-jawbone-up.p.rapidapi.com:46948d2312a3c2a9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:community-jawbone-up.p.rapidapi.com:46948d2312a3c2a9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:sub_type", "dst": "api:community-jawbone-up.p.rapidapi.com:46948d2312a3c2a9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tz", "dst": "api:community-jawbone-up.p.rapidapi.com:46948d2312a3c2a9"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:jawbone_up", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:xid", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:note", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:photo_url", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BINARY:photo", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:place_lat", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:place_lon", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:place_acc", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:place_name", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time_created", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tz", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:items", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:jawbone_up", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:xid", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:sub_type", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time_created", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time_completed", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tz", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:calories", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:distance", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:image_blob", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:intensity", "dst": "api:community-jawbone-up.p.rapidapi.com:8439e5e85bc8ab43"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:kelpom_imei_checker"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:kelpom_imei_checker", "dst": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:service", "dst": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:imei", "dst": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c"}
+{"edge_type": "api_to_parameter", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:lottery"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:lottery", "dst": "api:lottery9.p.rapidapi.com:c2f6951d4485d6a1"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:mac_address_to_manufacturer"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mac_address_to_manufacturer", "dst": "api:mac-address-to-manufacturer.p.rapidapi.com:4cd856b99615d9a4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mac_number", "dst": "api:mac-address-to-manufacturer.p.rapidapi.com:4cd856b99615d9a4"}
+{"edge_type": "api_to_parameter", "src": "api:mac-address-to-manufacturer.p.rapidapi.com:4cd856b99615d9a4", "dst": "parameter_norm:STRING:message_text"}
+{"edge_type": "api_to_parameter", "src": "api:mac-address-to-manufacturer.p.rapidapi.com:4cd856b99615d9a4", "dst": "parameter_norm:OBJECT:data_payload"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:melapi"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:melapi", "dst": "api:melapi1.p.rapidapi.com:36a1eeac84560743"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:mmm"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mmm", "dst": "api:mmm1.p.rapidapi.com:f0c9e2ed3f6b7610"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:mobile_phone_live"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mobile_phone_live", "dst": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mobileid", "dst": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e"}
+{"edge_type": "api_to_parameter", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mobile_phone_live", "dst": "api:mobile-phone-live.p.rapidapi.com:3fabd5febebaf0bb"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:mobile_phone_specs_database"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mobile_phone_specs_database", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:61ebef423af53dd2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:phonecustomid", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:61ebef423af53dd2"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mobile_phone_specs_database", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:fbf9a415b76f0486"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:brandname", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:fbf9a415b76f0486"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:modelname", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:fbf9a415b76f0486"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mobile_phone_specs_database", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:f21c66ab16655153"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:image_blob", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:f21c66ab16655153"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mobile_phone_specs_database", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:ce5d078f5d2498f0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:phonecustomid", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:ce5d078f5d2498f0"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mobile_phone_specs_database", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:552e815f3bbabd0f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:brandname", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:552e815f3bbabd0f"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:mobile_phone_specs_database", "dst": "api:mobile-phone-specs-database.p.rapidapi.com:1fea5f8e7df93108"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:multi_user_agent_parser"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:multi_user_agent_parser", "dst": "api:multi-user-agent-parser.p.rapidapi.com:7abb25e693ab687b"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:npc"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:npc", "dst": "api:npc.p.rapidapi.com:3a9042d49a37ead6"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:openhub"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:openhub", "dst": "api:openhub.p.rapidapi.com:da97d82e144a5716"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:phone_verification"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:phone_verification", "dst": "api:list-phone-verification-v1.p.rapidapi.com:ea227dc8992dee2c"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:phone_verification", "dst": "api:list-phone-verification-v1.p.rapidapi.com:9d837034cbc65fc1"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:qr_code_jwt_authentication"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:qr_code_jwt_authentication", "dst": "api:qr-code-jwt-authentication.p.rapidapi.com:c0a2ba0a5f08848e"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:qr_code_jwt_authentication", "dst": "api:qr-code-jwt-authentication.p.rapidapi.com:d4c1a3f44250bd87"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:qr_code_jwt_authentication", "dst": "api:qr-code-jwt-authentication.p.rapidapi.com:68ad2a9aff0a127f"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:quantimodo"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:quantimodo", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:79cc1aab8db16629"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:quantimodo", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:1e839da3922b3f4d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:quantimodo", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:115654a4a46e9211"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:quantimodo", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:0cf619b2f340a900"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:quantimodo", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:b5928645a406810f"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:quantimodo", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:d38a24fbd55c095d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:cause", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:d38a24fbd55c095d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:effect", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:d38a24fbd55c095d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:vote", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:d38a24fbd55c095d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:correlationcoefficient", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:d38a24fbd55c095d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:quantimodo", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:6873a1aa4fc307ce"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:cause", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:6873a1aa4fc307ce"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:effect", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:6873a1aa4fc307ce"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:correlation", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:6873a1aa4fc307ce"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:vote", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:6873a1aa4fc307ce"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:quantimodo", "dst": "api:quantimodo-quantimodo-v1.p.rapidapi.com:b4aad90e7b992418"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:spam_number_checker"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:spam_number_checker", "dst": "api:spam-number-checker.p.rapidapi.com:6861b37c6dbdb1f6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:number", "dst": "api:spam-number-checker.p.rapidapi.com:6861b37c6dbdb1f6"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:tcs_cloud_messaging"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:tcs_cloud_messaging", "dst": "api:sms.p.rapidapi.com:0e2278fa0a221bee"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:tcs_cloud_messaging", "dst": "api:sms.p.rapidapi.com:65def0bf7af6be7a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:groupname", "dst": "api:sms.p.rapidapi.com:65def0bf7af6be7a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:tcs_cloud_messaging", "dst": "api:sms.p.rapidapi.com:37ce320a274f1503"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:tcs_cloud_messaging", "dst": "api:sms.p.rapidapi.com:53272f4c5c261588"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:groupname", "dst": "api:sms.p.rapidapi.com:53272f4c5c261588"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:tcs_cloud_messaging", "dst": "api:sms.p.rapidapi.com:6fe74b47a4481f1a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:tcs_cloud_messaging", "dst": "api:sms.p.rapidapi.com:ccc9e70dda8eac96"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:tds"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:tds", "dst": "api:tds.p.rapidapi.com:f3d94e628599a797"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:test"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:test", "dst": "api:test1273.p.rapidapi.com:aa2843ff02e36fec"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:signature_rs", "dst": "api:test1273.p.rapidapi.com:aa2843ff02e36fec"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:test", "dst": "api:test1273.p.rapidapi.com:e42cbd2df465bdf9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:signature_rs", "dst": "api:test1273.p.rapidapi.com:e42cbd2df465bdf9"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:testapi"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:testapi", "dst": "api:testapi464.p.rapidapi.com:2c22047ccee140d5"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:testapi", "dst": "api:testapi464.p.rapidapi.com:f9c78c3002774494"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:testapi", "dst": "api:testapi464.p.rapidapi.com:c7a22564124e0731"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:thingscale_iot_message_broker"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:7ae3060c297e083f"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:ff4af3b1222f2b4d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:body", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:ff4af3b1222f2b4d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:device_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:ff4af3b1222f2b4d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:0008de836a523769"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:body", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:0008de836a523769"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:54b0d32239d75cd8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:device_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:54b0d32239d75cd8"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:544c8fb2f952a167"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:event_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:544c8fb2f952a167"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:29db937befbf350a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:event_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:29db937befbf350a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:f289f23b41e64d3d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:body", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:f289f23b41e64d3d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:channel_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:f289f23b41e64d3d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:60ec34c59998a03a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:channel_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:60ec34c59998a03a"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:3696c0bf3b1f8068"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:device_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:3696c0bf3b1f8068"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:3c68f5aac59f3850"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:device_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:3c68f5aac59f3850"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:a5540ab988a36360"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:channel_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:a5540ab988a36360"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:3be94ac0a1951153"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:event_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:3be94ac0a1951153"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:dd012453c3e39da6"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:4d5736c793a07fb9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:channel_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:4d5736c793a07fb9"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:02a8a6136760b90d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:body", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:02a8a6136760b90d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:channel_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:02a8a6136760b90d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:6f9482656ecd23e3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:body", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:6f9482656ecd23e3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:event_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:6f9482656ecd23e3"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:78cc8a9824508a23"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:device_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:78cc8a9824508a23"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:0c9b88e9da1895dc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:event_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:0c9b88e9da1895dc"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:ef4fc15b1d4f4682"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:device_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:ef4fc15b1d4f4682"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:033de6c4bb42ffe9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:channel_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:033de6c4bb42ffe9"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:thingscale_iot_message_broker", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:30f7c39ee1140094"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:body", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:30f7c39ee1140094"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:channel_id", "dst": "api:sensinics_tmura-thingscale-iot-message-broker-v1.p.rapidapi.com:30f7c39ee1140094"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:totp"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:totp", "dst": "api:totp4.p.rapidapi.com:8a11ef9ccdcb5d9a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:millisecondstimestamp", "dst": "api:totp4.p.rapidapi.com:8a11ef9ccdcb5d9a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:scannedvalue", "dst": "api:totp4.p.rapidapi.com:8a11ef9ccdcb5d9a"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:ubidots"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:70818d75d2ffafb9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload", "dst": "api:community-ubidots.p.rapidapi.com:70818d75d2ffafb9"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:c66538b104b312d4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:variable_id", "dst": "api:community-ubidots.p.rapidapi.com:c66538b104b312d4"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:9603d38734fb551b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:720d0f2c190feb8f"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:a169a8383d5a79c4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload", "dst": "api:community-ubidots.p.rapidapi.com:a169a8383d5a79c4"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:326de5b719417b9c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:variable_id", "dst": "api:community-ubidots.p.rapidapi.com:326de5b719417b9c"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:9792f1f75757dd6b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:variable_id", "dst": "api:community-ubidots.p.rapidapi.com:9792f1f75757dd6b"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:042b0db6bf8134b2"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:425f62363509a07d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload", "dst": "api:community-ubidots.p.rapidapi.com:425f62363509a07d"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:ubidots", "dst": "api:community-ubidots.p.rapidapi.com:03e01203b54087c6"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:user_agent_parser_and_generator"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:user_agent_parser_and_generator", "dst": "api:user-agent-parser-and-generator.p.rapidapi.com:5285524537eca3ee"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:watches"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:watches", "dst": "api:watches1.p.rapidapi.com:34913cceae96f83e"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:whapi"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:whapi", "dst": "api:whapi1.p.rapidapi.com:eaf0577ae33bed5a"}
+{"edge_type": "category_to_tool", "src": "category:Devices", "dst": "tool:Devices:wrist_watches"}
+{"edge_type": "tool_to_api", "src": "tool:Devices:wrist_watches", "dst": "api:wrist-watches.p.rapidapi.com:74d7d7fc9566381b"}
+{"edge_type": "depends_on", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "api:cellphones.p.rapidapi.com:6415b5e57adc9fb8", "mapping_signature": "match_key:NUMBER:brandid", "match_confidence": 1.0, "semantic_role": "brandid", "est_cost": 1.869, "success_freq_prior": 0.91}
+{"edge_type": "depends_on", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "api:community-jawbone-up.p.rapidapi.com:16579aa2d26f2d7b", "mapping_signature": "match_key:STRING:title", "match_confidence": 1.0, "semantic_role": "title", "est_cost": 1.869, "success_freq_prior": 0.91}
+{"edge_type": "depends_on", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "api:community-jawbone-up.p.rapidapi.com:46948d2312a3c2a9", "mapping_signature": "match_key:STRING:title", "match_confidence": 1.0, "semantic_role": "title", "est_cost": 1.869, "success_freq_prior": 0.91}
+{"edge_type": "depends_on", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "api:community-jawbone-up.p.rapidapi.com:6a5893062722561d", "mapping_signature": "match_key:STRING:title", "match_confidence": 1.0, "semantic_role": "title", "est_cost": 1.869, "success_freq_prior": 0.91}
+{"edge_type": "depends_on", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "api:community-jawbone-up.p.rapidapi.com:978fea5510f6625e", "mapping_signature": "match_key:STRING:title", "match_confidence": 1.0, "semantic_role": "title", "est_cost": 1.869, "success_freq_prior": 0.91}
+{"edge_type": "depends_on", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "api:community-jawbone-up.p.rapidapi.com:b667f6aca10d2ee0", "mapping_signature": "match_key:STRING:title", "match_confidence": 1.0, "semantic_role": "title", "est_cost": 1.869, "success_freq_prior": 0.91}
+{"edge_type": "depends_on", "src": "api:cellphones.p.rapidapi.com:0031c170e689c984", "dst": "api:community-jawbone-up.p.rapidapi.com:cfcf6c009db27780", "mapping_signature": "match_key:STRING:title", "match_confidence": 1.0, "semantic_role": "title", "est_cost": 1.869, "success_freq_prior": 0.91}
+{"edge_type": "depends_on", "src": "api:iotvas.p.rapidapi.com:47ca1de5a95c7680", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5", "mapping_signature": "match_key:STRING:file_blob", "match_confidence": 1.0, "semantic_role": "file_blob", "est_cost": 0.819, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:iotvas.p.rapidapi.com:73f431ddc0869525", "dst": "api:hci.p.rapidapi.com:f4dc296161c98f92", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.819, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:iotvas.p.rapidapi.com:9d0d086908b0d914", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5", "mapping_signature": "match_key:STRING:file_blob", "match_confidence": 1.0, "semantic_role": "file_blob", "est_cost": 0.819, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:iotvas.p.rapidapi.com:a2b59af8be6121bb", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5", "mapping_signature": "match_key:STRING:file_blob", "match_confidence": 1.0, "semantic_role": "file_blob", "est_cost": 0.819, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:iotvas.p.rapidapi.com:a39949e816e852d1", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5", "mapping_signature": "match_key:STRING:file_blob", "match_confidence": 1.0, "semantic_role": "file_blob", "est_cost": 0.819, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:iotvas.p.rapidapi.com:c708473159b3106d", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5", "mapping_signature": "match_key:STRING:file_blob", "match_confidence": 1.0, "semantic_role": "file_blob", "est_cost": 0.819, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:hci.p.rapidapi.com:09f27571d137d262", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:hci.p.rapidapi.com:b500172bcf0ed3b7", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:031edde730e4ba99", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:09355a686ef9111b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:0b163f57b1f3bf2c", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:0ca56001e41dc330", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:14ea8142b8f23015", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:1e86aaccdf8d5b5a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:2bd5e01d4b9b8b8c", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:31240f82d39b72f5", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:3367ac3e49ae97ce", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:388ede822ef7c5ff", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:3f3c5d18799e8d64", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:419e50c9ad6e7f00", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:45833123aba1ce99", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:4c9cc09644cf4251", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:511c854afd35042e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:5cfee7623c15384e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:5d1531b13adb2375", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:6527f1976d5e7959", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:75dcce09478de189", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:7f81719a00b98236", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:84a085db5851ea2b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:84c67067ae5abe90", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:87dc95fc951ba7ea", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:8fa737c61e44bc81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:a769431c8e1526f6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:af4b2d3460de463f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:d3ceb7f714760b5d", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:d4a1d2cf61c3ad07", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:da8d84c336a062ef", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:dc8e026256e2e3c0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ddceb476a1ad105c", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:e5a7de1ae276a798", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ee3cb3213077413f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:kelpom-imei-checker1.p.rapidapi.com:0e75d852028ac40c", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ffe0767cdfa0a21e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.513, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:hci.p.rapidapi.com:09f27571d137d262", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:hci.p.rapidapi.com:97861f858a9d99a5", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:hci.p.rapidapi.com:b500172bcf0ed3b7", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:031edde730e4ba99", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:09355a686ef9111b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:0b163f57b1f3bf2c", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:0ca56001e41dc330", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:14ea8142b8f23015", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:1e86aaccdf8d5b5a", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:2bd5e01d4b9b8b8c", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:31240f82d39b72f5", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:3367ac3e49ae97ce", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:388ede822ef7c5ff", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:3f3c5d18799e8d64", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:419e50c9ad6e7f00", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:45833123aba1ce99", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:4c9cc09644cf4251", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:511c854afd35042e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:5cfee7623c15384e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:5d1531b13adb2375", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:6527f1976d5e7959", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:75dcce09478de189", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:7f81719a00b98236", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:84a085db5851ea2b", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:84c67067ae5abe90", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:87dc95fc951ba7ea", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:8fa737c61e44bc81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:a769431c8e1526f6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:af4b2d3460de463f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:d3ceb7f714760b5d", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:d4a1d2cf61c3ad07", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:da8d84c336a062ef", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:dc8e026256e2e3c0", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ddceb476a1ad105c", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:e5a7de1ae276a798", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ee3cb3213077413f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:mobile-phone-live.p.rapidapi.com:870b284ee4396c4e", "dst": "api:nisostech-geosimulator-apis-v1.p.rapidapi.com:ffe0767cdfa0a21e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.701, "success_freq_prior": 0.0}

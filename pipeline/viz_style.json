@@ -1,0 +1,119 @@
+{
+  "_description": "API-KG 可视化样式；保存后执行 visualize_kg.py。以 _ 开头的键仅作文档，程序会忽略。\n节点字段：color 填充色；border_color / border_width；highlight_background / highlight_border 悬停高亮（null 表示与填充同色）；size 半径（dot 等形状下的视觉尺寸）；shape；font_size / font_color（font_color 空则用画布 default_font_color）；shadow；label_max_chars 标签截断长度。\n边字段：color / width / dashes / highlight。\n画布：height_px / background_color / default_font_color。\nphysics.full 与 physics.overview 对应完整图与 --overview 模式。",
+  "_shapes": "vis-network：dot ellipse box diamond star triangle triangleDown hexagon square",
+
+  "canvas": {
+    "height_px": 920,
+    "background_color": "#0f172a",
+    "default_font_color": "#e2e8f0"
+  },
+
+  "nodes": {
+    "_default": {
+      "color": "#475569",
+      "border_color": "#94a3b8",
+      "border_width": 2,
+      "highlight_background": null,
+      "highlight_border": "#f8fafc",
+      "size": 16,
+      "shape": "dot",
+      "font_size": 12,
+      "font_color": null,
+      "shadow": true,
+      "label_max_chars": 36
+    },
+    "category": {
+      "color": "#7c3aed",
+      "border_color": "#ddd6fe",
+      "border_width": 3,
+      "size": 34,
+      "shape": "box",
+      "font_size": 16,
+      "label_max_chars": 20
+    },
+    "tool": {
+      "color": "#2563eb",
+      "border_color": "#93c5fd",
+      "border_width": 3,
+      "size": 28,
+      "shape": "ellipse",
+      "font_size": 14,
+      "label_max_chars": 42
+    },
+    "api": {
+      "color": "#0e7490",
+      "border_color": "#22d3ee",
+      "border_width": 3,
+      "size": 24,
+      "shape": "hexagon",
+      "font_size": 12,
+      "label_max_chars": 54
+    },
+    "parameter": {
+      "color": "#475569",
+      "border_color": "#64748b",
+      "border_width": 1,
+      "size": 9,
+      "shape": "dot",
+      "font_size": 9,
+      "label_max_chars": 30
+    }
+  },
+
+  "edges": {
+    "_default": {
+      "color": "#64748b",
+      "width": 1.2,
+      "dashes": false,
+      "highlight": "#f8fafc"
+    },
+    "category_to_tool": {
+      "color": "#a78bfa",
+      "width": 2
+    },
+    "tool_to_api": {
+      "color": "#60a5fa",
+      "width": 2
+    },
+    "parameter_to_api": {
+      "color": "#94a3b8",
+      "width": 1.2,
+      "dashes": true
+    },
+    "api_to_parameter": {
+      "color": "#2dd4bf",
+      "width": 1.2,
+      "dashes": true
+    },
+    "depends_on": {
+      "color": "#ea580c",
+      "width": 4
+    }
+  },
+
+  "physics": {
+    "full": {
+      "enabled": true,
+      "solver": "forceAtlas2Based",
+      "forceAtlas2Based": {
+        "gravitationalConstant": -42,
+        "centralGravity": 0.006,
+        "springLength": 150,
+        "springConstant": 0.038,
+        "damping": 0.55,
+        "avoidOverlap": 0.65
+      },
+      "stabilization": { "iterations": 240 }
+    },
+    "overview": {
+      "enabled": true,
+      "solver": "repulsion",
+      "repulsion": {
+        "nodeDistance": 200,
+        "centralGravity": 0.12,
+        "springLength": 220
+      },
+      "stabilization": { "iterations": 200 }
+    }
+  }
+}

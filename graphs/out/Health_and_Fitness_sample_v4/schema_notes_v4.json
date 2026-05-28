@@ -1,0 +1,8 @@
+{
+  "version": "v4_cross_tool_depends",
+  "parameter_node_mode": "global_by_type_fine_role",
+  "parameter_node_id": "parameter_norm:<TYPE>:<fine_role>",
+  "canonical_param_id_stage03": "<TYPE>:<fine_role>:<tool_domain>",
+  "depends_on_match_key": "<TYPE>:<fine_role>",
+  "depends_on_rule": "API output match_key intersects API input match_key (cross-tool/category allowed)"
+}

@@ -1,0 +1,43 @@
+{"edge_type": "category_to_tool", "src": "category:Reward", "dst": "tool:Reward:aldenteapi"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:aldenteapi", "dst": "api:aldenteapi.p.rapidapi.com:687a0960e5ff0039"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:aldenteapi", "dst": "api:aldenteapi.p.rapidapi.com:142da07ad6443b0a"}
+{"edge_type": "category_to_tool", "src": "category:Reward", "dst": "tool:Reward:gift_card_rewards_deprecated_use_rewards_as_a_service"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:gift_card_rewards_deprecated_use_rewards_as_a_service", "dst": "api:tangocard-tangocardapi.p.rapidapi.com:ef7a02a60ef1cee9"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:gift_card_rewards_deprecated_use_rewards_as_a_service", "dst": "api:tangocard-tangocardapi.p.rapidapi.com:e372e39c4885cd7b"}
+{"edge_type": "category_to_tool", "src": "category:Reward", "dst": "tool:Reward:kitten_placeholder"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:kitten_placeholder", "dst": "api:nijikokun-random-cats.p.rapidapi.com:1cbdaff933d794f2"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:kitten_placeholder", "dst": "api:nijikokun-random-cats.p.rapidapi.com:b8d3539268fe2b41"}
+{"edge_type": "category_to_tool", "src": "category:Reward", "dst": "tool:Reward:rewards_as_a_service"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:rewards_as_a_service", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:f3b03627bf75866a"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:rewards_as_a_service", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:e69ec33581d494a2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:customer", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:e69ec33581d494a2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:account_identifier", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:e69ec33581d494a2"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:rewards_as_a_service", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:b7b32269b15d530c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:order_id", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:b7b32269b15d530c"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:rewards_as_a_service", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:6ce7633fedb1e16d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:customer", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:6ce7633fedb1e16d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:account_identifier", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:6ce7633fedb1e16d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:offset", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:6ce7633fedb1e16d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:6ce7633fedb1e16d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:start_marker", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:6ce7633fedb1e16d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:end_marker", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:6ce7633fedb1e16d"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:rewards_as_a_service", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:b3f9857ed053068e"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:rewards_as_a_service", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:9cc0b284b9b66bdd"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:rewards_as_a_service", "dst": "api:tangocard-rewards-as-a-service.p.rapidapi.com:cc961656569593f6"}
+{"edge_type": "category_to_tool", "src": "category:Reward", "dst": "tool:Reward:spacex_api"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:spacex_api", "dst": "api:spacex-api.p.rapidapi.com:3deb43fa2a6589dc"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:spacex_api", "dst": "api:spacex-api.p.rapidapi.com:fefff562f907c0ab"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:spacex_api", "dst": "api:spacex-api.p.rapidapi.com:25da6c27c4537391"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:spacex_api", "dst": "api:spacex-api.p.rapidapi.com:816d98a789531fb6"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:spacex_api", "dst": "api:spacex-api.p.rapidapi.com:3bd6544a72225d57"}
+{"edge_type": "category_to_tool", "src": "category:Reward", "dst": "tool:Reward:wimsup_referrals"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:4a4e37b012a1ba88"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:6f0737ad2667adbe"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:243ce89ab39773b3"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:16b27a0642496a8d"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:2efa046b471c3b21"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:f3d1e2e77fbbff6c"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:e1529bc79c28164c"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:b287f7709e9d167f"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:94eed56ae10f5ccb"}
+{"edge_type": "tool_to_api", "src": "tool:Reward:wimsup_referrals", "dst": "api:wimsup-referrals.p.rapidapi.com:0b3973a5d31728cf"}

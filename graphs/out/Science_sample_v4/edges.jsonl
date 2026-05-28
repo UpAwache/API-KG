@@ -1,0 +1,1076 @@
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:adder"}
+{"edge_type": "tool_to_api", "src": "tool:Science:adder", "dst": "api:adder3.p.rapidapi.com:e2567fa608fe9644"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:num2", "dst": "api:adder3.p.rapidapi.com:e2567fa608fe9644"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:num1", "dst": "api:adder3.p.rapidapi.com:e2567fa608fe9644"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:al_quran"}
+{"edge_type": "tool_to_api", "src": "tool:Science:al_quran", "dst": "api:al-quran1.p.rapidapi.com:a34b8040653f0644"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:chapterid", "dst": "api:al-quran1.p.rapidapi.com:a34b8040653f0644"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:range", "dst": "api:al-quran1.p.rapidapi.com:a34b8040653f0644"}
+{"edge_type": "tool_to_api", "src": "tool:Science:al_quran", "dst": "api:al-quran1.p.rapidapi.com:d3cef65a78fb1c8f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:al_quran", "dst": "api:al-quran1.p.rapidapi.com:a40c92ff7be70827"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:chapterid", "dst": "api:al-quran1.p.rapidapi.com:a40c92ff7be70827"}
+{"edge_type": "tool_to_api", "src": "tool:Science:al_quran", "dst": "api:al-quran1.p.rapidapi.com:12ba1cf838b6fdc4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:chapterid", "dst": "api:al-quran1.p.rapidapi.com:12ba1cf838b6fdc4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:verseid", "dst": "api:al-quran1.p.rapidapi.com:12ba1cf838b6fdc4"}
+{"edge_type": "tool_to_api", "src": "tool:Science:al_quran", "dst": "api:al-quran1.p.rapidapi.com:59b21e8303aa1829"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:searchterm", "dst": "api:al-quran1.p.rapidapi.com:59b21e8303aa1829"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:article_tracker"}
+{"edge_type": "tool_to_api", "src": "tool:Science:article_tracker", "dst": "api:article-tracker.p.rapidapi.com:a3ddb971491a1964"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:astrologer"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astrologer", "dst": "api:astrologer.p.rapidapi.com:40ee5a0893ccdc46"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astrologer", "dst": "api:astrologer.p.rapidapi.com:35dbd5bea2bb9c66"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astrologer", "dst": "api:astrologer.p.rapidapi.com:312094b054bb8fe5"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astrologer", "dst": "api:astrologer.p.rapidapi.com:adab690f2a5ce19e"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astrologer", "dst": "api:astrologer.p.rapidapi.com:a53590846e9bfd10"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:astrometry_ch_perihelion_astronomy"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astrometry_ch_perihelion_astronomy", "dst": "api:astrometry-ch-perihelion-astronomy.p.rapidapi.com:451d2fc953334bb3"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:astronomy"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astronomy", "dst": "api:astronomy.p.rapidapi.com:3acf7676df76e967"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:order_by", "dst": "api:astronomy.p.rapidapi.com:3acf7676df76e967"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:astronomy.p.rapidapi.com:3acf7676df76e967"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:dec", "dst": "api:astronomy.p.rapidapi.com:3acf7676df76e967"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:offset", "dst": "api:astronomy.p.rapidapi.com:3acf7676df76e967"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:match_type", "dst": "api:astronomy.p.rapidapi.com:3acf7676df76e967"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:ra", "dst": "api:astronomy.p.rapidapi.com:3acf7676df76e967"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:exact", "dst": "api:astronomy.p.rapidapi.com:3acf7676df76e967"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astronomy", "dst": "api:astronomy.p.rapidapi.com:1a1be183daa443a2"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astronomy", "dst": "api:astronomy.p.rapidapi.com:f73f82fba59daffd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATE (YYYY-MM-DD):to_date", "dst": "api:astronomy.p.rapidapi.com:f73f82fba59daffd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:body", "dst": "api:astronomy.p.rapidapi.com:f73f82fba59daffd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:latitude", "dst": "api:astronomy.p.rapidapi.com:f73f82fba59daffd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATE (YYYY-MM-DD):from_date", "dst": "api:astronomy.p.rapidapi.com:f73f82fba59daffd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:longitude", "dst": "api:astronomy.p.rapidapi.com:f73f82fba59daffd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time", "dst": "api:astronomy.p.rapidapi.com:f73f82fba59daffd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:elevation", "dst": "api:astronomy.p.rapidapi.com:f73f82fba59daffd"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astronomy", "dst": "api:astronomy.p.rapidapi.com:f6210a77608909e7"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astronomy", "dst": "api:astronomy.p.rapidapi.com:141f2e15fe0dd473"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:latitude", "dst": "api:astronomy.p.rapidapi.com:141f2e15fe0dd473"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:longitude", "dst": "api:astronomy.p.rapidapi.com:141f2e15fe0dd473"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATE (YYYY-MM-DD):from_date", "dst": "api:astronomy.p.rapidapi.com:141f2e15fe0dd473"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATE (YYYY-MM-DD):to_date", "dst": "api:astronomy.p.rapidapi.com:141f2e15fe0dd473"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:elevation", "dst": "api:astronomy.p.rapidapi.com:141f2e15fe0dd473"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:time", "dst": "api:astronomy.p.rapidapi.com:141f2e15fe0dd473"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astronomy", "dst": "api:astronomy.p.rapidapi.com:72fa20c7b8ea2c04"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astronomy", "dst": "api:astronomy.p.rapidapi.com:628b08b6ef75b7cf"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:astronomy_picture_of_the_day"}
+{"edge_type": "tool_to_api", "src": "tool:Science:astronomy_picture_of_the_day", "dst": "api:astronomy-picture-of-the-day.p.rapidapi.com:59595a30868b6289"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:atmosphere_methane_concentration"}
+{"edge_type": "tool_to_api", "src": "tool:Science:atmosphere_methane_concentration", "dst": "api:atmosphere-methane-concentration.p.rapidapi.com:b5384a7db23a5424"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:OBJECT:methane", "dst": "api:atmosphere-methane-concentration.p.rapidapi.com:b5384a7db23a5424"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:atmosphere_nitrous_oxide_levels"}
+{"edge_type": "tool_to_api", "src": "tool:Science:atmosphere_nitrous_oxide_levels", "dst": "api:atmosphere-nitrous-oxide-levels.p.rapidapi.com:ee4148af8c00d313"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:OBJECT:nitrous", "dst": "api:atmosphere-nitrous-oxide-levels.p.rapidapi.com:ee4148af8c00d313"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:aztro"}
+{"edge_type": "tool_to_api", "src": "tool:Science:aztro", "dst": "api:sameer-kumar-aztro-v1.p.rapidapi.com:cb0d61c613c45455"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:day", "dst": "api:sameer-kumar-aztro-v1.p.rapidapi.com:cb0d61c613c45455"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sign", "dst": "api:sameer-kumar-aztro-v1.p.rapidapi.com:cb0d61c613c45455"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:beekeeping_research"}
+{"edge_type": "tool_to_api", "src": "tool:Science:beekeeping_research", "dst": "api:beekeeping-research.p.rapidapi.com:bf27195e4324fedf"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:breezometer"}
+{"edge_type": "tool_to_api", "src": "tool:Science:breezometer", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:1751cae024bce928"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:1751cae024bce928"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:MAP:coordinates", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:1751cae024bce928"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:fields", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:1751cae024bce928"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:lang", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:1751cae024bce928"}
+{"edge_type": "tool_to_api", "src": "tool:Science:breezometer", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:89439e3ae4e1a7fa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:MAP:coordinates", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:89439e3ae4e1a7fa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:89439e3ae4e1a7fa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:lang", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:89439e3ae4e1a7fa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:hours", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:89439e3ae4e1a7fa"}
+{"edge_type": "tool_to_api", "src": "tool:Science:breezometer", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:38b65bc163aaaf90"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:38b65bc163aaaf90"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATEPICKER:start_marker", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:38b65bc163aaaf90"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATEPICKER:end_marker", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:38b65bc163aaaf90"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:MAP:coordinates", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:38b65bc163aaaf90"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:interval", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:38b65bc163aaaf90"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:lang", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:38b65bc163aaaf90"}
+{"edge_type": "tool_to_api", "src": "tool:Science:breezometer", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:a586c66685392176"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:MAP:coordinates", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:a586c66685392176"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:a586c66685392176"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATEPICKER:datetime", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:a586c66685392176"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:lang", "dst": "api:breezometerzakutynskyv1.p.rapidapi.com:a586c66685392176"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:brightest_stars"}
+{"edge_type": "tool_to_api", "src": "tool:Science:brightest_stars", "dst": "api:brightest-stars.p.rapidapi.com:fd2f34d64f0d99dd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:param", "dst": "api:brightest-stars.p.rapidapi.com:fd2f34d64f0d99dd"}
+{"edge_type": "api_to_parameter", "src": "api:brightest-stars.p.rapidapi.com:fd2f34d64f0d99dd", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:brightest-stars.p.rapidapi.com:fd2f34d64f0d99dd", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:carbonfootprint"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonfootprint", "dst": "api:carbonfootprint1.p.rapidapi.com:8cc34c80de9a3c11"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:o3", "dst": "api:carbonfootprint1.p.rapidapi.com:8cc34c80de9a3c11"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:no2", "dst": "api:carbonfootprint1.p.rapidapi.com:8cc34c80de9a3c11"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:pm", "dst": "api:carbonfootprint1.p.rapidapi.com:8cc34c80de9a3c11"}
+{"edge_type": "api_to_parameter", "src": "api:carbonfootprint1.p.rapidapi.com:8cc34c80de9a3c11", "dst": "parameter_norm:NUMBER:airqualityhealthindex"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonfootprint", "dst": "api:carbonfootprint1.p.rapidapi.com:53fc86369bd0036c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:weight", "dst": "api:carbonfootprint1.p.rapidapi.com:53fc86369bd0036c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:unit", "dst": "api:carbonfootprint1.p.rapidapi.com:53fc86369bd0036c"}
+{"edge_type": "api_to_parameter", "src": "api:carbonfootprint1.p.rapidapi.com:53fc86369bd0036c", "dst": "parameter_norm:NUMBER:numberoftrees"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonfootprint", "dst": "api:carbonfootprint1.p.rapidapi.com:7a24eb93769ee56b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:consumption", "dst": "api:carbonfootprint1.p.rapidapi.com:7a24eb93769ee56b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:location", "dst": "api:carbonfootprint1.p.rapidapi.com:7a24eb93769ee56b"}
+{"edge_type": "api_to_parameter", "src": "api:carbonfootprint1.p.rapidapi.com:7a24eb93769ee56b", "dst": "parameter_norm:NUMBER:carbonequivalent"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonfootprint", "dst": "api:carbonfootprint1.p.rapidapi.com:be2b03d6149fc88a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:energy", "dst": "api:carbonfootprint1.p.rapidapi.com:be2b03d6149fc88a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:consumption", "dst": "api:carbonfootprint1.p.rapidapi.com:be2b03d6149fc88a"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonfootprint", "dst": "api:carbonfootprint1.p.rapidapi.com:d87ace267099e52b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:type", "dst": "api:carbonfootprint1.p.rapidapi.com:d87ace267099e52b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:litres", "dst": "api:carbonfootprint1.p.rapidapi.com:d87ace267099e52b"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonfootprint", "dst": "api:carbonfootprint1.p.rapidapi.com:7f3b511385ab7a9b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:distance", "dst": "api:carbonfootprint1.p.rapidapi.com:7f3b511385ab7a9b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:vehicle", "dst": "api:carbonfootprint1.p.rapidapi.com:7f3b511385ab7a9b"}
+{"edge_type": "api_to_parameter", "src": "api:carbonfootprint1.p.rapidapi.com:7f3b511385ab7a9b", "dst": "parameter_norm:NUMBER:carbonequivalent"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonfootprint", "dst": "api:carbonfootprint1.p.rapidapi.com:bbd8ce3dc477e898"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:distance", "dst": "api:carbonfootprint1.p.rapidapi.com:bbd8ce3dc477e898"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:type", "dst": "api:carbonfootprint1.p.rapidapi.com:bbd8ce3dc477e898"}
+{"edge_type": "api_to_parameter", "src": "api:carbonfootprint1.p.rapidapi.com:bbd8ce3dc477e898", "dst": "parameter_norm:NUMBER:carbonequivalent"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonfootprint", "dst": "api:carbonfootprint1.p.rapidapi.com:55e3c7713de42623"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:type", "dst": "api:carbonfootprint1.p.rapidapi.com:55e3c7713de42623"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:distance", "dst": "api:carbonfootprint1.p.rapidapi.com:55e3c7713de42623"}
+{"edge_type": "api_to_parameter", "src": "api:carbonfootprint1.p.rapidapi.com:55e3c7713de42623", "dst": "parameter_norm:NUMBER:carbonequivalent"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonfootprint", "dst": "api:carbonfootprint1.p.rapidapi.com:4bc477ef5db224a9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:distance", "dst": "api:carbonfootprint1.p.rapidapi.com:4bc477ef5db224a9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:type", "dst": "api:carbonfootprint1.p.rapidapi.com:4bc477ef5db224a9"}
+{"edge_type": "api_to_parameter", "src": "api:carbonfootprint1.p.rapidapi.com:4bc477ef5db224a9", "dst": "parameter_norm:NUMBER:carbonequivalent"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:carbonsutra"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:e31d174da81482de"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:cluster_name", "dst": "api:carbonsutra1.p.rapidapi.com:e31d174da81482de"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:9fd3635dce9e9f0a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:iata_airport_to", "dst": "api:carbonsutra1.p.rapidapi.com:9fd3635dce9e9f0a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:iata_airport_from", "dst": "api:carbonsutra1.p.rapidapi.com:9fd3635dce9e9f0a"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:591ee7682cab148f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:postal_code", "dst": "api:carbonsutra1.p.rapidapi.com:591ee7682cab148f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:country_code", "dst": "api:carbonsutra1.p.rapidapi.com:591ee7682cab148f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:03c027b0036ce644"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:vehicle_make", "dst": "api:carbonsutra1.p.rapidapi.com:03c027b0036ce644"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:643f9cd4bdb34c81"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:329431a467393ae3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:distance_value", "dst": "api:carbonsutra1.p.rapidapi.com:329431a467393ae3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:distance_unit", "dst": "api:carbonsutra1.p.rapidapi.com:329431a467393ae3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:vehicle_type", "dst": "api:carbonsutra1.p.rapidapi.com:329431a467393ae3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:cluster_name", "dst": "api:carbonsutra1.p.rapidapi.com:329431a467393ae3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:fuel_type", "dst": "api:carbonsutra1.p.rapidapi.com:329431a467393ae3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:include_wtt", "dst": "api:carbonsutra1.p.rapidapi.com:329431a467393ae3"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:d2a393105ce2c482"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:fuel_value", "dst": "api:carbonsutra1.p.rapidapi.com:d2a393105ce2c482"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:fuel_name", "dst": "api:carbonsutra1.p.rapidapi.com:d2a393105ce2c482"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:fuel_usage", "dst": "api:carbonsutra1.p.rapidapi.com:d2a393105ce2c482"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:cluster_name", "dst": "api:carbonsutra1.p.rapidapi.com:d2a393105ce2c482"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:9a467f187ea0bd00"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:electricity_unit", "dst": "api:carbonsutra1.p.rapidapi.com:9a467f187ea0bd00"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:country_name", "dst": "api:carbonsutra1.p.rapidapi.com:9a467f187ea0bd00"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:electricity_value", "dst": "api:carbonsutra1.p.rapidapi.com:9a467f187ea0bd00"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:cluster_name", "dst": "api:carbonsutra1.p.rapidapi.com:9a467f187ea0bd00"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:b89d5b0a6f3417d6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:distance_value", "dst": "api:carbonsutra1.p.rapidapi.com:b89d5b0a6f3417d6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:freight_weight", "dst": "api:carbonsutra1.p.rapidapi.com:b89d5b0a6f3417d6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:transport_mode", "dst": "api:carbonsutra1.p.rapidapi.com:b89d5b0a6f3417d6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:cluster_name", "dst": "api:carbonsutra1.p.rapidapi.com:b89d5b0a6f3417d6"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:b437693e8d444f7e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:origin_country_code", "dst": "api:carbonsutra1.p.rapidapi.com:b437693e8d444f7e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:destination_postal_code", "dst": "api:carbonsutra1.p.rapidapi.com:b437693e8d444f7e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:origin_postal_code", "dst": "api:carbonsutra1.p.rapidapi.com:b437693e8d444f7e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:destination_country_code", "dst": "api:carbonsutra1.p.rapidapi.com:b437693e8d444f7e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:package_weight", "dst": "api:carbonsutra1.p.rapidapi.com:b437693e8d444f7e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:cluster_name", "dst": "api:carbonsutra1.p.rapidapi.com:b437693e8d444f7e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:include_wtt", "dst": "api:carbonsutra1.p.rapidapi.com:b437693e8d444f7e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:add_rf", "dst": "api:carbonsutra1.p.rapidapi.com:b437693e8d444f7e"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:4a5e184a7c5753e7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:iata_airport_to", "dst": "api:carbonsutra1.p.rapidapi.com:4a5e184a7c5753e7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:number_of_passengers", "dst": "api:carbonsutra1.p.rapidapi.com:4a5e184a7c5753e7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:iata_airport_from", "dst": "api:carbonsutra1.p.rapidapi.com:4a5e184a7c5753e7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:cluster_name", "dst": "api:carbonsutra1.p.rapidapi.com:4a5e184a7c5753e7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:flight_class", "dst": "api:carbonsutra1.p.rapidapi.com:4a5e184a7c5753e7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:include_wtt", "dst": "api:carbonsutra1.p.rapidapi.com:4a5e184a7c5753e7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:round_trip", "dst": "api:carbonsutra1.p.rapidapi.com:4a5e184a7c5753e7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:add_rf", "dst": "api:carbonsutra1.p.rapidapi.com:4a5e184a7c5753e7"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:f1d3e458960e1f03"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:password", "dst": "api:carbonsutra1.p.rapidapi.com:f1d3e458960e1f03"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:carbonsutra1.p.rapidapi.com:f1d3e458960e1f03"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:fde473df52b3336a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:password", "dst": "api:carbonsutra1.p.rapidapi.com:fde473df52b3336a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:carbonsutra1.p.rapidapi.com:fde473df52b3336a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:company_name", "dst": "api:carbonsutra1.p.rapidapi.com:fde473df52b3336a"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:83bd4e1315a97f00"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:vehicle_model", "dst": "api:carbonsutra1.p.rapidapi.com:83bd4e1315a97f00"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:distance_value", "dst": "api:carbonsutra1.p.rapidapi.com:83bd4e1315a97f00"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:distance_unit", "dst": "api:carbonsutra1.p.rapidapi.com:83bd4e1315a97f00"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:vehicle_make", "dst": "api:carbonsutra1.p.rapidapi.com:83bd4e1315a97f00"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:cluster_name", "dst": "api:carbonsutra1.p.rapidapi.com:83bd4e1315a97f00"}
+{"edge_type": "tool_to_api", "src": "tool:Science:carbonsutra", "dst": "api:carbonsutra1.p.rapidapi.com:32bbba79710aa860"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:number_of_nights", "dst": "api:carbonsutra1.p.rapidapi.com:32bbba79710aa860"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:country_code", "dst": "api:carbonsutra1.p.rapidapi.com:32bbba79710aa860"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:number_of_rooms", "dst": "api:carbonsutra1.p.rapidapi.com:32bbba79710aa860"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:hotel_rating", "dst": "api:carbonsutra1.p.rapidapi.com:32bbba79710aa860"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:city_name", "dst": "api:carbonsutra1.p.rapidapi.com:32bbba79710aa860"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:cluster_name", "dst": "api:carbonsutra1.p.rapidapi.com:32bbba79710aa860"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:cenex"}
+{"edge_type": "tool_to_api", "src": "tool:Science:cenex", "dst": "api:cenex2.p.rapidapi.com:72c9ef28acc03352"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:chem_oblib"}
+{"edge_type": "tool_to_api", "src": "tool:Science:chem_oblib", "dst": "api:chem-oblib.p.rapidapi.com:022d5754541df452"}
+{"edge_type": "tool_to_api", "src": "tool:Science:chem_oblib", "dst": "api:chem-oblib.p.rapidapi.com:8263ab81fa0cb7d1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:chem-oblib.p.rapidapi.com:8263ab81fa0cb7d1"}
+{"edge_type": "tool_to_api", "src": "tool:Science:chem_oblib", "dst": "api:chem-oblib.p.rapidapi.com:c2d983df0bea7a7c"}
+{"edge_type": "tool_to_api", "src": "tool:Science:chem_oblib", "dst": "api:chem-oblib.p.rapidapi.com:b5084fe43b0497bf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:chem-oblib.p.rapidapi.com:b5084fe43b0497bf"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:chemical_periodic_table"}
+{"edge_type": "tool_to_api", "src": "tool:Science:chemical_periodic_table", "dst": "api:chemical-periodic-table.p.rapidapi.com:26140c92261d28ee"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:element_name", "dst": "api:chemical-periodic-table.p.rapidapi.com:26140c92261d28ee"}
+{"edge_type": "tool_to_api", "src": "tool:Science:chemical_periodic_table", "dst": "api:chemical-periodic-table.p.rapidapi.com:1445574fd346370d"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:climate_change_live_test"}
+{"edge_type": "tool_to_api", "src": "tool:Science:climate_change_live_test", "dst": "api:climate-change-live-test2.p.rapidapi.com:7b129c2052d18a21"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:newspaperid", "dst": "api:climate-change-live-test2.p.rapidapi.com:7b129c2052d18a21"}
+{"edge_type": "api_to_parameter", "src": "api:climate-change-live-test2.p.rapidapi.com:7b129c2052d18a21", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:climate-change-live-test2.p.rapidapi.com:7b129c2052d18a21", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:climate_change_live_test", "dst": "api:climate-change-live-test2.p.rapidapi.com:67a7e3494a4756d1"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:crossref"}
+{"edge_type": "tool_to_api", "src": "tool:Science:crossref", "dst": "api:crossref.p.rapidapi.com:3be85f2c22f3451b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:doi", "dst": "api:crossref.p.rapidapi.com:3be85f2c22f3451b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:doi", "dst": "api:crossref.p.rapidapi.com:3be85f2c22f3451b"}
+{"edge_type": "api_to_parameter", "src": "api:crossref.p.rapidapi.com:3be85f2c22f3451b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:crossref.p.rapidapi.com:3be85f2c22f3451b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:crossref", "dst": "api:crossref.p.rapidapi.com:9f69c6f5c01fcda6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:query", "dst": "api:crossref.p.rapidapi.com:9f69c6f5c01fcda6"}
+{"edge_type": "tool_to_api", "src": "tool:Science:crossref", "dst": "api:crossref.p.rapidapi.com:3b808db60cc5eb99"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:rows", "dst": "api:crossref.p.rapidapi.com:3b808db60cc5eb99"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:daily_atmosphere_carbon_dioxide_concentration"}
+{"edge_type": "tool_to_api", "src": "tool:Science:daily_atmosphere_carbon_dioxide_concentration", "dst": "api:daily-atmosphere-carbon-dioxide-concentration.p.rapidapi.com:72fc7fa494c01dc7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:OBJECT:co2", "dst": "api:daily-atmosphere-carbon-dioxide-concentration.p.rapidapi.com:72fc7fa494c01dc7"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:daily_knowledge"}
+{"edge_type": "tool_to_api", "src": "tool:Science:daily_knowledge", "dst": "api:daily-knowledge.p.rapidapi.com:f070c60674641cb3"}
+{"edge_type": "tool_to_api", "src": "tool:Science:daily_knowledge", "dst": "api:daily-knowledge.p.rapidapi.com:b87ac4cf84308206"}
+{"edge_type": "tool_to_api", "src": "tool:Science:daily_knowledge", "dst": "api:daily-knowledge.p.rapidapi.com:09d6e1c7f43ef84a"}
+{"edge_type": "tool_to_api", "src": "tool:Science:daily_knowledge", "dst": "api:daily-knowledge.p.rapidapi.com:761181821335d691"}
+{"edge_type": "tool_to_api", "src": "tool:Science:daily_knowledge", "dst": "api:daily-knowledge.p.rapidapi.com:bfe72edd8ac3a67d"}
+{"edge_type": "tool_to_api", "src": "tool:Science:daily_knowledge", "dst": "api:daily-knowledge.p.rapidapi.com:f06eae938722e6fd"}
+{"edge_type": "tool_to_api", "src": "tool:Science:daily_knowledge", "dst": "api:daily-knowledge.p.rapidapi.com:6fd59bbb5e300a22"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:disaster_science"}
+{"edge_type": "tool_to_api", "src": "tool:Science:disaster_science", "dst": "api:disaster-science.p.rapidapi.com:bb06bbede93a2c2b"}
+{"edge_type": "tool_to_api", "src": "tool:Science:disaster_science", "dst": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e"}
+{"edge_type": "api_to_parameter", "src": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e", "dst": "parameter_norm:ARRAY:features"}
+{"edge_type": "api_to_parameter", "src": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e", "dst": "parameter_norm:STRING:type"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:dna2protein"}
+{"edge_type": "tool_to_api", "src": "tool:Science:dna2protein", "dst": "api:dna2protein.p.rapidapi.com:25fc3a8e0b3df76c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:dna", "dst": "api:dna2protein.p.rapidapi.com:25fc3a8e0b3df76c"}
+{"edge_type": "tool_to_api", "src": "tool:Science:dna2protein", "dst": "api:dna2protein.p.rapidapi.com:0870c0de25353d9a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:dna", "dst": "api:dna2protein.p.rapidapi.com:0870c0de25353d9a"}
+{"edge_type": "tool_to_api", "src": "tool:Science:dna2protein", "dst": "api:dna2protein.p.rapidapi.com:65547a0abbc6376c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mrna", "dst": "api:dna2protein.p.rapidapi.com:65547a0abbc6376c"}
+{"edge_type": "tool_to_api", "src": "tool:Science:dna2protein", "dst": "api:dna2protein.p.rapidapi.com:c8bacaf6b80ed8de"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mrna", "dst": "api:dna2protein.p.rapidapi.com:c8bacaf6b80ed8de"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:easytransform_api"}
+{"edge_type": "tool_to_api", "src": "tool:Science:easytransform_api", "dst": "api:easytransform-api1.p.rapidapi.com:00b87bf7c0fa4bab"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:electrical_units"}
+{"edge_type": "tool_to_api", "src": "tool:Science:electrical_units", "dst": "api:electrical-units.p.rapidapi.com:69610a615a5579b6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:power", "dst": "api:electrical-units.p.rapidapi.com:69610a615a5579b6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:powerfactor", "dst": "api:electrical-units.p.rapidapi.com:69610a615a5579b6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:voltage", "dst": "api:electrical-units.p.rapidapi.com:69610a615a5579b6"}
+{"edge_type": "tool_to_api", "src": "tool:Science:electrical_units", "dst": "api:electrical-units.p.rapidapi.com:2c1d0f833646c9a9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:power", "dst": "api:electrical-units.p.rapidapi.com:2c1d0f833646c9a9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:powerfactor", "dst": "api:electrical-units.p.rapidapi.com:2c1d0f833646c9a9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:voltage", "dst": "api:electrical-units.p.rapidapi.com:2c1d0f833646c9a9"}
+{"edge_type": "tool_to_api", "src": "tool:Science:electrical_units", "dst": "api:electrical-units.p.rapidapi.com:68f5c3105e42c78c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:current", "dst": "api:electrical-units.p.rapidapi.com:68f5c3105e42c78c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:voltage", "dst": "api:electrical-units.p.rapidapi.com:68f5c3105e42c78c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:powerfactor", "dst": "api:electrical-units.p.rapidapi.com:68f5c3105e42c78c"}
+{"edge_type": "tool_to_api", "src": "tool:Science:electrical_units", "dst": "api:electrical-units.p.rapidapi.com:3f3b34ff329c0eb6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:current", "dst": "api:electrical-units.p.rapidapi.com:3f3b34ff329c0eb6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:voltage", "dst": "api:electrical-units.p.rapidapi.com:3f3b34ff329c0eb6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:powerfactor", "dst": "api:electrical-units.p.rapidapi.com:3f3b34ff329c0eb6"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:everyearthquake"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:interval", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:count", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:radius", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:units", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:intensity", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:magnitude", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:longitude", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:start_marker", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:latitude", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:type", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "parameter_norm:NUMBER:httpstatus"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "parameter_norm:STRING:noun"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "parameter_norm:STRING:verb"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "parameter_norm:STRING:errorcode"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "parameter_norm:ARRAY:errors"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "parameter_norm:STRING:end_marker"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "parameter_norm:STRING:result"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "parameter_norm:NUMBER:count"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "parameter_norm:ARRAY:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:aa91ac2e69cb0d8e"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:5be0f65c762f8399"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:6994ed1b9f006b45"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:0b03f3a23bdf2712"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:b9516a6d556df5f8"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:feac697a19aa7269"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:1ee8e108868a89fc"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:35530d72c8f2339e"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:a9609415e3efca0f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:547e509b99a90c27"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:ef2887f7b84dbe19"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:23f1a22f41000513"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:b14a018e7a7c6008"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:48608fa4ac15a47f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:438bdf1673e6ee3e"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:0d96a32ff86535d4"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:876a71cf69ef33c1"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:e4cc9fedb09aa13d"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:a9ab3a063d249f71"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:ab84bd2d069c4bca"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:944287a9142650e7"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "parameter_norm:NUMBER:httpstatus"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "parameter_norm:STRING:noun"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "parameter_norm:STRING:verb"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "parameter_norm:STRING:errorcode"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "parameter_norm:ARRAY:errors"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "parameter_norm:STRING:end_marker"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "parameter_norm:STRING:result"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "parameter_norm:NUMBER:count"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "parameter_norm:ARRAY:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:start_marker", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:end_marker", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:intensity", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:longitude", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:type", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:count", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:latitude", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:units", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:start_marker", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:radius", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:magnitude", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "dst": "parameter_norm:NUMBER:httpstatus"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "dst": "parameter_norm:STRING:noun"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "dst": "parameter_norm:STRING:verb"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "dst": "parameter_norm:STRING:errorcode"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "dst": "parameter_norm:ARRAY:errors"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "dst": "parameter_norm:STRING:end_marker"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "dst": "parameter_norm:STRING:result"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "dst": "parameter_norm:NUMBER:count"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "dst": "parameter_norm:ARRAY:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:b5d93a916cda277f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:units", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:latitude", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:intensity", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:type", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:magnitude", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:radius", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:count", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:longitude", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:start_marker", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "parameter_norm:NUMBER:httpstatus"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "parameter_norm:STRING:noun"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "parameter_norm:STRING:verb"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "parameter_norm:STRING:errorcode"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "parameter_norm:ARRAY:errors"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "parameter_norm:STRING:end_marker"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "parameter_norm:STRING:result"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "parameter_norm:NUMBER:count"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "parameter_norm:ARRAY:data_payload"}
+{"edge_type": "tool_to_api", "src": "tool:Science:everyearthquake", "dst": "api:everyearthquake.p.rapidapi.com:cfe6e74da131d2dc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:latitude", "dst": "api:everyearthquake.p.rapidapi.com:cfe6e74da131d2dc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:longitude", "dst": "api:everyearthquake.p.rapidapi.com:cfe6e74da131d2dc"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cfe6e74da131d2dc", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:everyearthquake.p.rapidapi.com:cfe6e74da131d2dc", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:fibonacci"}
+{"edge_type": "tool_to_api", "src": "tool:Science:fibonacci", "dst": "api:fibonacci.p.rapidapi.com:352dd8e0861f54be"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:rightindex", "dst": "api:fibonacci.p.rapidapi.com:352dd8e0861f54be"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:leftindex", "dst": "api:fibonacci.p.rapidapi.com:352dd8e0861f54be"}
+{"edge_type": "api_to_parameter", "src": "api:fibonacci.p.rapidapi.com:352dd8e0861f54be", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:fibonacci.p.rapidapi.com:352dd8e0861f54be", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:fibonacci", "dst": "api:fibonacci.p.rapidapi.com:24118572fd436dc6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:number", "dst": "api:fibonacci.p.rapidapi.com:24118572fd436dc6"}
+{"edge_type": "api_to_parameter", "src": "api:fibonacci.p.rapidapi.com:24118572fd436dc6", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:fibonacci.p.rapidapi.com:24118572fd436dc6", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:geophysics"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:91cf0cea3d67b128"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:unit_system", "dst": "api:geophysics.p.rapidapi.com:91cf0cea3d67b128"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:b50bb537d585d0e9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:unit_system", "dst": "api:geophysics.p.rapidapi.com:b50bb537d585d0e9"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:9f381fef9180e412"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:system_name", "dst": "api:geophysics.p.rapidapi.com:9f381fef9180e412"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:e906ce626420e68c"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:a2084232d29bb76d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:system_name", "dst": "api:geophysics.p.rapidapi.com:a2084232d29bb76d"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:45aeef4d42e15cbf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:unit_system", "dst": "api:geophysics.p.rapidapi.com:45aeef4d42e15cbf"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:afb2c7dac2f9e52c"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:ba1a0517dadde2f6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:system_name", "dst": "api:geophysics.p.rapidapi.com:ba1a0517dadde2f6"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:2e45ac6bb869ae7c"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:905fcbc0b129029a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:unit_system", "dst": "api:geophysics.p.rapidapi.com:905fcbc0b129029a"}
+{"edge_type": "tool_to_api", "src": "tool:Science:geophysics", "dst": "api:geophysics.p.rapidapi.com:ffffd8bb2e837397"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:global_temperature"}
+{"edge_type": "tool_to_api", "src": "tool:Science:global_temperature", "dst": "api:global-temperature.p.rapidapi.com:0674a54313a39afa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:OBJECT:temp", "dst": "api:global-temperature.p.rapidapi.com:0674a54313a39afa"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:icpc_api_test"}
+{"edge_type": "tool_to_api", "src": "tool:Science:icpc_api_test", "dst": "api:icpc-api-test.p.rapidapi.com:0c4927c9cd5786b4"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:inspiration_q"}
+{"edge_type": "tool_to_api", "src": "tool:Science:inspiration_q", "dst": "api:inspiration-q.p.rapidapi.com:7ec26878d80d2fda"}
+{"edge_type": "api_to_parameter", "src": "api:inspiration-q.p.rapidapi.com:7ec26878d80d2fda", "dst": "parameter_norm:ARRAY:solution"}
+{"edge_type": "api_to_parameter", "src": "api:inspiration-q.p.rapidapi.com:7ec26878d80d2fda", "dst": "parameter_norm:NUMBER:energy"}
+{"edge_type": "tool_to_api", "src": "tool:Science:inspiration_q", "dst": "api:inspiration-q.p.rapidapi.com:fac41eb4873d59d7"}
+{"edge_type": "tool_to_api", "src": "tool:Science:inspiration_q", "dst": "api:inspiration-q.p.rapidapi.com:c6cf043c8634976f"}
+{"edge_type": "api_to_parameter", "src": "api:inspiration-q.p.rapidapi.com:c6cf043c8634976f", "dst": "parameter_norm:ARRAY:solution"}
+{"edge_type": "api_to_parameter", "src": "api:inspiration-q.p.rapidapi.com:c6cf043c8634976f", "dst": "parameter_norm:NUMBER:energy"}
+{"edge_type": "tool_to_api", "src": "tool:Science:inspiration_q", "dst": "api:inspiration-q.p.rapidapi.com:62d89defdf24cad0"}
+{"edge_type": "api_to_parameter", "src": "api:inspiration-q.p.rapidapi.com:62d89defdf24cad0", "dst": "parameter_norm:ARRAY:solution"}
+{"edge_type": "api_to_parameter", "src": "api:inspiration-q.p.rapidapi.com:62d89defdf24cad0", "dst": "parameter_norm:NUMBER:energy"}
+{"edge_type": "tool_to_api", "src": "tool:Science:inspiration_q", "dst": "api:inspiration-q.p.rapidapi.com:37eaa25cb21db71f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:inspiration_q", "dst": "api:inspiration-q.p.rapidapi.com:4eafee50efda35c8"}
+{"edge_type": "tool_to_api", "src": "tool:Science:inspiration_q", "dst": "api:inspiration-q.p.rapidapi.com:67063e39cc6b5b0c"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:irene"}
+{"edge_type": "tool_to_api", "src": "tool:Science:irene", "dst": "api:irene.p.rapidapi.com:9d4d284b8c9f79a3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:irene.p.rapidapi.com:9d4d284b8c9f79a3"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:manatee_jokes"}
+{"edge_type": "tool_to_api", "src": "tool:Science:manatee_jokes", "dst": "api:manatee-jokes.p.rapidapi.com:b0591c96295e8841"}
+{"edge_type": "tool_to_api", "src": "tool:Science:manatee_jokes", "dst": "api:manatee-jokes.p.rapidapi.com:a5840a15a864ff29"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:manatee-jokes.p.rapidapi.com:a5840a15a864ff29"}
+{"edge_type": "tool_to_api", "src": "tool:Science:manatee_jokes", "dst": "api:manatee-jokes.p.rapidapi.com:db2b4f2919be574c"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:materials_platform_for_data_science"}
+{"edge_type": "tool_to_api", "src": "tool:Science:materials_platform_for_data_science", "dst": "api:materials-platform-for-data-science.p.rapidapi.com:d82e0f26f9edba4e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:q", "dst": "api:materials-platform-for-data-science.p.rapidapi.com:d82e0f26f9edba4e"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:mathematical_symbolic_expression_manipulator"}
+{"edge_type": "tool_to_api", "src": "tool:Science:mathematical_symbolic_expression_manipulator", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:bba45cfa8b96e6a5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:expression", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:bba45cfa8b96e6a5"}
+{"edge_type": "tool_to_api", "src": "tool:Science:mathematical_symbolic_expression_manipulator", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:9355a3637976a9cd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:variables", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:9355a3637976a9cd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:values", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:9355a3637976a9cd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:expression", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:9355a3637976a9cd"}
+{"edge_type": "tool_to_api", "src": "tool:Science:mathematical_symbolic_expression_manipulator", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:7b81da6fb69548c7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:expression", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:7b81da6fb69548c7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:variable", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:7b81da6fb69548c7"}
+{"edge_type": "tool_to_api", "src": "tool:Science:mathematical_symbolic_expression_manipulator", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:1ad1b81d797cb3b8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:expression", "dst": "api:mathematical-symbolic-expression-manipulator.p.rapidapi.com:1ad1b81d797cb3b8"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:melted_polar_ice_cap"}
+{"edge_type": "tool_to_api", "src": "tool:Science:melted_polar_ice_cap", "dst": "api:melted-polar-ice-cap.p.rapidapi.com:98e23e7637ca7b4f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:OBJECT:polarice", "dst": "api:melted-polar-ice-cap.p.rapidapi.com:98e23e7637ca7b4f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:melted_polar_ice_cap", "dst": "api:melted-polar-ice-cap.p.rapidapi.com:165a37e9b6102f22"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:OBJECT:polarice", "dst": "api:melted-polar-ice-cap.p.rapidapi.com:165a37e9b6102f22"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:molecular_data"}
+{"edge_type": "tool_to_api", "src": "tool:Science:molecular_data", "dst": "api:molecular-data.p.rapidapi.com:cee7c163edbc413d"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:molecular_viewer"}
+{"edge_type": "tool_to_api", "src": "tool:Science:molecular_viewer", "dst": "api:molecular-viewer.p.rapidapi.com:a22ac6081376fe98"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:molecular-viewer.p.rapidapi.com:a22ac6081376fe98"}
+{"edge_type": "tool_to_api", "src": "tool:Science:molecular_viewer", "dst": "api:molecular-viewer.p.rapidapi.com:4ba35cd80e75b0cf"}
+{"edge_type": "tool_to_api", "src": "tool:Science:molecular_viewer", "dst": "api:molecular-viewer.p.rapidapi.com:34da18b61f0b7a66"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob", "dst": "api:molecular-viewer.p.rapidapi.com:34da18b61f0b7a66"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:moon_api"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_api", "dst": "api:moon-api1.p.rapidapi.com:d1f43a1bcdf9540f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:angle_units", "dst": "api:moon-api1.p.rapidapi.com:d1f43a1bcdf9540f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:moon-api1.p.rapidapi.com:d1f43a1bcdf9540f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date_time", "dst": "api:moon-api1.p.rapidapi.com:d1f43a1bcdf9540f"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:d1f43a1bcdf9540f", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:d1f43a1bcdf9540f", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_api", "dst": "api:moon-api1.p.rapidapi.com:0a560df365a7fd7e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:moon-api1.p.rapidapi.com:0a560df365a7fd7e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date_time", "dst": "api:moon-api1.p.rapidapi.com:0a560df365a7fd7e"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:0a560df365a7fd7e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:0a560df365a7fd7e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_api", "dst": "api:moon-api1.p.rapidapi.com:5ee3acbdf2d1f429"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:location", "dst": "api:moon-api1.p.rapidapi.com:5ee3acbdf2d1f429"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:angle_units", "dst": "api:moon-api1.p.rapidapi.com:5ee3acbdf2d1f429"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:moon-api1.p.rapidapi.com:5ee3acbdf2d1f429"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date_time", "dst": "api:moon-api1.p.rapidapi.com:5ee3acbdf2d1f429"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:5ee3acbdf2d1f429", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:5ee3acbdf2d1f429", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_api", "dst": "api:moon-api1.p.rapidapi.com:babe6bf116d7ae48"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:moon-api1.p.rapidapi.com:babe6bf116d7ae48"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date_time", "dst": "api:moon-api1.p.rapidapi.com:babe6bf116d7ae48"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:angle_units", "dst": "api:moon-api1.p.rapidapi.com:babe6bf116d7ae48"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:babe6bf116d7ae48", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:babe6bf116d7ae48", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_api", "dst": "api:moon-api1.p.rapidapi.com:dba31690e22f1a2b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:moon-api1.p.rapidapi.com:dba31690e22f1a2b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:angle_units", "dst": "api:moon-api1.p.rapidapi.com:dba31690e22f1a2b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date_time", "dst": "api:moon-api1.p.rapidapi.com:dba31690e22f1a2b"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:dba31690e22f1a2b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:dba31690e22f1a2b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_api", "dst": "api:moon-api1.p.rapidapi.com:86be6bee335d404a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:location", "dst": "api:moon-api1.p.rapidapi.com:86be6bee335d404a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:moon-api1.p.rapidapi.com:86be6bee335d404a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date_time", "dst": "api:moon-api1.p.rapidapi.com:86be6bee335d404a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:angle_units", "dst": "api:moon-api1.p.rapidapi.com:86be6bee335d404a"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:86be6bee335d404a", "dst": "parameter_norm:STRING:datetime"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:86be6bee335d404a", "dst": "parameter_norm:OBJECT:location"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:86be6bee335d404a", "dst": "parameter_norm:STRING:angleunits"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:86be6bee335d404a", "dst": "parameter_norm:NUMBER:hourangle"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_api", "dst": "api:moon-api1.p.rapidapi.com:4a9ef0c516f9c824"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date_time", "dst": "api:moon-api1.p.rapidapi.com:4a9ef0c516f9c824"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:angle_units", "dst": "api:moon-api1.p.rapidapi.com:4a9ef0c516f9c824"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:moon-api1.p.rapidapi.com:4a9ef0c516f9c824"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:4a9ef0c516f9c824", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:4a9ef0c516f9c824", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_api", "dst": "api:moon-api1.p.rapidapi.com:ad88d355da5e1e5b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:length_units", "dst": "api:moon-api1.p.rapidapi.com:ad88d355da5e1e5b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:angle_units", "dst": "api:moon-api1.p.rapidapi.com:ad88d355da5e1e5b"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:ad88d355da5e1e5b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:ad88d355da5e1e5b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_api", "dst": "api:moon-api1.p.rapidapi.com:9168f38e36fe3588"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:moon-api1.p.rapidapi.com:9168f38e36fe3588"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date_time", "dst": "api:moon-api1.p.rapidapi.com:9168f38e36fe3588"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:length_units", "dst": "api:moon-api1.p.rapidapi.com:9168f38e36fe3588"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:9168f38e36fe3588", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:moon-api1.p.rapidapi.com:9168f38e36fe3588", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:moon_phase"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_phase", "dst": "api:moon-phase.p.rapidapi.com:3f66de7c3d69ed7c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:lat", "dst": "api:moon-phase.p.rapidapi.com:3f66de7c3d69ed7c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:lon", "dst": "api:moon-phase.p.rapidapi.com:3f66de7c3d69ed7c"}
+{"edge_type": "api_to_parameter", "src": "api:moon-phase.p.rapidapi.com:3f66de7c3d69ed7c", "dst": "parameter_norm:NUMBER:timestamp"}
+{"edge_type": "api_to_parameter", "src": "api:moon-phase.p.rapidapi.com:3f66de7c3d69ed7c", "dst": "parameter_norm:STRING:datestamp"}
+{"edge_type": "api_to_parameter", "src": "api:moon-phase.p.rapidapi.com:3f66de7c3d69ed7c", "dst": "parameter_norm:OBJECT:sun"}
+{"edge_type": "api_to_parameter", "src": "api:moon-phase.p.rapidapi.com:3f66de7c3d69ed7c", "dst": "parameter_norm:OBJECT:moon"}
+{"edge_type": "api_to_parameter", "src": "api:moon-phase.p.rapidapi.com:3f66de7c3d69ed7c", "dst": "parameter_norm:OBJECT:moon_phases"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_phase", "dst": "api:moon-phase.p.rapidapi.com:7fd68d31384d958a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format", "dst": "api:moon-phase.p.rapidapi.com:7fd68d31384d958a"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_phase", "dst": "api:moon-phase.p.rapidapi.com:e3db4919c201190e"}
+{"edge_type": "api_to_parameter", "src": "api:moon-phase.p.rapidapi.com:e3db4919c201190e", "dst": "parameter_norm:STRING:phase_name"}
+{"edge_type": "api_to_parameter", "src": "api:moon-phase.p.rapidapi.com:e3db4919c201190e", "dst": "parameter_norm:STRING:stage"}
+{"edge_type": "api_to_parameter", "src": "api:moon-phase.p.rapidapi.com:e3db4919c201190e", "dst": "parameter_norm:NUMBER:days_until_next_full_moon"}
+{"edge_type": "api_to_parameter", "src": "api:moon-phase.p.rapidapi.com:e3db4919c201190e", "dst": "parameter_norm:NUMBER:days_until_next_new_moon"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_phase", "dst": "api:moon-phase.p.rapidapi.com:adf5ccbf4ae9b09c"}
+{"edge_type": "tool_to_api", "src": "tool:Science:moon_phase", "dst": "api:moon-phase.p.rapidapi.com:009252bfb1e97acb"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:nobel_award_winners"}
+{"edge_type": "tool_to_api", "src": "tool:Science:nobel_award_winners", "dst": "api:nobel-award-winners.p.rapidapi.com:734bd0308ecb526d"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:numerology_api"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:fb71888b3ba41544"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:060aaeb495fb54eb"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:5a40ff23d040a1c6"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:e327926e950d63a8"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:69f837d8ace88628"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:f56ea55524ce6c6b"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:1ca1a4ecd9ff5353"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:051f073d2d5b4ac2"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:5240253ba66c70b2"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:d9f35c1568cc57aa"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:eba72733536aa3ba"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:8f7cf45e0f42a766"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:e5d2c8052e50d30c"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:69beaafcdc2e565f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:2ecac704987c55a7"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:2104074098c4b821"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:d8852f9bca3cd771"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:d57ee5b89f843d32"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:62c4ea34e9fc5a90"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:cdeab3482de36ba3"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:77ab189ad30a8b19"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:1d917fa2c17742a9"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:815215e036355e5b"}
+{"edge_type": "tool_to_api", "src": "tool:Science:numerology_api", "dst": "api:numerology-api4.p.rapidapi.com:5aaf3166ca416aa2"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:openaqplatform"}
+{"edge_type": "tool_to_api", "src": "tool:Science:openaqplatform", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9621cbcb6734c094"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9621cbcb6734c094"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderby", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9621cbcb6734c094"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:sort", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9621cbcb6734c094"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:country", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9621cbcb6734c094"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9621cbcb6734c094"}
+{"edge_type": "tool_to_api", "src": "tool:Science:openaqplatform", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:eaaeeae86b730a25"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:sort", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:eaaeeae86b730a25"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:eaaeeae86b730a25"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:eaaeeae86b730a25"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderby", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:eaaeeae86b730a25"}
+{"edge_type": "tool_to_api", "src": "tool:Science:openaqplatform", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:location", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:sort", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:hasgeo", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:radius", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:city", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:parameter", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderby", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:MAP:coordinates", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:country", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce"}
+{"edge_type": "tool_to_api", "src": "tool:Science:openaqplatform", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:city", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:location", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:hasgeo", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:sort", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:radius", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderby", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:country", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:parameter", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:MAP:coordinates", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057"}
+{"edge_type": "tool_to_api", "src": "tool:Science:openaqplatform", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:MAP:coordinates", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderby", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:valuefrom", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:location", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:datefrom", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:city", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:valueto", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:hasgeo", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:radius", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:sort", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:country", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:dateto", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb"}
+{"edge_type": "tool_to_api", "src": "tool:Science:openaqplatform", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:ddb634d6b54b33f8"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:sort", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:ddb634d6b54b33f8"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderby", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:ddb634d6b54b33f8"}
+{"edge_type": "tool_to_api", "src": "tool:Science:openaqplatform", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9de5579836d81965"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9de5579836d81965"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderby", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9de5579836d81965"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9de5579836d81965"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:sort", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9de5579836d81965"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:papermill_alarm"}
+{"edge_type": "tool_to_api", "src": "tool:Science:papermill_alarm", "dst": "api:papermill-alarm.p.rapidapi.com:17b825966105f4d4"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:pet_store"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pet_store", "dst": "api:pet-store40.p.rapidapi.com:37566f0cfc1458be"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pet_store", "dst": "api:pet-store40.p.rapidapi.com:cfc06bc06e9cb12f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pet_store", "dst": "api:pet-store40.p.rapidapi.com:efa88158ea783614"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pet_store", "dst": "api:pet-store40.p.rapidapi.com:4590b672b2c250c7"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pet_store", "dst": "api:pet-store40.p.rapidapi.com:9a129cacdab1dae0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:petid", "dst": "api:pet-store40.p.rapidapi.com:9a129cacdab1dae0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BINARY:file_blob", "dst": "api:pet-store40.p.rapidapi.com:9a129cacdab1dae0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:pet-store40.p.rapidapi.com:9a129cacdab1dae0"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pet_store", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:petid", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:status", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pet_store", "dst": "api:pet-store40.p.rapidapi.com:467d89e0fa843e70"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:planets_by_api_ninjas"}
+{"edge_type": "tool_to_api", "src": "tool:Science:planets_by_api_ninjas", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_period", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_temperature", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:offset", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_distance_light_year", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:min_distance_light_year", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_mass", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_semi_major_axis", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:min_mass", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:min_semi_major_axis", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:min_temperature", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_radius", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:min_radius", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:min_period", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:planets_info_by_newbapi"}
+{"edge_type": "tool_to_api", "src": "tool:Science:planets_info_by_newbapi", "dst": "api:planets-info-by-newbapi.p.rapidapi.com:298cdc4abec86599"}
+{"edge_type": "tool_to_api", "src": "tool:Science:planets_info_by_newbapi", "dst": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:id", "dst": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5"}
+{"edge_type": "api_to_parameter", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "parameter_norm:NUMBER:planetorder"}
+{"edge_type": "api_to_parameter", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "parameter_norm:STRING:name"}
+{"edge_type": "api_to_parameter", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "parameter_norm:STRING:description"}
+{"edge_type": "api_to_parameter", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "parameter_norm:OBJECT:basicdetails"}
+{"edge_type": "api_to_parameter", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "parameter_norm:STRING:source"}
+{"edge_type": "api_to_parameter", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "parameter_norm:STRING:wikilink"}
+{"edge_type": "api_to_parameter", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "parameter_norm:OBJECT:imgsrc"}
+{"edge_type": "api_to_parameter", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "parameter_norm:NUMBER:id"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:pointcalculation"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pointcalculation", "dst": "api:pointcalculation.p.rapidapi.com:555aae11342d9b14"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:angle", "dst": "api:pointcalculation.p.rapidapi.com:555aae11342d9b14"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:distance", "dst": "api:pointcalculation.p.rapidapi.com:555aae11342d9b14"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y1", "dst": "api:pointcalculation.p.rapidapi.com:555aae11342d9b14"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x1", "dst": "api:pointcalculation.p.rapidapi.com:555aae11342d9b14"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pointcalculation", "dst": "api:pointcalculation.p.rapidapi.com:b397c5c9a7c44c01"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x1", "dst": "api:pointcalculation.p.rapidapi.com:b397c5c9a7c44c01"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x2", "dst": "api:pointcalculation.p.rapidapi.com:b397c5c9a7c44c01"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y2", "dst": "api:pointcalculation.p.rapidapi.com:b397c5c9a7c44c01"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y1", "dst": "api:pointcalculation.p.rapidapi.com:b397c5c9a7c44c01"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pointcalculation", "dst": "api:pointcalculation.p.rapidapi.com:9461fbff0d8c93d2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y2", "dst": "api:pointcalculation.p.rapidapi.com:9461fbff0d8c93d2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y1", "dst": "api:pointcalculation.p.rapidapi.com:9461fbff0d8c93d2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x1", "dst": "api:pointcalculation.p.rapidapi.com:9461fbff0d8c93d2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x2", "dst": "api:pointcalculation.p.rapidapi.com:9461fbff0d8c93d2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:angle", "dst": "api:pointcalculation.p.rapidapi.com:9461fbff0d8c93d2"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pointcalculation", "dst": "api:pointcalculation.p.rapidapi.com:44b5a158a46de58e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x1", "dst": "api:pointcalculation.p.rapidapi.com:44b5a158a46de58e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:start_marker", "dst": "api:pointcalculation.p.rapidapi.com:44b5a158a46de58e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x2", "dst": "api:pointcalculation.p.rapidapi.com:44b5a158a46de58e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y1", "dst": "api:pointcalculation.p.rapidapi.com:44b5a158a46de58e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y2", "dst": "api:pointcalculation.p.rapidapi.com:44b5a158a46de58e"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pointcalculation", "dst": "api:pointcalculation.p.rapidapi.com:e27f6c618ea6b103"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y1", "dst": "api:pointcalculation.p.rapidapi.com:e27f6c618ea6b103"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y2", "dst": "api:pointcalculation.p.rapidapi.com:e27f6c618ea6b103"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x1", "dst": "api:pointcalculation.p.rapidapi.com:e27f6c618ea6b103"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x2", "dst": "api:pointcalculation.p.rapidapi.com:e27f6c618ea6b103"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:pro_chem"}
+{"edge_type": "tool_to_api", "src": "tool:Science:pro_chem", "dst": "api:pro-chem.p.rapidapi.com:344d8e6949ff4483"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:msg", "dst": "api:pro-chem.p.rapidapi.com:344d8e6949ff4483"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:scienctific_facts_api"}
+{"edge_type": "tool_to_api", "src": "tool:Science:scienctific_facts_api", "dst": "api:scienctific-facts-api.p.rapidapi.com:6ee199be92116969"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:limit", "dst": "api:scienctific-facts-api.p.rapidapi.com:6ee199be92116969"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:solswtestapi"}
+{"edge_type": "tool_to_api", "src": "tool:Science:solswtestapi", "dst": "api:solswtestapi.p.rapidapi.com:4559efae09fa5c25"}
+{"edge_type": "tool_to_api", "src": "tool:Science:solswtestapi", "dst": "api:solswtestapi.p.rapidapi.com:24f7ad7eed31c3e0"}
+{"edge_type": "tool_to_api", "src": "tool:Science:solswtestapi", "dst": "api:solswtestapi.p.rapidapi.com:b1e949428f2f89c8"}
+{"edge_type": "tool_to_api", "src": "tool:Science:solswtestapi", "dst": "api:solswtestapi.p.rapidapi.com:85a4bdf7aedc020d"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:space_launch"}
+{"edge_type": "tool_to_api", "src": "tool:Science:space_launch", "dst": "api:space-launch.p.rapidapi.com:fea189e60b4092ac"}
+{"edge_type": "api_to_parameter", "src": "api:space-launch.p.rapidapi.com:fea189e60b4092ac", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:space-launch.p.rapidapi.com:fea189e60b4092ac", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:space_launch", "dst": "api:space-launch.p.rapidapi.com:a2d988512aba4419"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:rocket", "dst": "api:space-launch.p.rapidapi.com:a2d988512aba4419"}
+{"edge_type": "api_to_parameter", "src": "api:space-launch.p.rapidapi.com:a2d988512aba4419", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:space-launch.p.rapidapi.com:a2d988512aba4419", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:space_launch", "dst": "api:space-launch.p.rapidapi.com:839387b8c89d0518"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:location", "dst": "api:space-launch.p.rapidapi.com:839387b8c89d0518"}
+{"edge_type": "api_to_parameter", "src": "api:space-launch.p.rapidapi.com:839387b8c89d0518", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:space-launch.p.rapidapi.com:839387b8c89d0518", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:stars_by_api_ninjas"}
+{"edge_type": "tool_to_api", "src": "tool:Science:stars_by_api_ninjas", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:min_distance_light_year", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:min_apparent_magnitude", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:constellation", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_apparent_magnitude", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:offset", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_absolute_magnitude", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:min_absolute_magnitude", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_distance_light_year", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:strain"}
+{"edge_type": "tool_to_api", "src": "tool:Science:strain", "dst": "api:strainraygorodskijv1.p.rapidapi.com:da2b5f715a6ffbaf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:strainraygorodskijv1.p.rapidapi.com:da2b5f715a6ffbaf"}
+{"edge_type": "tool_to_api", "src": "tool:Science:strain", "dst": "api:strainraygorodskijv1.p.rapidapi.com:1d3e88578219b4c9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainid", "dst": "api:strainraygorodskijv1.p.rapidapi.com:1d3e88578219b4c9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:strainraygorodskijv1.p.rapidapi.com:1d3e88578219b4c9"}
+{"edge_type": "tool_to_api", "src": "tool:Science:strain", "dst": "api:strainraygorodskijv1.p.rapidapi.com:8f8d7646ff217ddf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:strainraygorodskijv1.p.rapidapi.com:8f8d7646ff217ddf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainid", "dst": "api:strainraygorodskijv1.p.rapidapi.com:8f8d7646ff217ddf"}
+{"edge_type": "tool_to_api", "src": "tool:Science:strain", "dst": "api:strainraygorodskijv1.p.rapidapi.com:9e911b50345e8325"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:strainraygorodskijv1.p.rapidapi.com:9e911b50345e8325"}
+{"edge_type": "tool_to_api", "src": "tool:Science:strain", "dst": "api:strainraygorodskijv1.p.rapidapi.com:2c96c8bdcd0d5a92"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:strainraygorodskijv1.p.rapidapi.com:2c96c8bdcd0d5a92"}
+{"edge_type": "tool_to_api", "src": "tool:Science:strain", "dst": "api:strainraygorodskijv1.p.rapidapi.com:466aff8fc856dd5b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:effect", "dst": "api:strainraygorodskijv1.p.rapidapi.com:466aff8fc856dd5b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:strainraygorodskijv1.p.rapidapi.com:466aff8fc856dd5b"}
+{"edge_type": "tool_to_api", "src": "tool:Science:strain", "dst": "api:strainraygorodskijv1.p.rapidapi.com:91fd34b78ac9cc47"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:strainraygorodskijv1.p.rapidapi.com:91fd34b78ac9cc47"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:flavor", "dst": "api:strainraygorodskijv1.p.rapidapi.com:91fd34b78ac9cc47"}
+{"edge_type": "tool_to_api", "src": "tool:Science:strain", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0"}
+{"edge_type": "tool_to_api", "src": "tool:Science:strain", "dst": "api:strainraygorodskijv1.p.rapidapi.com:29c72a5366d7e2d9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:strainraygorodskijv1.p.rapidapi.com:29c72a5366d7e2d9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:race", "dst": "api:strainraygorodskijv1.p.rapidapi.com:29c72a5366d7e2d9"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:technical_synonym_generator"}
+{"edge_type": "tool_to_api", "src": "tool:Science:technical_synonym_generator", "dst": "api:technical-synonym-generator.p.rapidapi.com:bb80ccb97e723994"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:test"}
+{"edge_type": "tool_to_api", "src": "tool:Science:test", "dst": "api:test10589.p.rapidapi.com:51a1fa0d442b2674"}
+{"edge_type": "tool_to_api", "src": "tool:Science:test", "dst": "api:test10589.p.rapidapi.com:8af0746ae14cc6bf"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:teste"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:1bc4737917ee7608"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:username", "dst": "api:teste693.p.rapidapi.com:1bc4737917ee7608"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:9c2e98243268135b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:password", "dst": "api:teste693.p.rapidapi.com:9c2e98243268135b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:username", "dst": "api:teste693.p.rapidapi.com:9c2e98243268135b"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:ea128878b2c1a95d"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:fadb7e6f3a2b7b0a"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:2231bf3301d954db"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:petid", "dst": "api:teste693.p.rapidapi.com:2231bf3301d954db"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:69954602dfea3d63"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:orderid", "dst": "api:teste693.p.rapidapi.com:69954602dfea3d63"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:f661aee926bb2b7f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:petid", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:status", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:fa6efeaac7d69d75"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:92dafff4b1be784f"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:3db1e46c9b9bd791"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:e620a9a458254d23"}
+{"edge_type": "tool_to_api", "src": "tool:Science:teste", "dst": "api:teste693.p.rapidapi.com:5ec3a990d96dc9bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:petid", "dst": "api:teste693.p.rapidapi.com:5ec3a990d96dc9bd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:teste693.p.rapidapi.com:5ec3a990d96dc9bd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BINARY:file_blob", "dst": "api:teste693.p.rapidapi.com:5ec3a990d96dc9bd"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:the_cannabis_api"}
+{"edge_type": "tool_to_api", "src": "tool:Science:the_cannabis_api", "dst": "api:the-cannabis-api.p.rapidapi.com:b9c8216b4e42d4a4"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:accept", "dst": "api:the-cannabis-api.p.rapidapi.com:b9c8216b4e42d4a4"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:b9c8216b4e42d4a4", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:b9c8216b4e42d4a4", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:the_cannabis_api", "dst": "api:the-cannabis-api.p.rapidapi.com:d1ac041b0daeba0d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:accept", "dst": "api:the-cannabis-api.p.rapidapi.com:d1ac041b0daeba0d"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:d1ac041b0daeba0d", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:d1ac041b0daeba0d", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:the_cannabis_api", "dst": "api:the-cannabis-api.p.rapidapi.com:9a97d5d61754a3cb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainid", "dst": "api:the-cannabis-api.p.rapidapi.com:9a97d5d61754a3cb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainid", "dst": "api:the-cannabis-api.p.rapidapi.com:9a97d5d61754a3cb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:accept", "dst": "api:the-cannabis-api.p.rapidapi.com:9a97d5d61754a3cb"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:9a97d5d61754a3cb", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:9a97d5d61754a3cb", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:the_cannabis_api", "dst": "api:the-cannabis-api.p.rapidapi.com:81ea3f3d3521c5f3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainid", "dst": "api:the-cannabis-api.p.rapidapi.com:81ea3f3d3521c5f3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainid", "dst": "api:the-cannabis-api.p.rapidapi.com:81ea3f3d3521c5f3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:accept", "dst": "api:the-cannabis-api.p.rapidapi.com:81ea3f3d3521c5f3"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:81ea3f3d3521c5f3", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:81ea3f3d3521c5f3", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:the_cannabis_api", "dst": "api:the-cannabis-api.p.rapidapi.com:c79d38f260bb45ec"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainflavour", "dst": "api:the-cannabis-api.p.rapidapi.com:c79d38f260bb45ec"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainflavour", "dst": "api:the-cannabis-api.p.rapidapi.com:c79d38f260bb45ec"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:accept", "dst": "api:the-cannabis-api.p.rapidapi.com:c79d38f260bb45ec"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:c79d38f260bb45ec", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:c79d38f260bb45ec", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:the_cannabis_api", "dst": "api:the-cannabis-api.p.rapidapi.com:7c46f1a9921426d7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:straineffect", "dst": "api:the-cannabis-api.p.rapidapi.com:7c46f1a9921426d7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:straineffect", "dst": "api:the-cannabis-api.p.rapidapi.com:7c46f1a9921426d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:accept", "dst": "api:the-cannabis-api.p.rapidapi.com:7c46f1a9921426d7"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:7c46f1a9921426d7", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:7c46f1a9921426d7", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:the_cannabis_api", "dst": "api:the-cannabis-api.p.rapidapi.com:75d4dcce4822649e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:straintype", "dst": "api:the-cannabis-api.p.rapidapi.com:75d4dcce4822649e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:straintype", "dst": "api:the-cannabis-api.p.rapidapi.com:75d4dcce4822649e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:accept", "dst": "api:the-cannabis-api.p.rapidapi.com:75d4dcce4822649e"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:75d4dcce4822649e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:75d4dcce4822649e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Science:the_cannabis_api", "dst": "api:the-cannabis-api.p.rapidapi.com:0e03fd72f978021f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainname", "dst": "api:the-cannabis-api.p.rapidapi.com:0e03fd72f978021f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:strainname", "dst": "api:the-cannabis-api.p.rapidapi.com:0e03fd72f978021f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:accept", "dst": "api:the-cannabis-api.p.rapidapi.com:0e03fd72f978021f"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:0e03fd72f978021f", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:the-cannabis-api.p.rapidapi.com:0e03fd72f978021f", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:the_earth_science_online_video_database"}
+{"edge_type": "tool_to_api", "src": "tool:Science:the_earth_science_online_video_database", "dst": "api:the-earth-science-online-video-database.p.rapidapi.com:120c3fc0536fff09"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:tle"}
+{"edge_type": "tool_to_api", "src": "tool:Science:tle", "dst": "api:tle.p.rapidapi.com:4faed5e86653fe25"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:search", "dst": "api:tle.p.rapidapi.com:4faed5e86653fe25"}
+{"edge_type": "api_to_parameter", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "parameter_norm:STRING:text_payload"}
+{"edge_type": "api_to_parameter", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "parameter_norm:STRING:id"}
+{"edge_type": "api_to_parameter", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "parameter_norm:STRING:type"}
+{"edge_type": "api_to_parameter", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "parameter_norm:NUMBER:totalitems"}
+{"edge_type": "api_to_parameter", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "parameter_norm:ARRAY:member"}
+{"edge_type": "api_to_parameter", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "parameter_norm:OBJECT:parameters"}
+{"edge_type": "api_to_parameter", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "parameter_norm:OBJECT:view"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:uphere_space"}
+{"edge_type": "tool_to_api", "src": "tool:Science:uphere_space", "dst": "api:uphere-space1.p.rapidapi.com:f01df717936417b9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:number", "dst": "api:uphere-space1.p.rapidapi.com:f01df717936417b9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:period", "dst": "api:uphere-space1.p.rapidapi.com:f01df717936417b9"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:f01df717936417b9", "dst": "parameter_norm:NUMBER:lat"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:f01df717936417b9", "dst": "parameter_norm:NUMBER:lng"}
+{"edge_type": "tool_to_api", "src": "tool:Science:uphere_space", "dst": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "parameter_norm:STRING:id"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "parameter_norm:STRING:abbreviation"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "parameter_norm:STRING:name"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "parameter_norm:STRING:description"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "parameter_norm:NUMBER:latitude"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "parameter_norm:NUMBER:longitude"}
+{"edge_type": "tool_to_api", "src": "tool:Science:uphere_space", "dst": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:number", "dst": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:units", "dst": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:lat", "dst": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:lng", "dst": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa", "dst": "parameter_norm:ARRAY:coordinates"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa", "dst": "parameter_norm:STRING:norad_id"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa", "dst": "parameter_norm:NUMBER:height"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa", "dst": "parameter_norm:NUMBER:speed"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa", "dst": "parameter_norm:OBJECT:visibility"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa", "dst": "parameter_norm:NUMBER:footprint_radius"}
+{"edge_type": "tool_to_api", "src": "tool:Science:uphere_space", "dst": "api:uphere-space1.p.rapidapi.com:df959b351b17b109"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:days", "dst": "api:uphere-space1.p.rapidapi.com:df959b351b17b109"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:id"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:name"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:number"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:classification"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:launch_date"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:country"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:type"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:size"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:orbital_period"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:intldes"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:STRING:count"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:BOOLEAN:selected"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "parameter_norm:ARRAY:categories"}
+{"edge_type": "tool_to_api", "src": "tool:Science:uphere_space", "dst": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:lat", "dst": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:lng", "dst": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02", "dst": "parameter_norm:STRING:name"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02", "dst": "parameter_norm:STRING:number"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02", "dst": "parameter_norm:ARRAY:coordinates"}
+{"edge_type": "tool_to_api", "src": "tool:Science:uphere_space", "dst": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:number", "dst": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "parameter_norm:STRING:name"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "parameter_norm:STRING:number"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "parameter_norm:STRING:type"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "parameter_norm:STRING:country"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "parameter_norm:STRING:intldes"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "parameter_norm:STRING:orbital_period"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "parameter_norm:STRING:launch_date"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "parameter_norm:ARRAY:links"}
+{"edge_type": "tool_to_api", "src": "tool:Science:uphere_space", "dst": "api:uphere-space1.p.rapidapi.com:8a0cf8fad1c13eef"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:8a0cf8fad1c13eef", "dst": "parameter_norm:NUMBER:id"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:8a0cf8fad1c13eef", "dst": "parameter_norm:STRING:name"}
+{"edge_type": "tool_to_api", "src": "tool:Science:uphere_space", "dst": "api:uphere-space1.p.rapidapi.com:b109dde5db387730"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "parameter_norm:STRING:id"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "parameter_norm:STRING:name"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "parameter_norm:STRING:abbreviation"}
+{"edge_type": "tool_to_api", "src": "tool:Science:uphere_space", "dst": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:text_payload", "dst": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:country", "dst": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:STRING:name"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:STRING:number"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:STRING:classification"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:STRING:launch_date"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:STRING:country"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:STRING:type"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:STRING:size"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:STRING:orbital_period"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:STRING:intldes"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:BOOLEAN:selected"}
+{"edge_type": "api_to_parameter", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "parameter_norm:ARRAY:categories"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:validate_license"}
+{"edge_type": "tool_to_api", "src": "tool:Science:validate_license", "dst": "api:validate_license.p.rapidapi.com:5347fd6833895ddb"}
+{"edge_type": "category_to_tool", "src": "category:Science", "dst": "tool:Science:yawin_indian_astrology"}
+{"edge_type": "tool_to_api", "src": "tool:Science:yawin_indian_astrology", "dst": "api:yawin-indian-astrology.p.rapidapi.com:9abb7fa709974eb8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:longitude", "dst": "api:yawin-indian-astrology.p.rapidapi.com:9abb7fa709974eb8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:timezone", "dst": "api:yawin-indian-astrology.p.rapidapi.com:9abb7fa709974eb8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:time", "dst": "api:yawin-indian-astrology.p.rapidapi.com:9abb7fa709974eb8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:date", "dst": "api:yawin-indian-astrology.p.rapidapi.com:9abb7fa709974eb8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:latitude", "dst": "api:yawin-indian-astrology.p.rapidapi.com:9abb7fa709974eb8"}
+{"edge_type": "tool_to_api", "src": "tool:Science:yawin_indian_astrology", "dst": "api:yawin-indian-astrology.p.rapidapi.com:d6bab9810af9bc0b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATE (YYYY-MM-DD):date", "dst": "api:yawin-indian-astrology.p.rapidapi.com:d6bab9810af9bc0b"}
+{"edge_type": "tool_to_api", "src": "tool:Science:yawin_indian_astrology", "dst": "api:yawin-indian-astrology.p.rapidapi.com:c6591dddb32e4c87"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:degree", "dst": "api:yawin-indian-astrology.p.rapidapi.com:c6591dddb32e4c87"}
+{"edge_type": "tool_to_api", "src": "tool:Science:yawin_indian_astrology", "dst": "api:yawin-indian-astrology.p.rapidapi.com:df30f349a4182661"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:angle", "dst": "api:yawin-indian-astrology.p.rapidapi.com:df30f349a4182661"}
+{"edge_type": "tool_to_api", "src": "tool:Science:yawin_indian_astrology", "dst": "api:yawin-indian-astrology.p.rapidapi.com:e47dfef01d684893"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATE (YYYY-MM-DD):date", "dst": "api:yawin-indian-astrology.p.rapidapi.com:e47dfef01d684893"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:latitude", "dst": "api:yawin-indian-astrology.p.rapidapi.com:e47dfef01d684893"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:longitude", "dst": "api:yawin-indian-astrology.p.rapidapi.com:e47dfef01d684893"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:yawin-indian-astrology.p.rapidapi.com:e47dfef01d684893"}
+{"edge_type": "tool_to_api", "src": "tool:Science:yawin_indian_astrology", "dst": "api:yawin-indian-astrology.p.rapidapi.com:36ad5275e902f634"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:dateofbirth", "dst": "api:yawin-indian-astrology.p.rapidapi.com:36ad5275e902f634"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:timeofbirth", "dst": "api:yawin-indian-astrology.p.rapidapi.com:36ad5275e902f634"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:longitude", "dst": "api:yawin-indian-astrology.p.rapidapi.com:36ad5275e902f634"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:timezone", "dst": "api:yawin-indian-astrology.p.rapidapi.com:36ad5275e902f634"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:latitude", "dst": "api:yawin-indian-astrology.p.rapidapi.com:36ad5275e902f634"}
+{"edge_type": "depends_on", "src": "api:brightest-stars.p.rapidapi.com:fd2f34d64f0d99dd", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.93}
+{"edge_type": "depends_on", "src": "api:climate-change-live-test2.p.rapidapi.com:7b129c2052d18a21", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:crossref.p.rapidapi.com:3be85f2c22f3451b", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.003, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e", "dst": "api:carbonfootprint1.p.rapidapi.com:4bc477ef5db224a9", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.323, "success_freq_prior": 0.94}
+{"edge_type": "depends_on", "src": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e", "dst": "api:carbonfootprint1.p.rapidapi.com:55e3c7713de42623", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.323, "success_freq_prior": 0.94}
+{"edge_type": "depends_on", "src": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e", "dst": "api:carbonfootprint1.p.rapidapi.com:bbd8ce3dc477e898", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.323, "success_freq_prior": 0.94}
+{"edge_type": "depends_on", "src": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e", "dst": "api:carbonfootprint1.p.rapidapi.com:d87ace267099e52b", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.323, "success_freq_prior": 0.94}
+{"edge_type": "depends_on", "src": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:disaster-science.p.rapidapi.com:2ab74b3b16e6b51e", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "mapping_signature": "match_key:STRING:end_marker", "match_confidence": 1.0, "semantic_role": "end_marker", "est_cost": 2.488, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "mapping_signature": "match_key:STRING:end_marker", "match_confidence": 1.0, "semantic_role": "end_marker", "est_cost": 2.488, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:everyearthquake.p.rapidapi.com:944287a9142650e7", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "mapping_signature": "match_key:STRING:end_marker", "match_confidence": 1.0, "semantic_role": "end_marker", "est_cost": 2.488, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:everyearthquake.p.rapidapi.com:cfe6e74da131d2dc", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.488, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:fibonacci.p.rapidapi.com:24118572fd436dc6", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.93}
+{"edge_type": "depends_on", "src": "api:fibonacci.p.rapidapi.com:352dd8e0861f54be", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.93}
+{"edge_type": "depends_on", "src": "api:moon-api1.p.rapidapi.com:0a560df365a7fd7e", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:moon-api1.p.rapidapi.com:4a9ef0c516f9c824", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:moon-api1.p.rapidapi.com:5ee3acbdf2d1f429", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:moon-api1.p.rapidapi.com:9168f38e36fe3588", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:moon-api1.p.rapidapi.com:ad88d355da5e1e5b", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:moon-api1.p.rapidapi.com:babe6bf116d7ae48", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:moon-api1.p.rapidapi.com:d1f43a1bcdf9540f", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:moon-api1.p.rapidapi.com:dba31690e22f1a2b", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.812, "success_freq_prior": 0.96}
+{"edge_type": "depends_on", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.812, "success_freq_prior": 0.955}
+{"edge_type": "depends_on", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.812, "success_freq_prior": 0.935}
+{"edge_type": "depends_on", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 127.419, "success_freq_prior": 0.48}
+{"edge_type": "depends_on", "src": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.812, "success_freq_prior": 0.935}
+{"edge_type": "depends_on", "src": "api:space-launch.p.rapidapi.com:839387b8c89d0518", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.93}
+{"edge_type": "depends_on", "src": "api:space-launch.p.rapidapi.com:a2d988512aba4419", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.93}
+{"edge_type": "depends_on", "src": "api:space-launch.p.rapidapi.com:fea189e60b4092ac", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.93}
+{"edge_type": "depends_on", "src": "api:the-cannabis-api.p.rapidapi.com:0e03fd72f978021f", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:the-cannabis-api.p.rapidapi.com:75d4dcce4822649e", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:the-cannabis-api.p.rapidapi.com:7c46f1a9921426d7", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:the-cannabis-api.p.rapidapi.com:81ea3f3d3521c5f3", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:the-cannabis-api.p.rapidapi.com:9a97d5d61754a3cb", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:the-cannabis-api.p.rapidapi.com:b9c8216b4e42d4a4", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:the-cannabis-api.p.rapidapi.com:c79d38f260bb45ec", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:the-cannabis-api.p.rapidapi.com:d1ac041b0daeba0d", "dst": "api:carbonsutra1.p.rapidapi.com:e7e961a3baebde3e", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.633, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:carbonfootprint1.p.rapidapi.com:4bc477ef5db224a9", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.323, "success_freq_prior": 0.94}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:carbonfootprint1.p.rapidapi.com:55e3c7713de42623", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.323, "success_freq_prior": 0.94}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:carbonfootprint1.p.rapidapi.com:bbd8ce3dc477e898", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.323, "success_freq_prior": 0.94}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:carbonfootprint1.p.rapidapi.com:d87ace267099e52b", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.323, "success_freq_prior": 0.94}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:irene.p.rapidapi.com:9d4d284b8c9f79a3", "mapping_signature": "match_key:STRING:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:manatee-jokes.p.rapidapi.com:a5840a15a864ff29", "mapping_signature": "match_key:STRING:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 0.467, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:tle.p.rapidapi.com:4faed5e86653fe25", "dst": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "mapping_signature": "match_key:STRING:text_payload", "match_confidence": 1.0, "semantic_role": "text_payload", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:carbonfootprint1.p.rapidapi.com:4bc477ef5db224a9", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:carbonfootprint1.p.rapidapi.com:55e3c7713de42623", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:carbonfootprint1.p.rapidapi.com:bbd8ce3dc477e898", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:carbonfootprint1.p.rapidapi.com:d87ace267099e52b", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9621cbcb6734c094", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.73, "success_freq_prior": 0.97}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.662, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 127.419, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:1f9ceed554ba84b6", "dst": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.73, "success_freq_prior": 0.97}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.662, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 127.419, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:29e2a5187b42be02", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:8a0cf8fad1c13eef", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:8a0cf8fad1c13eef", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.73, "success_freq_prior": 0.97}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:8a0cf8fad1c13eef", "dst": "api:planets-info-by-newbapi.p.rapidapi.com:8828bb3085123ff5", "mapping_signature": "match_key:NUMBER:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 0.812, "success_freq_prior": 0.975}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:8a0cf8fad1c13eef", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.662, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:8a0cf8fad1c13eef", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 127.419, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:8a0cf8fad1c13eef", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:carbonfootprint1.p.rapidapi.com:4bc477ef5db224a9", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:carbonfootprint1.p.rapidapi.com:55e3c7713de42623", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:carbonfootprint1.p.rapidapi.com:bbd8ce3dc477e898", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:carbonfootprint1.p.rapidapi.com:d87ace267099e52b", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 2.488, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9621cbcb6734c094", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.73, "success_freq_prior": 0.97}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.662, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 127.419, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "api:irene.p.rapidapi.com:9d4d284b8c9f79a3", "mapping_signature": "match_key:STRING:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "api:manatee-jokes.p.rapidapi.com:a5840a15a864ff29", "mapping_signature": "match_key:STRING:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 0.543, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.73, "success_freq_prior": 0.97}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.662, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 127.419, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:b109dde5db387730", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:carbonfootprint1.p.rapidapi.com:4bc477ef5db224a9", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:carbonfootprint1.p.rapidapi.com:55e3c7713de42623", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:carbonfootprint1.p.rapidapi.com:bbd8ce3dc477e898", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:carbonfootprint1.p.rapidapi.com:d87ace267099e52b", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 0.543, "success_freq_prior": 0.965}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:everyearthquake.p.rapidapi.com:02fc459a6e20786a", "mapping_signature": "match_key:STRING:count", "match_confidence": 1.0, "semantic_role": "count", "est_cost": 2.488, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:everyearthquake.p.rapidapi.com:5ba65c68ad53a15f", "mapping_signature": "match_key:STRING:count", "match_confidence": 1.0, "semantic_role": "count", "est_cost": 2.488, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:everyearthquake.p.rapidapi.com:cf028382c9776c52", "mapping_signature": "match_key:STRING:count", "match_confidence": 1.0, "semantic_role": "count", "est_cost": 2.488, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:irene.p.rapidapi.com:9d4d284b8c9f79a3", "mapping_signature": "match_key:STRING:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:manatee-jokes.p.rapidapi.com:a5840a15a864ff29", "mapping_signature": "match_key:STRING:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 0.543, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:9621cbcb6734c094", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:a3d87622256ee8fb", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:abbb2a19fbaa0057", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:openaqplatformzakutynskyv1.p.rapidapi.com:d1e3922ddd6975ce", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 127.428, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.73, "success_freq_prior": 0.97}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.662, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 127.419, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:df959b351b17b109", "dst": "api:uphere-space1.p.rapidapi.com:a87cde5cc7f86723", "mapping_signature": "match_key:STRING:country", "match_confidence": 1.0, "semantic_role": "country", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f01df717936417b9", "dst": "api:moon-phase.p.rapidapi.com:3f66de7c3d69ed7c", "mapping_signature": "match_key:NUMBER:lat", "match_confidence": 1.0, "semantic_role": "lat", "est_cost": 0.627, "success_freq_prior": 0.985}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f01df717936417b9", "dst": "api:uphere-space1.p.rapidapi.com:25a40ab17de3c7aa", "mapping_signature": "match_key:NUMBER:lat", "match_confidence": 1.0, "semantic_role": "lat", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:astronomy.p.rapidapi.com:141f2e15fe0dd473", "mapping_signature": "match_key:NUMBER:latitude", "match_confidence": 1.0, "semantic_role": "latitude", "est_cost": 1.567, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:astronomy.p.rapidapi.com:f73f82fba59daffd", "mapping_signature": "match_key:NUMBER:latitude", "match_confidence": 1.0, "semantic_role": "latitude", "est_cost": 1.567, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:irene.p.rapidapi.com:9d4d284b8c9f79a3", "mapping_signature": "match_key:STRING:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:manatee-jokes.p.rapidapi.com:a5840a15a864ff29", "mapping_signature": "match_key:STRING:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 0.543, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:pet-store40.p.rapidapi.com:3ca86afda9afa6eb", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:planets-by-api-ninjas.p.rapidapi.com:aba5b9ec22d384d9", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.73, "success_freq_prior": 0.97}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:stars-by-api-ninjas.p.rapidapi.com:1812269f8585815d", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.662, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:strainraygorodskijv1.p.rapidapi.com:47f265bb939dceb0", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 127.419, "success_freq_prior": 0.495}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:teste693.p.rapidapi.com:b772e17b573b753e", "mapping_signature": "match_key:STRING:name", "match_confidence": 1.0, "semantic_role": "name", "est_cost": 0.543, "success_freq_prior": 0.95}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:yawin-indian-astrology.p.rapidapi.com:36ad5275e902f634", "mapping_signature": "match_key:NUMBER:latitude", "match_confidence": 1.0, "semantic_role": "latitude", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:yawin-indian-astrology.p.rapidapi.com:9abb7fa709974eb8", "mapping_signature": "match_key:NUMBER:latitude", "match_confidence": 1.0, "semantic_role": "latitude", "est_cost": 0.543, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:uphere-space1.p.rapidapi.com:f09620f520d757fa", "dst": "api:yawin-indian-astrology.p.rapidapi.com:e47dfef01d684893", "mapping_signature": "match_key:NUMBER:latitude", "match_confidence": 1.0, "semantic_role": "latitude", "est_cost": 0.543, "success_freq_prior": 0.99}

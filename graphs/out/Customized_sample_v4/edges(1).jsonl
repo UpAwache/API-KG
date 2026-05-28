@@ -1,0 +1,2 @@
+{"edge_type": "category_to_tool", "src": "category:Customized", "dst": "tool:Customized:hello_world"}
+{"edge_type": "tool_to_api", "src": "tool:Customized:hello_world", "dst": "api::d86404f9e91e2112"}

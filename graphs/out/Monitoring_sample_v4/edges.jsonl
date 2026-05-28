@@ -1,0 +1,859 @@
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:about_my_ip"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:about_my_ip", "dst": "api:about-my-ip.p.rapidapi.com:5a8cdfc8b03a2a86"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ip", "dst": "api:about-my-ip.p.rapidapi.com:5a8cdfc8b03a2a86"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:agri_index_data"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:agri_index_data", "dst": "api:agri-index-data.p.rapidapi.com:6db3eb71bd2b30ad"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:agri_index_data", "dst": "api:agri-index-data.p.rapidapi.com:38f8545caec99bc8"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:agri_index_data", "dst": "api:agri-index-data.p.rapidapi.com:1642137b3a271466"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:agri_index_data", "dst": "api:agri-index-data.p.rapidapi.com:d37cb254495a709e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:agri_index_data", "dst": "api:agri-index-data.p.rapidapi.com:2e37c4a8766680c8"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:agri_index_data", "dst": "api:agri-index-data.p.rapidapi.com:ff9154a4f2ab6a85"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:ambee_pollen_data"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ambee_pollen_data", "dst": "api:ambee-pollen-data1.p.rapidapi.com:14bfe6b80b386562"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:lat", "dst": "api:ambee-pollen-data1.p.rapidapi.com:14bfe6b80b386562"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:lng", "dst": "api:ambee-pollen-data1.p.rapidapi.com:14bfe6b80b386562"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:ambee_soil_data"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ambee_soil_data", "dst": "api:ambee-soil-data.p.rapidapi.com:880b041c0d75caae"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:lng", "dst": "api:ambee-soil-data.p.rapidapi.com:880b041c0d75caae"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:lat", "dst": "api:ambee-soil-data.p.rapidapi.com:880b041c0d75caae"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:start_marker", "dst": "api:ambee-soil-data.p.rapidapi.com:880b041c0d75caae"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:end_marker", "dst": "api:ambee-soil-data.p.rapidapi.com:880b041c0d75caae"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ambee_soil_data", "dst": "api:ambee-soil-data.p.rapidapi.com:b8ce19b0090696b4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:lng", "dst": "api:ambee-soil-data.p.rapidapi.com:b8ce19b0090696b4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:lat", "dst": "api:ambee-soil-data.p.rapidapi.com:b8ce19b0090696b4"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:pollutants", "dst": "api:ambee-soil-data.p.rapidapi.com:b8ce19b0090696b4"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:ambee-soil-data.p.rapidapi.com:b8ce19b0090696b4"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:certficate"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:certficate", "dst": "api:certficate.p.rapidapi.com:0c34c7a6865afbcd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domainname", "dst": "api:certficate.p.rapidapi.com:0c34c7a6865afbcd"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:check_ssl"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:check_ssl", "dst": "api:check-ssl.p.rapidapi.com:294bd0a45a26a1ed"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:check-ssl.p.rapidapi.com:294bd0a45a26a1ed"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:climate_change_live_feed"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:climate_change_live_feed", "dst": "api:climate-change-live-feed.p.rapidapi.com:8ee3deb86689bbd3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:newspaperid", "dst": "api:climate-change-live-feed.p.rapidapi.com:8ee3deb86689bbd3"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:climate_change_live_feed", "dst": "api:climate-change-live-feed.p.rapidapi.com:2648fe02ccb84c6f"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:corona_updates"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:corona_updates", "dst": "api:corona-updates.p.rapidapi.com:4d7110b841179109"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:coronastatsbycountry"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronastatsbycountry", "dst": "api:coronastatsbycountry.p.rapidapi.com:65dfa08221b0032d"}
+{"edge_type": "api_to_parameter", "src": "api:coronastatsbycountry.p.rapidapi.com:65dfa08221b0032d", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:coronastatsbycountry.p.rapidapi.com:65dfa08221b0032d", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronastatsbycountry", "dst": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:country", "dst": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0"}
+{"edge_type": "api_to_parameter", "src": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronastatsbycountry", "dst": "api:coronastatsbycountry.p.rapidapi.com:470dc48c7826b42b"}
+{"edge_type": "api_to_parameter", "src": "api:coronastatsbycountry.p.rapidapi.com:470dc48c7826b42b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:coronastatsbycountry.p.rapidapi.com:470dc48c7826b42b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronastatsbycountry", "dst": "api:coronastatsbycountry.p.rapidapi.com:3b5e24a0ff38d91f"}
+{"edge_type": "api_to_parameter", "src": "api:coronastatsbycountry.p.rapidapi.com:3b5e24a0ff38d91f", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:coronastatsbycountry.p.rapidapi.com:3b5e24a0ff38d91f", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:coronavirus_map"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronavirus_map", "dst": "api:coronavirus-map.p.rapidapi.com:3f1f7fe2c5967bda"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:region", "dst": "api:coronavirus-map.p.rapidapi.com:3f1f7fe2c5967bda"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronavirus_map", "dst": "api:coronavirus-map.p.rapidapi.com:8e57ef0e5776c3f2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronavirus_map", "dst": "api:coronavirus-map.p.rapidapi.com:c3b400bc41621378"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronavirus_map", "dst": "api:coronavirus-map.p.rapidapi.com:53fec24f0bce5b8d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:region", "dst": "api:coronavirus-map.p.rapidapi.com:53fec24f0bce5b8d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date", "dst": "api:coronavirus-map.p.rapidapi.com:53fec24f0bce5b8d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronavirus_map", "dst": "api:coronavirus-map.p.rapidapi.com:f4cc520e0ef903fb"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronavirus_map", "dst": "api:coronavirus-map.p.rapidapi.com:2105a99d18158894"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:region", "dst": "api:coronavirus-map.p.rapidapi.com:2105a99d18158894"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date", "dst": "api:coronavirus-map.p.rapidapi.com:2105a99d18158894"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronavirus_map", "dst": "api:coronavirus-map.p.rapidapi.com:fe58f62792272887"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:region", "dst": "api:coronavirus-map.p.rapidapi.com:fe58f62792272887"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date", "dst": "api:coronavirus-map.p.rapidapi.com:fe58f62792272887"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronavirus_map", "dst": "api:coronavirus-map.p.rapidapi.com:b055f3835c5043ae"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:region", "dst": "api:coronavirus-map.p.rapidapi.com:b055f3835c5043ae"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date", "dst": "api:coronavirus-map.p.rapidapi.com:b055f3835c5043ae"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:coronavirus_map", "dst": "api:coronavirus-map.p.rapidapi.com:b10bdfdad56b0ce2"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:count_characters_string"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:count_characters_string", "dst": "api:count-characters-string.p.rapidapi.com:c05ad6e59fb77a9d"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:counter"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:counter", "dst": "api:counter10.p.rapidapi.com:98c173ff9999a6b2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:clabel", "dst": "api:counter10.p.rapidapi.com:98c173ff9999a6b2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:color", "dst": "api:counter10.p.rapidapi.com:98c173ff9999a6b2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:idv", "dst": "api:counter10.p.rapidapi.com:98c173ff9999a6b2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:counter", "dst": "api:counter10.p.rapidapi.com:7a1dade46bc744fc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:id", "dst": "api:counter10.p.rapidapi.com:7a1dade46bc744fc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:clabel", "dst": "api:counter10.p.rapidapi.com:7a1dade46bc744fc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:color", "dst": "api:counter10.p.rapidapi.com:7a1dade46bc744fc"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:crypto_currency_live_prices"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:crypto_currency_live_prices", "dst": "api:crypto-currency-live-prices.p.rapidapi.com:8b8b63f2542bfbc7"}
+{"edge_type": "api_to_parameter", "src": "api:crypto-currency-live-prices.p.rapidapi.com:8b8b63f2542bfbc7", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:crypto-currency-live-prices.p.rapidapi.com:8b8b63f2542bfbc7", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:cryptocurrency_alerting"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:cryptocurrency_alerting", "dst": "api:cryptocurrency-alerting.p.rapidapi.com:6f8da781873a1e4a"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:cryptocurrency_markets"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:cryptocurrency_markets", "dst": "api:cryptocurrency-markets1.p.rapidapi.com:2f071cc5d467a45a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:cryptocurrency_markets", "dst": "api:cryptocurrency-markets1.p.rapidapi.com:e568064ff4daa060"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:devbrewer_horoscope"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:devbrewer_horoscope", "dst": "api:devbrewer-horoscope.p.rapidapi.com:fb39b72745f8a618"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sign", "dst": "api:devbrewer-horoscope.p.rapidapi.com:fb39b72745f8a618"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:devbrewer_horoscope", "dst": "api:devbrewer-horoscope.p.rapidapi.com:db6d428a1fe5ecee"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sign", "dst": "api:devbrewer-horoscope.p.rapidapi.com:db6d428a1fe5ecee"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:devbrewer_horoscope", "dst": "api:devbrewer-horoscope.p.rapidapi.com:1487d46cf9ee0551"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sign1", "dst": "api:devbrewer-horoscope.p.rapidapi.com:1487d46cf9ee0551"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sign2", "dst": "api:devbrewer-horoscope.p.rapidapi.com:1487d46cf9ee0551"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:devbrewer_horoscope", "dst": "api:devbrewer-horoscope.p.rapidapi.com:c7cadc850fbb232e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sign", "dst": "api:devbrewer-horoscope.p.rapidapi.com:c7cadc850fbb232e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:devbrewer_horoscope", "dst": "api:devbrewer-horoscope.p.rapidapi.com:ff7159f81c6a060f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:sign", "dst": "api:devbrewer-horoscope.p.rapidapi.com:ff7159f81c6a060f"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:domain_whois_brand_alert_v2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:domain_whois_brand_alert_v2", "dst": "api:whoisapi-domain-whois-brand-alert-v2-v1.p.rapidapi.com:9e422fc2dd07113c"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:domain_whois_registrant_alert_v2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:domain_whois_registrant_alert_v2", "dst": "api:whoisapi-domain-whois-registrant-alert-v2-v1.p.rapidapi.com:c891876fa0d55759"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:domain_whois_registrant_alert_v2", "dst": "api:whoisapi-domain-whois-registrant-alert-v2-v1.p.rapidapi.com:3b75b5c23f1bb969"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:eaux_baignade_noumea"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:eaux_baignade_noumea", "dst": "api:eaux-baignade-noumea.p.rapidapi.com:734e8877e5ef798e"}
+{"edge_type": "api_to_parameter", "src": "api:eaux-baignade-noumea.p.rapidapi.com:734e8877e5ef798e", "dst": "parameter_norm:STRING:lastupdatedate"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:eaux_baignade_noumea", "dst": "api:eaux-baignade-noumea.p.rapidapi.com:ea15e196775b83ab"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:eaux_baignade_noumea", "dst": "api:eaux-baignade-noumea.p.rapidapi.com:e6c2e3b729eb1ed5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:plageid", "dst": "api:eaux-baignade-noumea.p.rapidapi.com:e6c2e3b729eb1ed5"}
+{"edge_type": "api_to_parameter", "src": "api:eaux-baignade-noumea.p.rapidapi.com:e6c2e3b729eb1ed5", "dst": "parameter_norm:STRING:couleurdrapeau"}
+{"edge_type": "api_to_parameter", "src": "api:eaux-baignade-noumea.p.rapidapi.com:e6c2e3b729eb1ed5", "dst": "parameter_norm:STRING:nomplage"}
+{"edge_type": "api_to_parameter", "src": "api:eaux-baignade-noumea.p.rapidapi.com:e6c2e3b729eb1ed5", "dst": "parameter_norm:STRING:urliconedrapeau"}
+{"edge_type": "api_to_parameter", "src": "api:eaux-baignade-noumea.p.rapidapi.com:e6c2e3b729eb1ed5", "dst": "parameter_norm:NUMBER:plageid"}
+{"edge_type": "api_to_parameter", "src": "api:eaux-baignade-noumea.p.rapidapi.com:e6c2e3b729eb1ed5", "dst": "parameter_norm:STRING:message_text"}
+{"edge_type": "api_to_parameter", "src": "api:eaux-baignade-noumea.p.rapidapi.com:e6c2e3b729eb1ed5", "dst": "parameter_norm:STRING:couleurdrapeauenglish"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:eaux_baignade_noumea", "dst": "api:eaux-baignade-noumea.p.rapidapi.com:a83618ee75fd0712"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:eaux_baignade_noumea", "dst": "api:eaux-baignade-noumea.p.rapidapi.com:6e636749db699c4e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:couleurdrapeau", "dst": "api:eaux-baignade-noumea.p.rapidapi.com:6e636749db699c4e"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:employee_leaves"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:employee_leaves", "dst": "api:employee-leaves1.p.rapidapi.com:46c2bd2ecce6186f"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:exchange_rate_api"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:exchange_rate_api", "dst": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:currencycode", "dst": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4"}
+{"edge_type": "api_to_parameter", "src": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:farmonaut_satellite_and_weather_data"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:986db8c36c3e3184"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:45991cfd2711fcd5"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:7e68c6a0410bf200"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:d39d2fc916f8c463"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:1788b0e2b13a3614"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:634b514385114cb3"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:24a0c3b285fb6641"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:e5971311cb47e59d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:caf2a42620bc3db7"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:637960039b527c63"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:3f4c93563dd1fe85"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:443df19452e550c2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:d0cd612161e7f171"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:9869d6adce693f20"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:c377f0fc58133e73"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:b9b55f34011172e2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:13e80702ecad0616"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:4de5ffc250a350aa"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:25c180778044accc"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:8474feb74b3e6319"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:34942b33a6efed2b"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:6376cfe2366ba650"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:2ffb7eb031e6a3a2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:bf900fa34c89e11b"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:faddf66be880a18f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:7dd8cf86ded2086d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:74487a767cc55e73"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:farmonaut_satellite_and_weather_data", "dst": "api:farmonaut-satellite-and-weather-data1.p.rapidapi.com:2a0bbf9ff30615e4"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:get_public_ip"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:get_public_ip", "dst": "api:get-public-ip.p.rapidapi.com:e95a0e8920c74cc4"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:global_page_load"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:global_page_load", "dst": "api:global-page-load.p.rapidapi.com:10e2d97e45c9ebbf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:origin", "dst": "api:global-page-load.p.rapidapi.com:10e2d97e45c9ebbf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:url", "dst": "api:global-page-load.p.rapidapi.com:10e2d97e45c9ebbf"}
+{"edge_type": "api_to_parameter", "src": "api:global-page-load.p.rapidapi.com:10e2d97e45c9ebbf", "dst": "parameter_norm:STRING:origin"}
+{"edge_type": "api_to_parameter", "src": "api:global-page-load.p.rapidapi.com:10e2d97e45c9ebbf", "dst": "parameter_norm:STRING:seconds"}
+{"edge_type": "api_to_parameter", "src": "api:global-page-load.p.rapidapi.com:10e2d97e45c9ebbf", "dst": "parameter_norm:STRING:page_cursor"}
+{"edge_type": "api_to_parameter", "src": "api:global-page-load.p.rapidapi.com:10e2d97e45c9ebbf", "dst": "parameter_norm:STRING:contents"}
+{"edge_type": "api_to_parameter", "src": "api:global-page-load.p.rapidapi.com:10e2d97e45c9ebbf", "dst": "parameter_norm:STRING:code"}
+{"edge_type": "api_to_parameter", "src": "api:global-page-load.p.rapidapi.com:10e2d97e45c9ebbf", "dst": "parameter_norm:STRING:credits"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:i_am_alive"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:i_am_alive", "dst": "api:i-am-alive.p.rapidapi.com:739baa146ee0b53b"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:ics_cert_advisories"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ics_cert_advisories", "dst": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:end_marker", "dst": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:info", "dst": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693"}
+{"edge_type": "api_to_parameter", "src": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ics_cert_advisories", "dst": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:info", "dst": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340"}
+{"edge_type": "api_to_parameter", "src": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:isbin_ba_api"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:isbin_ba_api", "dst": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:password", "dst": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415"}
+{"edge_type": "api_to_parameter", "src": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:isbin_ba_api", "dst": "api:isbin-ba-api.p.rapidapi.com:6e31bd0d4e7a3972"}
+{"edge_type": "api_to_parameter", "src": "api:isbin-ba-api.p.rapidapi.com:6e31bd0d4e7a3972", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:isbin-ba-api.p.rapidapi.com:6e31bd0d4e7a3972", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:isbin_ba_api", "dst": "api:isbin-ba-api.p.rapidapi.com:348e89e35616461a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:password", "dst": "api:isbin-ba-api.p.rapidapi.com:348e89e35616461a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:isbin-ba-api.p.rapidapi.com:348e89e35616461a"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:kloudless_activity_monitoring"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:93e498315f288822"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:93e498315f288822"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:4b419c15097996f9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:permanent", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:4b419c15097996f9"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9ef6551bb4ff899f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9ef6551bb4ff899f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9ef6551bb4ff899f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9ef6551bb4ff899f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:overwrite", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9ef6551bb4ff899f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:dd492602d3ad4256"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:dd0029b5669d37e1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:parents", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:dd0029b5669d37e1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:dd0029b5669d37e1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:dd0029b5669d37e1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:lang", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:dd0029b5669d37e1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:q", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:dd0029b5669d37e1"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:0e101156466f8123"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:237d502778119922"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:237d502778119922"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:237d502778119922"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:136c1d1b38b02486"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:89893cb0aeb6d71f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:89893cb0aeb6d71f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e59a2aff0f75d086"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:size", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e59a2aff0f75d086"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:image_blob", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e59a2aff0f75d086"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:6a5727371f2f54b2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:6a5727371f2f54b2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:da7c25c9b110dafa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:recursive", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:da7c25c9b110dafa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:permanent", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:da7c25c9b110dafa"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:bcad0830d509c776"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:active", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:bcad0830d509c776"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:bcad0830d509c776"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:bcad0830d509c776"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:6dfd9dc75e244d3e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:68f49f20ce172492"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:8589d0224e542733"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:8589d0224e542733"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:1b18b7a00cfeda9e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:1b18b7a00cfeda9e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:840b962787fd500a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:20ce2b7aa8d39440"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:74c66ac65ee7674d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:74c66ac65ee7674d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:593e13af8abe548b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:593e13af8abe548b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:overwrite", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:593e13af8abe548b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:expires_in", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:593e13af8abe548b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:use_http", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:593e13af8abe548b"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:1ed92ec34b227fa6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:1ed92ec34b227fa6"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:8d2404ceb22c899c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:8d2404ceb22c899c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:recursive", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:8d2404ceb22c899c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:8d2404ceb22c899c"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:194b2bc540293d1a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:194b2bc540293d1a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:389149e11afc56d0"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:5db7fa4d3dfdc948"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:5db7fa4d3dfdc948"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b35ff91550fc4037"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b35ff91550fc4037"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:active", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b35ff91550fc4037"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:ordering", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b35ff91550fc4037"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b35ff91550fc4037"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:ad3b09d3e4f0bc2e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:3e1dd9ce700e6825"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:3e1dd9ce700e6825"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9bfbc9ffe9fa55ce"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:bfa06bc471d2da1b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:bfa06bc471d2da1b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:bfa06bc471d2da1b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:enabled", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:bfa06bc471d2da1b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:admin", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:bfa06bc471d2da1b"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e0aae90c9207ac9a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e0aae90c9207ac9a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:6deab5c0ee2466d3"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:587aa95980091dac"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:a9ae8391a847fb55"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:a9ae8391a847fb55"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:a9ae8391a847fb55"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e58235e93ba5b4c4"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e5926e4e77cb840e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:6e1716b3954bec17"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:end_marker", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:6e1716b3954bec17"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:6e1716b3954bec17"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:start_marker", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:6e1716b3954bec17"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:2ff2b6ec934a7e0e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:2ff2b6ec934a7e0e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e4ce8f0919699042"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e4ce8f0919699042"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:157e71b4975c693b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:157e71b4975c693b"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e1ea2315c09a69d4"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:31fac5e5316d6157"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:31fac5e5316d6157"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:31fac5e5316d6157"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:21a00050895b1c7f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:recursive", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:21a00050895b1c7f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:21a00050895b1c7f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:21a00050895b1c7f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:783df49776117c9a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:783df49776117c9a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:783df49776117c9a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:c2ff6a3e82efd572"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:c2ff6a3e82efd572"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:c2ff6a3e82efd572"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:account", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:c2ff6a3e82efd572"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:0f6a35c415a5ba9a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:0f6a35c415a5ba9a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:73ec8f27af364f1c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:73ec8f27af364f1c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:73ec8f27af364f1c"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:a443a1c2e49fbdb8"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:aa0e27544d33e8cd"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:0382df9f6a12ecb8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:0382df9f6a12ecb8"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:006eb811d0c3a1a6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:006eb811d0c3a1a6"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b84c988a2c733292"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b84c988a2c733292"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:165c945c9c211f5e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:96ccd6ccd25a72f9"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:63ef82a2652582d5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:63ef82a2652582d5"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:acdbcd0996bd74f4"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:8d5a12998706fd7e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:900620c34c14349a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:5f5e5533b1e0dea1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:5f5e5533b1e0dea1"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:a4db261c91f58b95"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:a4db261c91f58b95"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:14d3a676583dfb59"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:14d3a676583dfb59"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:d94c1817e643c2d4"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:44b62c4745185171"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b2b6bd73e5cec7c1"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:40eb3d3cfeb94934"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7c7b9a4f82501214"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7c7b9a4f82501214"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7c7b9a4f82501214"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7c7b9a4f82501214"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:be542b687e74b1ef"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7a39ddea591fecd2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7a39ddea591fecd2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:33df1f01c4179d55"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:6dcd58bbd5027ea7"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:2d1234349b8f2351"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:3fc4902b403a4098"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:3fc4902b403a4098"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:3fc4902b403a4098"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:d0717ee7c0bb1b86"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:2b092a7bd20959b8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:2b092a7bd20959b8"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:cc87f2afd283a587"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:cc87f2afd283a587"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:cc87f2afd283a587"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:account", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:cc87f2afd283a587"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:a301ad725ddd6ea6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:active", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:a301ad725ddd6ea6"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:2d0d9e0a5f07854d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:2d0d9e0a5f07854d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:cf0a01b1013379e4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:cf0a01b1013379e4"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:030b7a6de336abd7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:030b7a6de336abd7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:030b7a6de336abd7"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:faa0c1d5f1233aad"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:faa0c1d5f1233aad"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:faa0c1d5f1233aad"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e3e9365f3d9ddb8d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:69f993223f041e0c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:69f993223f041e0c"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:14005008e7621e0a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:14005008e7621e0a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b5f573857a71b04f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b5f573857a71b04f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:fc0d1caf4f785cfa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:fc0d1caf4f785cfa"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:ae3895b49804c9eb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:from", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:ae3895b49804c9eb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:ae3895b49804c9eb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:until", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:ae3895b49804c9eb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:ae3895b49804c9eb"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:21417748bf877874"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:279695eb6d3fc6e3"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:3b446a6a2332d55c"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:cce58fa4b32fcc9e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:cce58fa4b32fcc9e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:cce58fa4b32fcc9e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9d7e69148ad532b2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9d7e69148ad532b2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:conflict_if_exists", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9d7e69148ad532b2"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7e019e7e784f6e39"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:file_blob", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7e019e7e784f6e39"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:overwrite", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7e019e7e784f6e39"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e4f66c2236f90b2a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:e4f66c2236f90b2a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:d1e41a2ad6233d6e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:0ba2ee6637f2a41f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:overwrite", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:0ba2ee6637f2a41f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:expires_in", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:0ba2ee6637f2a41f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:use_http", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:0ba2ee6637f2a41f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:aac3cd330012e9d0"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7842f4d318de1e21"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:fb9c659193a1cd89"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:f3aa6fce5bf6d49d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:f3aa6fce5bf6d49d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:f7b5ecc64c1df4ba"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:4b52e35090b1e771"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:68dd0227abbe6716"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b7c5b5c539027109"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b7c5b5c539027109"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:b7c5b5c539027109"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:09569c700666026b"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:c7d5dfee8b01b2a7"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:3ce50b125b2a6a37"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:9ac5f239f94e9011"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:4abe4a9c31836bb6"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:kloudless_activity_monitoring", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7c878db12b83f2d6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:conflict_if_exists", "dst": "api:kloudless-activity-monitoring.p.rapidapi.com:7c878db12b83f2d6"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:latest_earthquakes"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:latest_earthquakes", "dst": "api:latest-earthquakes.p.rapidapi.com:82e514be55347928"}
+{"edge_type": "api_to_parameter", "src": "api:latest-earthquakes.p.rapidapi.com:82e514be55347928", "dst": "parameter_norm:STRING:fecha"}
+{"edge_type": "api_to_parameter", "src": "api:latest-earthquakes.p.rapidapi.com:82e514be55347928", "dst": "parameter_norm:NUMBER:id"}
+{"edge_type": "api_to_parameter", "src": "api:latest-earthquakes.p.rapidapi.com:82e514be55347928", "dst": "parameter_norm:STRING:lat"}
+{"edge_type": "api_to_parameter", "src": "api:latest-earthquakes.p.rapidapi.com:82e514be55347928", "dst": "parameter_norm:STRING:long"}
+{"edge_type": "api_to_parameter", "src": "api:latest-earthquakes.p.rapidapi.com:82e514be55347928", "dst": "parameter_norm:STRING:magnitud"}
+{"edge_type": "api_to_parameter", "src": "api:latest-earthquakes.p.rapidapi.com:82e514be55347928", "dst": "parameter_norm:STRING:profundidad"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:mac_address_lookup"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:mac_address_lookup", "dst": "api:mac-address-lookup1.p.rapidapi.com:aa020ff04d3f92a0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:query", "dst": "api:mac-address-lookup1.p.rapidapi.com:aa020ff04d3f92a0"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:marine_radar"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:a519c659857b735f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:port_id", "dst": "api:marine-radar.p.rapidapi.com:a519c659857b735f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:083b5154ba802a94"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ship_id", "dst": "api:marine-radar.p.rapidapi.com:083b5154ba802a94"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:8e93400cd0ce118b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ship_id", "dst": "api:marine-radar.p.rapidapi.com:8e93400cd0ce118b"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:757e54648787c0a6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:port_id", "dst": "api:marine-radar.p.rapidapi.com:757e54648787c0a6"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:2e37b674b1ae1cae"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:port_id", "dst": "api:marine-radar.p.rapidapi.com:2e37b674b1ae1cae"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:1abb8a3c09577818"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ship_id", "dst": "api:marine-radar.p.rapidapi.com:1abb8a3c09577818"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:04bb189455151239"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:port_id", "dst": "api:marine-radar.p.rapidapi.com:04bb189455151239"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:330623d0da5bebbb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:x", "dst": "api:marine-radar.p.rapidapi.com:330623d0da5bebbb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:zoom", "dst": "api:marine-radar.p.rapidapi.com:330623d0da5bebbb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:y", "dst": "api:marine-radar.p.rapidapi.com:330623d0da5bebbb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:z", "dst": "api:marine-radar.p.rapidapi.com:330623d0da5bebbb"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:d3c43cbee1712da0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:port_id", "dst": "api:marine-radar.p.rapidapi.com:d3c43cbee1712da0"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:61392eb6a2235d7f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ship_id", "dst": "api:marine-radar.p.rapidapi.com:61392eb6a2235d7f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:40951c39a75afd5a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:port_id", "dst": "api:marine-radar.p.rapidapi.com:40951c39a75afd5a"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:5ff3e96b396f2214"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:port_id", "dst": "api:marine-radar.p.rapidapi.com:5ff3e96b396f2214"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marine_radar", "dst": "api:marine-radar.p.rapidapi.com:ef2681b3408d0c5a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:ship_id", "dst": "api:marine-radar.p.rapidapi.com:ef2681b3408d0c5a"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:marinetraffic"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:marinetraffic", "dst": "api:marinetraffic1.p.rapidapi.com:1d765107da1e30dc"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:mboum"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:mboum", "dst": "api:mboum.p.rapidapi.com:5967178353520a7f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:mboum", "dst": "api:mboum.p.rapidapi.com:d702d503bc1f4c7e"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:mx_email_server_up_or_down"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:mx_email_server_up_or_down", "dst": "api:mx-email-server-up-or-down.p.rapidapi.com:fea17ef4c9283744"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:mx-email-server-up-or-down.p.rapidapi.com:fea17ef4c9283744"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:network_tools"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:network_tools", "dst": "api:network-tools.p.rapidapi.com:c5ec0ad2323706de"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:newly_registered_domains"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:newly_registered_domains", "dst": "api:newly-registered-domains3.p.rapidapi.com:73b5d9455f08126e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:newly-registered-domains3.p.rapidapi.com:73b5d9455f08126e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:newly_registered_domains", "dst": "api:newly-registered-domains3.p.rapidapi.com:37341b08ed14d27b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:newly-registered-domains3.p.rapidapi.com:37341b08ed14d27b"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:newly_registered_domains", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:exclude", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:date", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:crypto_key", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:newly_registered_domains", "dst": "api:newly-registered-domains3.p.rapidapi.com:2ed9029cafa717f4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:newly-registered-domains3.p.rapidapi.com:2ed9029cafa717f4"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:oh_fudge"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:oh_fudge", "dst": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:url", "dst": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85"}
+{"edge_type": "api_to_parameter", "src": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:onboarding_project"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:onboarding_project", "dst": "api:onboarding-project1470.p.rapidapi.com:eb6396e5a2917167"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:onboarding_project", "dst": "api:onboarding-project1470.p.rapidapi.com:93947c0aa7364a8d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:onboarding-project1470.p.rapidapi.com:93947c0aa7364a8d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:onboarding_project", "dst": "api:onboarding-project1470.p.rapidapi.com:957e7510cfecc999"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:onboarding_project", "dst": "api:onboarding-project1470.p.rapidapi.com:bdcbcc06f7b552aa"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:onboarding_project", "dst": "api:onboarding-project1470.p.rapidapi.com:16b0077ff212816e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:onboarding-project1470.p.rapidapi.com:16b0077ff212816e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:onboarding_project", "dst": "api:onboarding-project1470.p.rapidapi.com:a4423505dd3f276b"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:opensquat"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:opensquat", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:otp"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:otp", "dst": "api:otp19.p.rapidapi.com:d4d38f97b7273075"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mobileno", "dst": "api:otp19.p.rapidapi.com:d4d38f97b7273075"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:pages_hosted_on_domain"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:pages_hosted_on_domain", "dst": "api:pages-hosted-on-domain.p.rapidapi.com:804bbb3712e23845"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:matchtype", "dst": "api:pages-hosted-on-domain.p.rapidapi.com:804bbb3712e23845"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:collapse", "dst": "api:pages-hosted-on-domain.p.rapidapi.com:804bbb3712e23845"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:url", "dst": "api:pages-hosted-on-domain.p.rapidapi.com:804bbb3712e23845"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:fl", "dst": "api:pages-hosted-on-domain.p.rapidapi.com:804bbb3712e23845"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:pages-hosted-on-domain.p.rapidapi.com:804bbb3712e23845"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:filter", "dst": "api:pages-hosted-on-domain.p.rapidapi.com:804bbb3712e23845"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:patient"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:patient", "dst": "api:patient.p.rapidapi.com:5c74d834c2cc6186"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:example", "dst": "api:patient.p.rapidapi.com:5c74d834c2cc6186"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:patient.p.rapidapi.com:5c74d834c2cc6186"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:plerdy"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:plerdy", "dst": "api:plerdy.p.rapidapi.com:176ff196947d7830"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:porn_filter"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:porn_filter", "dst": "api:porn-filter2.p.rapidapi.com:014e2f024413c3bc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:porn-filter2.p.rapidapi.com:014e2f024413c3bc"}
+{"edge_type": "api_to_parameter", "src": "api:porn-filter2.p.rapidapi.com:014e2f024413c3bc", "dst": "parameter_norm:BOOLEAN:porn"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:price_tracking_tools"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:price_tracking_tools", "dst": "api:price-tracking-tools.p.rapidapi.com:4a9ffddffdb93f63"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:asin", "dst": "api:price-tracking-tools.p.rapidapi.com:4a9ffddffdb93f63"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:locale", "dst": "api:price-tracking-tools.p.rapidapi.com:4a9ffddffdb93f63"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:price_tracking_tools", "dst": "api:price-tracking-tools.p.rapidapi.com:8d048a27bf7112f9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:asin", "dst": "api:price-tracking-tools.p.rapidapi.com:8d048a27bf7112f9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:price-tracking-tools.p.rapidapi.com:8d048a27bf7112f9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:tp", "dst": "api:price-tracking-tools.p.rapidapi.com:8d048a27bf7112f9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:w", "dst": "api:price-tracking-tools.p.rapidapi.com:8d048a27bf7112f9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:h", "dst": "api:price-tracking-tools.p.rapidapi.com:8d048a27bf7112f9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:country", "dst": "api:price-tracking-tools.p.rapidapi.com:8d048a27bf7112f9"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:publiccloudwatchdashboard"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:publiccloudwatchdashboard", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:updatefrequency", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:updatefrequencyunit", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:region", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:role", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:externalid", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:dashboard", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:text_payload", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:infolink", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:periodthree", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:forceupdate", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:periodone", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:periodtwo", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:companyname", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:companyurl", "dst": "api:publiccloudwatchdashboard.p.rapidapi.com:ca6042320e03329d"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:scalair_nc"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:scalair_nc", "dst": "api:scalair-nc.p.rapidapi.com:a21a811b29bd64a0"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:scalair_nc", "dst": "api:scalair-nc.p.rapidapi.com:d147bb9602ce7e79"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:scalair_nc", "dst": "api:scalair-nc.p.rapidapi.com:ca90206c53b3f395"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:scalair_nc", "dst": "api:scalair-nc.p.rapidapi.com:35902d17da2bc4a8"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:scalair_nc", "dst": "api:scalair-nc.p.rapidapi.com:6e94f2dd2fc218ac"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:scalair_nc", "dst": "api:scalair-nc.p.rapidapi.com:1a72dd2a28a0d402"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:scalair_nc", "dst": "api:scalair-nc.p.rapidapi.com:81d1ed3e2ebfba12"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:scan_web_heades_api"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:scan_web_heades_api", "dst": "api:scan-web-heades-api.p.rapidapi.com:cb808e1f6c43a6df"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:scan-web-heades-api.p.rapidapi.com:cb808e1f6c43a6df"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:screenshot_maker"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:screenshot_maker", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:targeturl", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:islandscape", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:proxycountry", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:isfullyloaded", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:clickcount", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:page_cursor", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:clickselector", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:hastouch", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:clickdelay", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:clickbutton", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:devicescalefactor", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:ismobile", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:removables", "dst": "api:screenshot-maker.p.rapidapi.com:b5eb570c20caac92"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:searchingwebrequest"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:searchingwebrequest", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:response", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:similar_web"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:similar_web", "dst": "api:similar-web.p.rapidapi.com:073986b158c2c55e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:similar_web", "dst": "api:similar-web.p.rapidapi.com:43020185d0b951af"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:similar-web.p.rapidapi.com:43020185d0b951af"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:simple_email_notifications"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:simple_email_notifications", "dst": "api:simple-email-notifications.p.rapidapi.com:ad17d388a404a3cc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:simple-email-notifications.p.rapidapi.com:ad17d388a404a3cc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:subject", "dst": "api:simple-email-notifications.p.rapidapi.com:ad17d388a404a3cc"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:skin_analyze"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:skin_analyze", "dst": "api:skin-analyze.p.rapidapi.com:f383946ba4783b76"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:image_blob", "dst": "api:skin-analyze.p.rapidapi.com:f383946ba4783b76"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:ssl_certificate"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:432cc7d9f4c333b7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:432cc7d9f4c333b7"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:ea8ec01c26d20560"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:ea8ec01c26d20560"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:86089f3ca09f2dab"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:86089f3ca09f2dab"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:0c4402115b7888bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:0c4402115b7888bd"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:5065675aec8201b3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:5065675aec8201b3"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:329c2998de8294d7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:329c2998de8294d7"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:60891e5fe330ed9e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:60891e5fe330ed9e"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:dda5c84b5e52f9b0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:dda5c84b5e52f9b0"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:81bcaa2a4239fde6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:81bcaa2a4239fde6"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:b68e93f142ba0e53"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:b68e93f142ba0e53"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:084614edf41ef5b9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:084614edf41ef5b9"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:5f61ec726c836ecf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:5f61ec726c836ecf"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:242398ccb3963e4f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:242398ccb3963e4f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:ca3ac07e2f4df5b0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:ca3ac07e2f4df5b0"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:5108b3d720177b3c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:5108b3d720177b3c"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:14c798925c2be315"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:14c798925c2be315"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_certificate", "dst": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:ssl_checker"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_checker", "dst": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:source", "dst": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:ARRAY:additional_domains"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:NUMBER:code"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:NUMBER:days_until_expiration"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:STRING:domain"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:STRING:error"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:NUMBER:execution_time"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:STRING:expiration_date"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:BOOLEAN:is_valid"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:STRING:issuer"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:STRING:organization"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:OBJECT:json_payload"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:STRING:address"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "parameter_norm:STRING:valid_from_date"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:ssl_snitch"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_snitch", "dst": "api:ssl-snitch.p.rapidapi.com:d39d4b88202333a6"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-snitch.p.rapidapi.com:d39d4b88202333a6", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-snitch.p.rapidapi.com:d39d4b88202333a6", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_snitch", "dst": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:domain", "dst": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:end_marker", "dst": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:ssl_snitch", "dst": "api:ssl-snitch.p.rapidapi.com:9c6b5999d651124d"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:stack_overflow_monitor"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:stack_overflow_monitor", "dst": "api:stack-overflow-monitor.p.rapidapi.com:e670c86b249b2024"}
+{"edge_type": "api_to_parameter", "src": "api:stack-overflow-monitor.p.rapidapi.com:e670c86b249b2024", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:stack-overflow-monitor.p.rapidapi.com:e670c86b249b2024", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:stack_overflow_monitor", "dst": "api:stack-overflow-monitor.p.rapidapi.com:c6bf57285e8191d6"}
+{"edge_type": "api_to_parameter", "src": "api:stack-overflow-monitor.p.rapidapi.com:c6bf57285e8191d6", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:stack-overflow-monitor.p.rapidapi.com:c6bf57285e8191d6", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:tor_exit_nodes_geolocated"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:tor_exit_nodes_geolocated", "dst": "api:tor-exit-nodes-geolocated.p.rapidapi.com:d00267a34fa50204"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:order", "dst": "api:tor-exit-nodes-geolocated.p.rapidapi.com:d00267a34fa50204"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:localitylanguage", "dst": "api:tor-exit-nodes-geolocated.p.rapidapi.com:d00267a34fa50204"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:offset", "dst": "api:tor-exit-nodes-geolocated.p.rapidapi.com:d00267a34fa50204"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:sort", "dst": "api:tor-exit-nodes-geolocated.p.rapidapi.com:d00267a34fa50204"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:batchsize", "dst": "api:tor-exit-nodes-geolocated.p.rapidapi.com:d00267a34fa50204"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:universal_easy_webhooks"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:universal_easy_webhooks", "dst": "api:universal-easy-webhooks.p.rapidapi.com:a91cd3e96c2ce67b"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:weather_request"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:weather_request", "dst": "api:weather-request.p.rapidapi.com:83da5f8d848d98bc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:city_or_country_name", "dst": "api:weather-request.p.rapidapi.com:83da5f8d848d98bc"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:weather_request", "dst": "api:weather-request.p.rapidapi.com:50281878150d0e2f"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:web_monitoring_service"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:web_monitoring_service", "dst": "api:web-monitoring-service.p.rapidapi.com:891060138fd6dd61"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:web-monitoring-service.p.rapidapi.com:891060138fd6dd61"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:end_marker", "dst": "api:web-monitoring-service.p.rapidapi.com:891060138fd6dd61"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:web_monitoring_service", "dst": "api:web-monitoring-service.p.rapidapi.com:c2645de605a5433d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:web-monitoring-service.p.rapidapi.com:c2645de605a5433d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:end_marker", "dst": "api:web-monitoring-service.p.rapidapi.com:c2645de605a5433d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:web_monitoring_service", "dst": "api:web-monitoring-service.p.rapidapi.com:665d0dd342f4426b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:web-monitoring-service.p.rapidapi.com:665d0dd342f4426b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:end_marker", "dst": "api:web-monitoring-service.p.rapidapi.com:665d0dd342f4426b"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:web_monitoring_service", "dst": "api:web-monitoring-service.p.rapidapi.com:9de8552c39f4e1ba"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:web-monitoring-service.p.rapidapi.com:9de8552c39f4e1ba"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:web_monitoring_service", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:region", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:language", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:web_monitoring_service", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:id", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:enable", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:crypto_key", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:region", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:language", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:web_monitoring_service", "dst": "api:web-monitoring-service.p.rapidapi.com:c28289401655496a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:web-monitoring-service.p.rapidapi.com:c28289401655496a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:end_marker", "dst": "api:web-monitoring-service.p.rapidapi.com:c28289401655496a"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:website_malware_and_security_checker"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:website_malware_and_security_checker", "dst": "api:website-malware-and-security-checker1.p.rapidapi.com:55202c18a3b287b0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:site", "dst": "api:website-malware-and-security-checker1.p.rapidapi.com:55202c18a3b287b0"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:webup"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:webup", "dst": "api:webup.p.rapidapi.com:e83b4e060d8947f4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:url", "dst": "api:webup.p.rapidapi.com:e83b4e060d8947f4"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:webup", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:url", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:world_population_by_decade_and_growth_rate"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:world_population_by_decade_and_growth_rate", "dst": "api:world-population-by-decade-and-growth-rate.p.rapidapi.com:8c6d050f73579662"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:world_population_by_decade_and_growth_rate", "dst": "api:world-population-by-decade-and-growth-rate.p.rapidapi.com:8d63444f0c95325b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:decade", "dst": "api:world-population-by-decade-and-growth-rate.p.rapidapi.com:8d63444f0c95325b"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:yandex_serp"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:yandex_serp", "dst": "api:yandex-serp.p.rapidapi.com:34349a1fed41d59f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:task_id", "dst": "api:yandex-serp.p.rapidapi.com:34349a1fed41d59f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:yandex_serp", "dst": "api:yandex-serp.p.rapidapi.com:4e12c6b0281a947f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:task_status", "dst": "api:yandex-serp.p.rapidapi.com:4e12c6b0281a947f"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:yandex_serp", "dst": "api:yandex-serp.p.rapidapi.com:bec5fc2c0372ad33"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:yandex_serp", "dst": "api:yandex-serp.p.rapidapi.com:3ea397e1d6611ae5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:task_id", "dst": "api:yandex-serp.p.rapidapi.com:3ea397e1d6611ae5"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:yandex_serp", "dst": "api:yandex-serp.p.rapidapi.com:c91cbc4bcf676cc3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:domain", "dst": "api:yandex-serp.p.rapidapi.com:c91cbc4bcf676cc3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:yandex-serp.p.rapidapi.com:c91cbc4bcf676cc3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:query", "dst": "api:yandex-serp.p.rapidapi.com:c91cbc4bcf676cc3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:yandex-serp.p.rapidapi.com:c91cbc4bcf676cc3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:within", "dst": "api:yandex-serp.p.rapidapi.com:c91cbc4bcf676cc3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:region", "dst": "api:yandex-serp.p.rapidapi.com:c91cbc4bcf676cc3"}
+{"edge_type": "category_to_tool", "src": "category:Monitoring", "dst": "tool:Monitoring:youtube_classification_api"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:youtube_classification_api", "dst": "api:youtube-classification-api.p.rapidapi.com:47a8d3c48f6826de"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:OBJECT:channeltitle", "dst": "api:youtube-classification-api.p.rapidapi.com:47a8d3c48f6826de"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:youtube_classification_api", "dst": "api:youtube-classification-api.p.rapidapi.com:355d56d2d7ec84a9"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:youtube_classification_api", "dst": "api:youtube-classification-api.p.rapidapi.com:d604998eb5657d7d"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:youtube_classification_api", "dst": "api:youtube-classification-api.p.rapidapi.com:59234dda760914f8"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:youtube_classification_api", "dst": "api:youtube-classification-api.p.rapidapi.com:855eb6861d46b1da"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:youtube_classification_api", "dst": "api:youtube-classification-api.p.rapidapi.com:60ad4b3dbd7baac1"}
+{"edge_type": "tool_to_api", "src": "tool:Monitoring:youtube_classification_api", "dst": "api:youtube-classification-api.p.rapidapi.com:e2ba4447f238b7c6"}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:3b5e24a0ff38d91f", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:3b5e24a0ff38d91f", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:3b5e24a0ff38d91f", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:3b5e24a0ff38d91f", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:3b5e24a0ff38d91f", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:3b5e24a0ff38d91f", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:470dc48c7826b42b", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:470dc48c7826b42b", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:470dc48c7826b42b", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:470dc48c7826b42b", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:470dc48c7826b42b", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:470dc48c7826b42b", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:65dfa08221b0032d", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:65dfa08221b0032d", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:65dfa08221b0032d", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:65dfa08221b0032d", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:65dfa08221b0032d", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:65dfa08221b0032d", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:coronastatsbycountry.p.rapidapi.com:d542e7f40d4549d0", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:crypto-currency-live-prices.p.rapidapi.com:8b8b63f2542bfbc7", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:crypto-currency-live-prices.p.rapidapi.com:8b8b63f2542bfbc7", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:crypto-currency-live-prices.p.rapidapi.com:8b8b63f2542bfbc7", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:crypto-currency-live-prices.p.rapidapi.com:8b8b63f2542bfbc7", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:crypto-currency-live-prices.p.rapidapi.com:8b8b63f2542bfbc7", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:crypto-currency-live-prices.p.rapidapi.com:8b8b63f2542bfbc7", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:eaux-baignade-noumea.p.rapidapi.com:e6c2e3b729eb1ed5", "dst": "api:eaux-baignade-noumea.p.rapidapi.com:6e636749db699c4e", "mapping_signature": "match_key:STRING:couleurdrapeau", "match_confidence": 1.0, "semantic_role": "couleurdrapeau", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:exchange-rate-api2.p.rapidapi.com:2fdb063be75a8ab4", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:a6721d2ef91cc340", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ics-cert-advisories.p.rapidapi.com:c7ceaec2cd96b693", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 6.074, "success_freq_prior": 0.995}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:6e31bd0d4e7a3972", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:6e31bd0d4e7a3972", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:6e31bd0d4e7a3972", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:6e31bd0d4e7a3972", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:6e31bd0d4e7a3972", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:6e31bd0d4e7a3972", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:isbin-ba-api.p.rapidapi.com:aa42188475c7d415", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:latest-earthquakes.p.rapidapi.com:82e514be55347928", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:NUMBER:id", "match_confidence": 1.0, "semantic_role": "id", "est_cost": 4.015, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:oh-fudge.p.rapidapi.com:24dfbfabe8250a85", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:check-ssl.p.rapidapi.com:294bd0a45a26a1ed", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 1.011, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:mx-email-server-up-or-down.p.rapidapi.com:fea17ef4c9283744", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 3.278, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:newly-registered-domains3.p.rapidapi.com:2ed9029cafa717f4", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 3.215, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:porn-filter2.p.rapidapi.com:014e2f024413c3bc", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:scan-web-heades-api.p.rapidapi.com:cb808e1f6c43a6df", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 1.516, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:similar-web.p.rapidapi.com:43020185d0b951af", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 1.278, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:084614edf41ef5b9", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:0c4402115b7888bd", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:14c798925c2be315", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:242398ccb3963e4f", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:329c2998de8294d7", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:3b976a535fafcdab", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:432cc7d9f4c333b7", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:5065675aec8201b3", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:5108b3d720177b3c", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:5f61ec726c836ecf", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:60891e5fe330ed9e", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:81bcaa2a4239fde6", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:86089f3ca09f2dab", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:b68e93f142ba0e53", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:ca3ac07e2f4df5b0", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:dda5c84b5e52f9b0", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-certificate.p.rapidapi.com:ea8ec01c26d20560", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 0.477, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:ssl-checker.p.rapidapi.com:0abefe9acd0a4edb", "dst": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8", "mapping_signature": "match_key:STRING:domain", "match_confidence": 1.0, "semantic_role": "domain", "est_cost": 1.323, "success_freq_prior": 0.14}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 0.64}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.63}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.323, "success_freq_prior": 0.28}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 0.64}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 0.64}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d072a70a5f4c4cb8", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.635}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d39d4b88202333a6", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 0.64}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d39d4b88202333a6", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.63}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d39d4b88202333a6", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.323, "success_freq_prior": 0.28}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d39d4b88202333a6", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 0.64}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d39d4b88202333a6", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 0.64}
+{"edge_type": "depends_on", "src": "api:ssl-snitch.p.rapidapi.com:d39d4b88202333a6", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.635}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:c6bf57285e8191d6", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:c6bf57285e8191d6", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:c6bf57285e8191d6", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:c6bf57285e8191d6", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:c6bf57285e8191d6", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:c6bf57285e8191d6", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:e670c86b249b2024", "dst": "api:newly-registered-domains3.p.rapidapi.com:498b0f61edf0ede6", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.215, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:e670c86b249b2024", "dst": "api:opensquat1.p.rapidapi.com:36ea495e88863add", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 11.587, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:e670c86b249b2024", "dst": "api:searchingwebrequest.p.rapidapi.com:b30540de7d6c6ef2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:e670c86b249b2024", "dst": "api:web-monitoring-service.p.rapidapi.com:841209fbe13d5862", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:e670c86b249b2024", "dst": "api:web-monitoring-service.p.rapidapi.com:eb4c97a92207195f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.015, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:stack-overflow-monitor.p.rapidapi.com:e670c86b249b2024", "dst": "api:webup.p.rapidapi.com:ce16a9f38c2555d9", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.349, "success_freq_prior": 0.99}

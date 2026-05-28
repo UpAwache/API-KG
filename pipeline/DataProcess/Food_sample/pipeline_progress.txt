@@ -1,0 +1,9 @@
+updated_at: 2026-04-07 23:59:32
+stage: Stage 03 fine_role + canonical (done)
+current: 1452
+total: 1452
+percent: 100.00
+elapsed_sec: 877.5
+rate_param_per_sec: 1.655
+eta_sec_remaining: 0
+eta_human: 0s

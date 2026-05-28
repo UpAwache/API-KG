@@ -1,0 +1,193 @@
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:3des_decyption_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:3des_decyption_api", "dst": "api:3des-decyption-api.p.rapidapi.com:0711fd80d5769de9"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:converter"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:converter", "dst": "api:converter18.p.rapidapi.com:75749c88d204cc3f"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:converter", "dst": "api:converter18.p.rapidapi.com:00ecb5d8e70cbf13"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:crypto_key_value_store"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:crypto_key_value_store", "dst": "api:crypto-key-value-store.p.rapidapi.com:037c28dfc6e33964"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload:crypto_key_value_store", "dst": "api:crypto-key-value-store.p.rapidapi.com:037c28dfc6e33964"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key:crypto_key_value_store", "dst": "api:crypto-key-value-store.p.rapidapi.com:037c28dfc6e33964"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:category:crypto_key_value_store", "dst": "api:crypto-key-value-store.p.rapidapi.com:037c28dfc6e33964"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:crypto_key_value_store", "dst": "api:crypto-key-value-store.p.rapidapi.com:a2161304adca0b16"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key:crypto_key_value_store", "dst": "api:crypto-key-value-store.p.rapidapi.com:a2161304adca0b16"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:crypto_whale_tracker"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:6e3f02b700464d38"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:chain:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:6e3f02b700464d38"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:6e3f02b700464d38"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:page_cursor:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:6e3f02b700464d38"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:88f111414484b825"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:chain:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:88f111414484b825"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:88f111414484b825"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:ede081767ba8c637"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:ede081767ba8c637"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:chain:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:ede081767ba8c637"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:4985d2a917d86d74"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:4985d2a917d86d74"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:04f668867c478bd7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:04f668867c478bd7"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:ee25749570d24297"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:order_by:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:ee25749570d24297"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:start_marker:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:ee25749570d24297"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:limit:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:ee25749570d24297"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:eabfb0c252a7fd22"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:start_marker:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:eabfb0c252a7fd22"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:limit:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:eabfb0c252a7fd22"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:is_whale:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:eabfb0c252a7fd22"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:order_by:crypto_whale_tracker", "dst": "api:crypto-whale-tracker.p.rapidapi.com:eabfb0c252a7fd22"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:cryptocurrency_news"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:cryptocurrency_news", "dst": "api:cryptocurrency-news2.p.rapidapi.com:fe0b49eae62582c5"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:fe0b49eae62582c5", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:fe0b49eae62582c5", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:cryptocurrency_news", "dst": "api:cryptocurrency-news2.p.rapidapi.com:b1ab688ad92c9a8d"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:b1ab688ad92c9a8d", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:b1ab688ad92c9a8d", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:cryptocurrency_news", "dst": "api:cryptocurrency-news2.p.rapidapi.com:84ade3b019066d7e"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:84ade3b019066d7e", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:84ade3b019066d7e", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:cryptocurrency_news", "dst": "api:cryptocurrency-news2.p.rapidapi.com:2851b1588c34e0f0"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:2851b1588c34e0f0", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:2851b1588c34e0f0", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:cryptocurrency_news", "dst": "api:cryptocurrency-news2.p.rapidapi.com:4a9f8b65eb79313b"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:4a9f8b65eb79313b", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:4a9f8b65eb79313b", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:cryptocurrency_news", "dst": "api:cryptocurrency-news2.p.rapidapi.com:cdc75e860dde1a96"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:cdc75e860dde1a96", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "api_to_parameter", "src": "api:cryptocurrency-news2.p.rapidapi.com:cdc75e860dde1a96", "dst": "parameter_norm:STRING:crypto_key:cryptocurrency_news"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:digital_currency"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:digital_currency", "dst": "api:digital-currency.p.rapidapi.com:8926ee3bfff0aa91"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:eea_email_encryption_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:eea_email_encryption_api", "dst": "api:eea-email-encryption-api.p.rapidapi.com:261b4d5e127fbcf4"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:eea_email_encryption_api", "dst": "api:eea-email-encryption-api.p.rapidapi.com:33a124275e51dd36"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:eea_email_encryption_api", "dst": "api:eea-email-encryption-api.p.rapidapi.com:af326321be2ac006"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:eea_email_encryption_api", "dst": "api:eea-email-encryption-api.p.rapidapi.com:00affe51909e4727"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:electronic_certificate_verification"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:electronic_certificate_verification", "dst": "api:electronic-certificate-verification.p.rapidapi.com:9b1a34ae3a7ac0a8"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:encryption_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:encryption_api", "dst": "api:encryption-api2.p.rapidapi.com:fe78530a559048b9"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:encryption_api", "dst": "api:encryption-api2.p.rapidapi.com:cac7c7f111e4ed2a"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:fanfury"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:fanfury", "dst": "api:fanfury.p.rapidapi.com:365d5e23a1d6a892"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:fanfury", "dst": "api:fanfury.p.rapidapi.com:84637de790fb1167"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:hashing_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:hashing_api", "dst": "api:hashing-api3.p.rapidapi.com:ba0e3d53ab2d610a"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:hexsign"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:hexsign", "dst": "api:hexsign.p.rapidapi.com:6490e3c6b33e72e6"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:hexsign", "dst": "api:hexsign.p.rapidapi.com:815ae744985e5d8b"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:hexsign", "dst": "api:hexsign.p.rapidapi.com:0d51876d04905dab"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:hexsign", "dst": "api:hexsign.p.rapidapi.com:bba9b4e52cd04064"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:hexsign", "dst": "api:hexsign.p.rapidapi.com:72b86fef90b08109"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:hexsign", "dst": "api:hexsign.p.rapidapi.com:ef85e42a072aee83"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob:hexsign", "dst": "api:hexsign.p.rapidapi.com:ef85e42a072aee83"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:iftiin_crypt"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:iftiin_crypt", "dst": "api:iftiin-crypt.p.rapidapi.com:99f13de5a60fbedd"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:iftiin_crypt", "dst": "api:iftiin-crypt.p.rapidapi.com:85c735dfb54db9a7"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:no_intrusive_steganografy"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:600b1d4555ad81cd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:message_text:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:600b1d4555ad81cd"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:2fa24ee5e62b872f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:message_text:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:2fa24ee5e62b872f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:message_text:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:2fa24ee5e62b872f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:image_blob:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:2fa24ee5e62b872f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:authorizedusers:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:2fa24ee5e62b872f"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:84f3dcd1d7c15fed"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:message_text:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:84f3dcd1d7c15fed"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:image_blob:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:84f3dcd1d7c15fed"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:user_ref_img:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:84f3dcd1d7c15fed"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:authorizeduser:no_intrusive_steganografy", "dst": "api:no-intrusive-steganografy.p.rapidapi.com:84f3dcd1d7c15fed"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:pgp_decryption_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:pgp_decryption_api", "dst": "api:pgp-decryption-api.p.rapidapi.com:21ce69d7139df41a"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:random_phrase_generator"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:random_phrase_generator", "dst": "api:random-phrase-generator.p.rapidapi.com:f756379d66c64ca8"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:random_phrase_generator", "dst": "api:random-phrase-generator.p.rapidapi.com:527c430e79d853cc"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:reddio_nft_token_and_ipfs"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:a76b640a01122f71"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:token_id:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:a76b640a01122f71"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:contract_address:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:a76b640a01122f71"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:type:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:a76b640a01122f71"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:0a111235866f2f3b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:asset_id:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:0a111235866f2f3b"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:3a1e8ace58b7e66a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:vault_id:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:3a1e8ace58b7e66a"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:202ab010be77e762"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:stark_key:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:202ab010be77e762"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:asset_id:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:202ab010be77e762"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:21f431e2df75efb0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:order_id:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:21f431e2df75efb0"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:04a1692b2abf0fb3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:contract_address:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:04a1692b2abf0fb3"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:9fc35f47aa41880a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:count:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:9fc35f47aa41880a"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:8ee20c13287ccea4"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:signature_rs:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:8ee20c13287ccea4"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:signature_rs:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:8ee20c13287ccea4"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:d848ef250dad8f14"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:sequence_id:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:d848ef250dad8f14"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:a2fba97b08e74f9a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:stark_key:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:a2fba97b08e74f9a"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:3b763da56c258b07"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:stark_key:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:3b763da56c258b07"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:c2fc6724f6863f5d"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:708d1d4045961699"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:stark_key:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:708d1d4045961699"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ce21b6bc138a2f79"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:limit:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ce21b6bc138a2f79"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:stark_key:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ce21b6bc138a2f79"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:contract_address:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ce21b6bc138a2f79"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:page_cursor:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ce21b6bc138a2f79"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ef4610b32f245f4b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:project_uuid:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ef4610b32f245f4b"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:e5a3eabbfbbd2d72"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:stark_key:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:e5a3eabbfbbd2d72"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:asset_id:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:e5a3eabbfbbd2d72"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ede99b7120f66483"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:stark_key:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ede99b7120f66483"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:contract2:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ede99b7120f66483"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:contract1:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ede99b7120f66483"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:5a1cb7f4e6042d7c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:contract_address:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:5a1cb7f4e6042d7c"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:fca5931182c7c770"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:project_uuid:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:fca5931182c7c770"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:6041984a386e8e00"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:bfe30810cfc06b31"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:marketplace_name:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:bfe30810cfc06b31"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:bfe30810cfc06b31"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:marketplace_fee:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:bfe30810cfc06b31"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:project_uuid:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:bfe30810cfc06b31"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:5e45c31bbb2173a6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:marketplace_uuid:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:5e45c31bbb2173a6"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:f53d6452390c4073"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:a99a90c5040862ff"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BINARY:file_blob:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:a99a90c5040862ff"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:project_uuid:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:a99a90c5040862ff"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ef91f874dced2d0f"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:reddio_nft_token_and_ipfs", "dst": "api:reddio-nft-token-and-ipfs.p.rapidapi.com:ece81b70cc6f91c8"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:secure_text_api"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:secure_text_api", "dst": "api:secure-text-api.p.rapidapi.com:c2b34e36dd85ae08"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:secure_text_api", "dst": "api:secure-text-api.p.rapidapi.com:9c13e299eb58d399"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:secure_text_api", "dst": "api:secure-text-api.p.rapidapi.com:b42e569c755c481d"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:secure_text_api", "dst": "api:secure-text-api.p.rapidapi.com:b9ba56ae659a948f"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:secure_text_api", "dst": "api:secure-text-api.p.rapidapi.com:55dfa99bfce19b59"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:securityapi"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:securityapi", "dst": "api:securityapi1.p.rapidapi.com:e40fe1aa734dd1e6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload:securityapi", "dst": "api:securityapi1.p.rapidapi.com:e40fe1aa734dd1e6"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:securityapi", "dst": "api:securityapi1.p.rapidapi.com:89f8deb252e1ae0c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:data_payload:securityapi", "dst": "api:securityapi1.p.rapidapi.com:89f8deb252e1ae0c"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:securityapi", "dst": "api:securityapi1.p.rapidapi.com:e7fee252590c1cfb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:json_payload:securityapi", "dst": "api:securityapi1.p.rapidapi.com:e7fee252590c1cfb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:json_payload:securityapi", "dst": "api:securityapi1.p.rapidapi.com:e7fee252590c1cfb"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:securityapi", "dst": "api:securityapi1.p.rapidapi.com:e94a88a132cf706d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:json_payload:securityapi", "dst": "api:securityapi1.p.rapidapi.com:e94a88a132cf706d"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:securityapi", "dst": "api:securityapi1.p.rapidapi.com:b9cadc9078dede5e"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:securityapi", "dst": "api:securityapi1.p.rapidapi.com:e30cdc959e27809a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:format:securityapi", "dst": "api:securityapi1.p.rapidapi.com:e30cdc959e27809a"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:securityapi", "dst": "api:securityapi1.p.rapidapi.com:18d60cc8ca2b1987"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:json_payload:securityapi", "dst": "api:securityapi1.p.rapidapi.com:18d60cc8ca2b1987"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:securityapi", "dst": "api:securityapi1.p.rapidapi.com:c238b6ae4eeafe4c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:json_payload:securityapi", "dst": "api:securityapi1.p.rapidapi.com:c238b6ae4eeafe4c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload:securityapi", "dst": "api:securityapi1.p.rapidapi.com:c238b6ae4eeafe4c"}
+{"edge_type": "api_to_parameter", "src": "api:securityapi1.p.rapidapi.com:c238b6ae4eeafe4c", "dst": "parameter_norm:STRING:crypto_key:securityapi"}
+{"edge_type": "api_to_parameter", "src": "api:securityapi1.p.rapidapi.com:c238b6ae4eeafe4c", "dst": "parameter_norm:STRING:crypto_key:securityapi"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:securityapi", "dst": "api:securityapi1.p.rapidapi.com:247ee84b04f14c0e"}
+{"edge_type": "category_to_tool", "src": "category:Cryptography", "dst": "tool:Cryptography:text_qr_generator"}
+{"edge_type": "tool_to_api", "src": "tool:Cryptography:text_qr_generator", "dst": "api:text-qr-generator.p.rapidapi.com:59002b54e7583619"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:text_payload:text_qr_generator", "dst": "api:text-qr-generator.p.rapidapi.com:59002b54e7583619"}

@@ -1,0 +1,1123 @@
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:3d_bin_packing_calculator"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:3d_bin_packing_calculator", "dst": "api:3d-bin-packing-calculator.p.rapidapi.com:5dd53979fd7b5423"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:3d_bin_packing_problem"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:3d_bin_packing_problem", "dst": "api:3d-bin-packing-problem.p.rapidapi.com:4900b3641b8eb61f"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:aftership"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:921f35fcd2a426aa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:921f35fcd2a426aa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:921f35fcd2a426aa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:emails", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:921f35fcd2a426aa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:smses", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:921f35fcd2a426aa"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0ae71fba38964c9c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0ae71fba38964c9c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0ae71fba38964c9c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0ae71fba38964c9c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:emails", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0ae71fba38964c9c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:smses", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0ae71fba38964c9c"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:trackingdestinationcountry", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:trackingaccountnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:trackingpostalcode", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:trackingshippingdate", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:destinationcountryiso3", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:customfields", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:customername", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:order_id", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderidpath", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:note", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:android", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:ios", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:emails", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:smses", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:923a1996acaccc4c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:923a1996acaccc4c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:923a1996acaccc4c"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:6605cd4724871ac7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:6605cd4724871ac7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:6605cd4724871ac7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:6605cd4724871ac7"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:trackingshippingdate", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:trackingaccountnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:trackingdestinationcountry", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:trackingpostalcode", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:05dbcfbdd1834950"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:05dbcfbdd1834950"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:6bbb7f8e68944763"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:6bbb7f8e68944763"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c2675177381ffcd2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c2675177381ffcd2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c2675177381ffcd2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c2675177381ffcd2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:fields", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c2675177381ffcd2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:b842c3110ce7a3fc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:b842c3110ce7a3fc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:b842c3110ce7a3fc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:b842c3110ce7a3fc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:b842c3110ce7a3fc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:fields", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:b842c3110ce7a3fc"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:82b462c5fe21b64f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:82b462c5fe21b64f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:82b462c5fe21b64f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:82b462c5fe21b64f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:fields", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:82b462c5fe21b64f"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:f3eb7ac3d7c879bc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:f3eb7ac3d7c879bc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:f3eb7ac3d7c879bc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:f3eb7ac3d7c879bc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:f3eb7ac3d7c879bc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:fields", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:f3eb7ac3d7c879bc"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:deliverytime", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:createdatmin", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:tag", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:createdatmax", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:origin", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:destination", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:fields", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9647d78e2c6b1de2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9647d78e2c6b1de2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9647d78e2c6b1de2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:a29ce85c02dfa44d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:a29ce85c02dfa44d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:a29ce85c02dfa44d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:a29ce85c02dfa44d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:4169dbd5a401caee"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:4169dbd5a401caee"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:4169dbd5a401caee"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:emails", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:4169dbd5a401caee"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:smses", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:4169dbd5a401caee"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:2e2e5014215dded9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:2e2e5014215dded9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:2e2e5014215dded9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:2e2e5014215dded9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:emails", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:2e2e5014215dded9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:smses", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:2e2e5014215dded9"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:f00e5806e2451d0d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:f00e5806e2451d0d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:f00e5806e2451d0d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0db2ceefa6145b8b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0db2ceefa6145b8b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0db2ceefa6145b8b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:0db2ceefa6145b8b"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:note", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderidpath", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:customername", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:order_id", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:customfields", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:emails", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:smses", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:1d5064b6d4aa6542"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aftership", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:slug", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:note", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:customername", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:orderidpath", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:order_id", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:customfields", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:emails", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:smses", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:9c5afc309cab8912"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:aipickerroute"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:aipickerroute", "dst": "api:aipickerroute3.p.rapidapi.com:3e6e6ec8f0d8aa07"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:air_cargo_co2_track_and_trace"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:air_cargo_co2_track_and_trace", "dst": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:76a3116c0c1f483c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:awb", "dst": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:76a3116c0c1f483c"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:air_cargo_co2_track_and_trace", "dst": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:e32ffbfc00b0e79c"}
+{"edge_type": "api_to_parameter", "src": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:e32ffbfc00b0e79c", "dst": "parameter_norm:NUMBER:status"}
+{"edge_type": "api_to_parameter", "src": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:e32ffbfc00b0e79c", "dst": "parameter_norm:STRING:message_text"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:air_cargo_co2_track_and_trace", "dst": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:503d49fcd7097e6a"}
+{"edge_type": "api_to_parameter", "src": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:503d49fcd7097e6a", "dst": "parameter_norm:NUMBER:status"}
+{"edge_type": "api_to_parameter", "src": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:503d49fcd7097e6a", "dst": "parameter_norm:STRING:message_text"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:air_cargo_co2_track_and_trace", "dst": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:63e7f9ff2308be45"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:air_cargo_co2_track_and_trace", "dst": "api:air-cargo-co2-track-and-trace.p.rapidapi.com:3a1db2ffe5daa92d"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:air_cargo_route_and_schedule"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:air_cargo_route_and_schedule", "dst": "api:air-cargo-route-and-schedule.p.rapidapi.com:05534ba227a9bcf4"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:air_cargo_schedule_and_rate"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:air_cargo_schedule_and_rate", "dst": "api:air-cargo-schedule-and-rate.p.rapidapi.com:121b6f3ac7982704"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:air_cargo_schedule_and_rate", "dst": "api:air-cargo-schedule-and-rate.p.rapidapi.com:772d4b93bd3cde19"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:alumprice"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:alumprice", "dst": "api:alumprice.p.rapidapi.com:eeb08f450162f80a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:id", "dst": "api:alumprice.p.rapidapi.com:eeb08f450162f80a"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:alumprice", "dst": "api:alumprice.p.rapidapi.com:f1d3ecef5f832aeb"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:alumprice", "dst": "api:alumprice.p.rapidapi.com:6e8ae81f12b7432d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:alumprice", "dst": "api:alumprice.p.rapidapi.com:1b65553373b7c8a7"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:alumprice", "dst": "api:alumprice.p.rapidapi.com:b3bd64f7c21f6d20"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:alumprice", "dst": "api:alumprice.p.rapidapi.com:10db51bead1bd9b8"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:paginate", "dst": "api:alumprice.p.rapidapi.com:10db51bead1bd9b8"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:alumprice", "dst": "api:alumprice.p.rapidapi.com:98af2cdfb713a2c5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:id", "dst": "api:alumprice.p.rapidapi.com:98af2cdfb713a2c5"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:alumprice", "dst": "api:alumprice.p.rapidapi.com:7eab80da13769ab4"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:alumprice", "dst": "api:alumprice.p.rapidapi.com:eb93fa8085f368f9"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:amex_australia_fastway_australia_tracking"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:amex_australia_fastway_australia_tracking", "dst": "api:amex-australia-fastway-australia-tracking.p.rapidapi.com:a16d664a6a4a3d34"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tracking_number", "dst": "api:amex-australia-fastway-australia-tracking.p.rapidapi.com:a16d664a6a4a3d34"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:api_correo_argentino_paq_ar"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:api_correo_argentino_paq_ar", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:pesopaquetekg", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:entrega", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:iva", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:altocm", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:anchocm", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:profundidadcm", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tipo", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:codigopostaldestino", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:codigopostalorigen", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9"}
+{"edge_type": "api_to_parameter", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:api_correo_argentino_paq_ar", "dst": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd"}
+{"edge_type": "api_to_parameter", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "parameter_norm:STRING:authorization"}
+{"edge_type": "api_to_parameter", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "parameter_norm:STRING:contacto"}
+{"edge_type": "api_to_parameter", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "parameter_norm:STRING:whatsapp"}
+{"edge_type": "api_to_parameter", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "parameter_norm:STRING:datos_path_precio"}
+{"edge_type": "api_to_parameter", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "parameter_norm:STRING:datos_path_sucursales"}
+{"edge_type": "api_to_parameter", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "parameter_norm:STRING:datos_path_precios"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:api_deliveries"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:api_deliveries", "dst": "api:api-deliveries.p.rapidapi.com:f21d4b30daf005a2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:authorization", "dst": "api:api-deliveries.p.rapidapi.com:f21d4b30daf005a2"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:api_timing_check"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:api_timing_check", "dst": "api:api-timing-check.p.rapidapi.com:0a7ac21ca5193f42"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:api-timing-check.p.rapidapi.com:0a7ac21ca5193f42"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:x_logindevice", "dst": "api:api-timing-check.p.rapidapi.com:0a7ac21ca5193f42"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:arktis_gps_data_point_history"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:arktis_gps_data_point_history", "dst": "api:arktis-gps-data-point-history.p.rapidapi.com:07b26948dee83374"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:end_marker", "dst": "api:arktis-gps-data-point-history.p.rapidapi.com:07b26948dee83374"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:device", "dst": "api:arktis-gps-data-point-history.p.rapidapi.com:07b26948dee83374"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:start_marker", "dst": "api:arktis-gps-data-point-history.p.rapidapi.com:07b26948dee83374"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:arktis_gps_data_point_history", "dst": "api:arktis-gps-data-point-history.p.rapidapi.com:bdf1d431caf86710"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:arktis_gps_data_point_history", "dst": "api:arktis-gps-data-point-history.p.rapidapi.com:39cdb26748167f9b"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:arktis_gps_data_point_history", "dst": "api:arktis-gps-data-point-history.p.rapidapi.com:a80eb13452fdc272"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:arktis_gps_data_point_history", "dst": "api:arktis-gps-data-point-history.p.rapidapi.com:22d97aa56991de6a"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:arktis_gps_data_point_history", "dst": "api:arktis-gps-data-point-history.p.rapidapi.com:ee9c5b9a20700890"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:calculate_service_area"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:calculate_service_area", "dst": "api:calculate-service-area.p.rapidapi.com:4f2d9994e9582c4b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mode", "dst": "api:calculate-service-area.p.rapidapi.com:4f2d9994e9582c4b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:lat", "dst": "api:calculate-service-area.p.rapidapi.com:4f2d9994e9582c4b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:type", "dst": "api:calculate-service-area.p.rapidapi.com:4f2d9994e9582c4b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:lon", "dst": "api:calculate-service-area.p.rapidapi.com:4f2d9994e9582c4b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:range", "dst": "api:calculate-service-area.p.rapidapi.com:4f2d9994e9582c4b"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:canadian_postal_code_lookup"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:canadian_postal_code_lookup", "dst": "api:canadian-postal-code-lookup.p.rapidapi.com:13a9060d12d9e339"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:city", "dst": "api:canadian-postal-code-lookup.p.rapidapi.com:13a9060d12d9e339"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:canadian-postal-code-lookup.p.rapidapi.com:13a9060d12d9e339"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:ENUM:province", "dst": "api:canadian-postal-code-lookup.p.rapidapi.com:13a9060d12d9e339"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:cargo2zero"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:cargo2zero", "dst": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:awb", "dst": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:STRING:origin"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:STRING:destination"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:STRING:aircraft"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:OBJECT:distance"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:OBJECT:weight"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:OBJECT:co2ttw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:OBJECT:co2wtw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:OBJECT:co2ettw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:OBJECT:co2ewtw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:NUMBER:co2efficiencyscore"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "parameter_norm:NUMBER:co2efficiencyindustry"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:cargo2zero", "dst": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:weight", "dst": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:flightnumber", "dst": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:date", "dst": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:STRING:origin"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:STRING:destination"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:STRING:aircraft"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:OBJECT:distance"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:OBJECT:weight"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:OBJECT:co2ttw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:OBJECT:co2wtw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:OBJECT:co2ettw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:OBJECT:co2ewtw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:NUMBER:co2efficiencyscore"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "parameter_norm:NUMBER:co2efficiencyindustry"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:cargo2zero", "dst": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:destination", "dst": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:aircraft", "dst": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:origin", "dst": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:weight", "dst": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:STRING:origin"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:STRING:destination"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:STRING:aircraft"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:OBJECT:distance"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:OBJECT:weight"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:OBJECT:co2ttw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:OBJECT:co2wtw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:OBJECT:co2ettw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:OBJECT:co2ewtw"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:NUMBER:co2efficiencyscore"}
+{"edge_type": "api_to_parameter", "src": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "dst": "parameter_norm:NUMBER:co2efficiencyindustry"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:cep_brazil"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:cep_brazil", "dst": "api:cep-brazil.p.rapidapi.com:5222ebb361c88bfe"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:cepnumber", "dst": "api:cep-brazil.p.rapidapi.com:5222ebb361c88bfe"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:correo_argentino"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:correo_argentino", "dst": "api:correo-argentino1.p.rapidapi.com:6de62a54e7f983ad"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:correo_argentino", "dst": "api:correo-argentino1.p.rapidapi.com:dab7c954754e866c"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:create_container_tracking"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:create_container_tracking", "dst": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc"}
+{"edge_type": "api_to_parameter", "src": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:create_container_tracking", "dst": "api:create-container-tracking.p.rapidapi.com:88df8834db08f5a0"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:dashex_delivery"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:dashex_delivery", "dst": "api:dashex-delivery.p.rapidapi.com:46794a92be9c9553"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:dashex_delivery", "dst": "api:dashex-delivery.p.rapidapi.com:634c0857b8e8cb7d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:dashex_delivery", "dst": "api:dashex-delivery.p.rapidapi.com:f5d723194a6b1a8d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:dashex_delivery", "dst": "api:dashex-delivery.p.rapidapi.com:eb68b4579938c119"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:eagleseye_vrp"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:eagleseye_vrp", "dst": "api:eagleseye-vrp.p.rapidapi.com:adfa75444706510d"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:easyposttracking"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:easyposttracking", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:1f33d991b50a3c73"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:1f33d991b50a3c73"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:1f33d991b50a3c73"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:easyposttracking", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:d4400c4c8f0aba0c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:d4400c4c8f0aba0c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:trackingcode", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:d4400c4c8f0aba0c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:d4400c4c8f0aba0c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:afterid", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:d4400c4c8f0aba0c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:end_marker", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:d4400c4c8f0aba0c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:carrier", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:d4400c4c8f0aba0c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:start_marker", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:d4400c4c8f0aba0c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:beforeid", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:d4400c4c8f0aba0c"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:easyposttracking", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:57e4ddb84ed66f3a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingcode", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:57e4ddb84ed66f3a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:57e4ddb84ed66f3a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:carrier", "dst": "api:easyposttrackingstefan-skliarovv1.p.rapidapi.com:57e4ddb84ed66f3a"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:epc_decoder"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:epc_decoder", "dst": "api:epc-decoder.p.rapidapi.com:5e807b231471d8c7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:epc", "dst": "api:epc-decoder.p.rapidapi.com:5e807b231471d8c7"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:fleet_tour_planning"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:fleet_tour_planning", "dst": "api:fleet-tour-planning1.p.rapidapi.com:d165f06a4558aca9"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:geo_location"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:geo_location", "dst": "api:geo-location14.p.rapidapi.com:c5839360fc645cd3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:latitude", "dst": "api:geo-location14.p.rapidapi.com:c5839360fc645cd3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:longitude", "dst": "api:geo-location14.p.rapidapi.com:c5839360fc645cd3"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:geo_location", "dst": "api:geo-location14.p.rapidapi.com:b0c85a65969b1b2d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:geo-location14.p.rapidapi.com:b0c85a65969b1b2d"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:google_route_planner"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:google_route_planner", "dst": "api:google-route-planner.p.rapidapi.com:38328d1138caa245"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:end_marker", "dst": "api:google-route-planner.p.rapidapi.com:38328d1138caa245"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:start_marker", "dst": "api:google-route-planner.p.rapidapi.com:38328d1138caa245"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:gs1parser"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:gs1parser", "dst": "api:gs1parser.p.rapidapi.com:1ad39e994bc3f6fa"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:q", "dst": "api:gs1parser.p.rapidapi.com:1ad39e994bc3f6fa"}
+{"edge_type": "api_to_parameter", "src": "api:gs1parser.p.rapidapi.com:1ad39e994bc3f6fa", "dst": "parameter_norm:OBJECT:request"}
+{"edge_type": "api_to_parameter", "src": "api:gs1parser.p.rapidapi.com:1ad39e994bc3f6fa", "dst": "parameter_norm:OBJECT:response"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:international_bridge_blue"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:880f3b04cf9fadbd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:880f3b04cf9fadbd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:request_id", "dst": "api:international-bridge-blue.p.rapidapi.com:880f3b04cf9fadbd"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:29a96699d1709f8a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:29a96699d1709f8a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:zip5", "dst": "api:international-bridge-blue.p.rapidapi.com:29a96699d1709f8a"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:16663600812f2918"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:16663600812f2918"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tracking_number", "dst": "api:international-bridge-blue.p.rapidapi.com:16663600812f2918"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:b29b8fae3a85d084"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:b29b8fae3a85d084"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:request_id", "dst": "api:international-bridge-blue.p.rapidapi.com:b29b8fae3a85d084"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:366bcabe11745d52"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:366bcabe11745d52"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:3356cb7d79c3a299"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:3356cb7d79c3a299"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:manifest_number", "dst": "api:international-bridge-blue.p.rapidapi.com:3356cb7d79c3a299"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:a488d5820422d57f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:a488d5820422d57f"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:b72d19417954132d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:b72d19417954132d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:cc90d436eb41f652"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:cc90d436eb41f652"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:zip5", "dst": "api:international-bridge-blue.p.rapidapi.com:cc90d436eb41f652"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:d27240e9cc32c164"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:d27240e9cc32c164"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:authorization", "dst": "api:international-bridge-blue.p.rapidapi.com:d27240e9cc32c164"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:user_id", "dst": "api:international-bridge-blue.p.rapidapi.com:d27240e9cc32c164"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:859e8f7a9dfc7262"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:859e8f7a9dfc7262"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:primary", "dst": "api:international-bridge-blue.p.rapidapi.com:859e8f7a9dfc7262"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:street_name", "dst": "api:international-bridge-blue.p.rapidapi.com:859e8f7a9dfc7262"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:zip5", "dst": "api:international-bridge-blue.p.rapidapi.com:859e8f7a9dfc7262"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:b93ce7c8190a8d84"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:authorization", "dst": "api:international-bridge-blue.p.rapidapi.com:b93ce7c8190a8d84"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tracking_number", "dst": "api:international-bridge-blue.p.rapidapi.com:b93ce7c8190a8d84"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:2a4acd624f945911"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:2a4acd624f945911"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:1191d719aa8da467"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:1191d719aa8da467"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:user_id", "dst": "api:international-bridge-blue.p.rapidapi.com:1191d719aa8da467"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:349dd8510b81778d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tracking_number", "dst": "api:international-bridge-blue.p.rapidapi.com:349dd8510b81778d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:e08dcb450cbcacaf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:e08dcb450cbcacaf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:payment_method_id", "dst": "api:international-bridge-blue.p.rapidapi.com:e08dcb450cbcacaf"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:48652208613a000d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:48652208613a000d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:c23ed4f5def4a931"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:c23ed4f5def4a931"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:payment_method_id", "dst": "api:international-bridge-blue.p.rapidapi.com:c23ed4f5def4a931"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:abc47e91f4528d75"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:5b996086fa0d01ef"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:5b996086fa0d01ef"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tracking_number", "dst": "api:international-bridge-blue.p.rapidapi.com:5b996086fa0d01ef"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:6d2be656cd122665"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:6d2be656cd122665"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:c375d7292f35a65c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:entry_type", "dst": "api:international-bridge-blue.p.rapidapi.com:c375d7292f35a65c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:start_marker", "dst": "api:international-bridge-blue.p.rapidapi.com:c375d7292f35a65c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:end_marker", "dst": "api:international-bridge-blue.p.rapidapi.com:c375d7292f35a65c"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:cce63098150d32e1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:cce63098150d32e1"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:80587fe202960ba3"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:b424f92104f892dc"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:93cca2b3899546f4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:page_cursor", "dst": "api:international-bridge-blue.p.rapidapi.com:93cca2b3899546f4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:page_cursor", "dst": "api:international-bridge-blue.p.rapidapi.com:93cca2b3899546f4"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:b0c2dad3f8e3be31"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:pickup_id", "dst": "api:international-bridge-blue.p.rapidapi.com:b0c2dad3f8e3be31"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:17b03701e9563850"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:start_marker", "dst": "api:international-bridge-blue.p.rapidapi.com:17b03701e9563850"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:end_marker", "dst": "api:international-bridge-blue.p.rapidapi.com:17b03701e9563850"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:e68d8090132f3a73"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:international-bridge-blue.p.rapidapi.com:e68d8090132f3a73"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:7f6b3a6ff4432d0d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:ddf6d2cbadd2cd75"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:458c233ec437fcfc"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:c9844c4e294c072c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:payment_method_id", "dst": "api:international-bridge-blue.p.rapidapi.com:c9844c4e294c072c"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:3f5bace4f153c2f1"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:8734cea3125b9a10"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:66b3d4ba686e4d3a"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:international_bridge_blue", "dst": "api:international-bridge-blue.p.rapidapi.com:38d4a369bdf78da7"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:inventory"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:inventory", "dst": "api:inventory28.p.rapidapi.com:e213fda6c7e71038"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:kargom_nerede"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:kargom_nerede", "dst": "api:kargom-nerede.p.rapidapi.com:eafbb4be9e2af7bd"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:kargom_nerede", "dst": "api:kargom-nerede.p.rapidapi.com:ee99046f03eaab14"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:kargom_nerede", "dst": "api:kargom-nerede.p.rapidapi.com:77e57f7615e1953f"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:logba"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:logba", "dst": "api:logba.p.rapidapi.com:ce97d83fb9bf9d91"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:matrix_route_planner"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:matrix_route_planner", "dst": "api:matrix-route-planner.p.rapidapi.com:11e23f89d28f7da7"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:motor_carrier_search"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:motor_carrier_search", "dst": "api:motor-carrier-search.p.rapidapi.com:e39b6e47db347b2b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:state", "dst": "api:motor-carrier-search.p.rapidapi.com:e39b6e47db347b2b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:plate", "dst": "api:motor-carrier-search.p.rapidapi.com:e39b6e47db347b2b"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:motor_carrier_search", "dst": "api:motor-carrier-search.p.rapidapi.com:ed3932c7aa49a7a4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:legal_name", "dst": "api:motor-carrier-search.p.rapidapi.com:ed3932c7aa49a7a4"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:motor_carrier_search", "dst": "api:motor-carrier-search.p.rapidapi.com:76ba6c7e48090e11"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:dot_number", "dst": "api:motor-carrier-search.p.rapidapi.com:76ba6c7e48090e11"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:motor_carrier_search", "dst": "api:motor-carrier-search.p.rapidapi.com:9effca8eba664b8b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:vin_number", "dst": "api:motor-carrier-search.p.rapidapi.com:9effca8eba664b8b"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:onfleet"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:88e3f7936aac7dbb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:88e3f7936aac7dbb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:phone", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:88e3f7936aac7dbb"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:13b3d7c5adb5917d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:13b3d7c5adb5917d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:taskid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:13b3d7c5adb5917d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:7d53b9f5c97f4747"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:notes", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:7d53b9f5c97f4747"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:taskid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:7d53b9f5c97f4747"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:7d53b9f5c97f4747"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:success", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:7d53b9f5c97f4747"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:de06b3b7eb40f6d5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:organizationid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:de06b3b7eb40f6d5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:de06b3b7eb40f6d5"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:73d05faf983ac964"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:73d05faf983ac964"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:73d05faf983ac964"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:73d05faf983ac964"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:isreadonly", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:73d05faf983ac964"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:phone", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:73d05faf983ac964"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:MAP:coordinates", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:1aa21a8c055c25d1"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:34a9a2b4657b42e0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:unparsed", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:34a9a2b4657b42e0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:34a9a2b4657b42e0"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a8e0ecc35677a7d9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a8e0ecc35677a7d9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a8e0ecc35677a7d9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:phone", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a8e0ecc35677a7d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:skipphonenumbervalidation", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a8e0ecc35677a7d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:notes", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a8e0ecc35677a7d9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:skipsmsnotifications", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a8e0ecc35677a7d9"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:destinationid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:LIST:recipientsids", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:notes", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:servicetime", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:merchant", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:executor", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:completebefore", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:completeafter", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:pickuptask", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:JSON:container", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:JSON:autoassign", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:quantity", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:end_marker", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0af3b95b36a73cfd"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:fe14c002d6a65200"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:fe14c002d6a65200"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:fe14c002d6a65200"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:hub", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:fe14c002d6a65200"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:workers", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:fe14c002d6a65200"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:managers", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:fe14c002d6a65200"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:55abb9abaeda0c11"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:55abb9abaeda0c11"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:trigger", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:55abb9abaeda0c11"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:url", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:55abb9abaeda0c11"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:threshold", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:55abb9abaeda0c11"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:3f87f53b591464dc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:3f87f53b591464dc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:phone", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:3f87f53b591464dc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:3f87f53b591464dc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:LIST:teams", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:3f87f53b591464dc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:capacity", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:3f87f53b591464dc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:JSON:vehicle", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:3f87f53b591464dc"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ed00b6757f85cb7d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ed00b6757f85cb7d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:administratorid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ed00b6757f85cb7d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:e5ed6d4da09c7f41"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:taskid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:e5ed6d4da09c7f41"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:e5ed6d4da09c7f41"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0d17515cd28433fe"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:teamid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0d17515cd28433fe"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0d17515cd28433fe"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:fa73121c3b5f95a4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:webhookid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:fa73121c3b5f95a4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:fa73121c3b5f95a4"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:b670748cedbb23a2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:workerid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:b670748cedbb23a2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:b670748cedbb23a2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ccb155312c2da1b4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ccb155312c2da1b4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ccb155312c2da1b4"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:5008c91c64ee740f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:5008c91c64ee740f"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:e22cae7af076deae"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:e22cae7af076deae"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:destinationid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:e22cae7af076deae"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:d9542711e0c8f484"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:recipientid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:d9542711e0c8f484"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:d9542711e0c8f484"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0f9d4ebeebba85c4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:taskid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0f9d4ebeebba85c4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0f9d4ebeebba85c4"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ec09a122f4f069af"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:taskshortid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ec09a122f4f069af"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ec09a122f4f069af"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:e81d95b6233488f6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:teamid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:e81d95b6233488f6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:e81d95b6233488f6"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:caa4fd90bdd79ad9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:workerid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:caa4fd90bdd79ad9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:caa4fd90bdd79ad9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:filter", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:caa4fd90bdd79ad9"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c6527d36c5cf150d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:MAP:coordinates", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c6527d36c5cf150d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c6527d36c5cf150d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:radius", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c6527d36c5cf150d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0f6d2eb5cbc7ec81"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0f6d2eb5cbc7ec81"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:entityid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0f6d2eb5cbc7ec81"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:containertype", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0f6d2eb5cbc7ec81"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:index", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0f6d2eb5cbc7ec81"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:LIST:tasks", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:0f6d2eb5cbc7ec81"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:d994b86bf7951cec"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:d994b86bf7951cec"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:b3e978042418318d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:b3e978042418318d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:2db51a1539255584"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:DATEPICKER:from", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:2db51a1539255584"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:2db51a1539255584"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lastid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:2db51a1539255584"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATEPICKER:to", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:2db51a1539255584"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:3c0520e3eb815088"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:3c0520e3eb815088"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:082e1017687d0958"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:082e1017687d0958"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:777da5d4846af09d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:777da5d4846af09d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:teams", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:777da5d4846af09d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:filter", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:777da5d4846af09d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:states", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:777da5d4846af09d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a905137d4451537c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a905137d4451537c"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:6736ccc1670ff305"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:6736ccc1670ff305"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:administratorid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:6736ccc1670ff305"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:email", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:6736ccc1670ff305"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:isreadonly", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:6736ccc1670ff305"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:6736ccc1670ff305"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:phone", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:6736ccc1670ff305"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:f250f54de9b3a416"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:f250f54de9b3a416"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:recipientid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:f250f54de9b3a416"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:notes", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:f250f54de9b3a416"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:f250f54de9b3a416"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:skipphonenumbervalidation", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:f250f54de9b3a416"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:phone", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:f250f54de9b3a416"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:skipsmsnotifications", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:f250f54de9b3a416"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ab728e163b32fba9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:taskid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ab728e163b32fba9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ab728e163b32fba9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:notes", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:ab728e163b32fba9"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:aa25219e4ff8d94d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:containertype", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:aa25219e4ff8d94d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:aa25219e4ff8d94d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:entityid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:aa25219e4ff8d94d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:LIST:tasks", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:aa25219e4ff8d94d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:end_marker", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:aa25219e4ff8d94d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a4a36a3ccb601e5e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:teamid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a4a36a3ccb601e5e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a4a36a3ccb601e5e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:hub", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a4a36a3ccb601e5e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a4a36a3ccb601e5e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:workers", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a4a36a3ccb601e5e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:managers", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:a4a36a3ccb601e5e"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c0eb9ed31019bbce"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:workerid", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c0eb9ed31019bbce"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c0eb9ed31019bbce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:name", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c0eb9ed31019bbce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:capacity", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c0eb9ed31019bbce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:JSON:vehicle", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c0eb9ed31019bbce"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:LIST:teams", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c0eb9ed31019bbce"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:onfleet", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c3b137208ddb3bd4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:token", "dst": "api:onfleetstefan-skliarovv1.p.rapidapi.com:c3b137208ddb3bd4"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:order_tracking"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:order_tracking", "dst": "api:order-tracking.p.rapidapi.com:9714dc3d7f86c801"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:orderful"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:orderful", "dst": "api:orderful.p.rapidapi.com:c7bafd47b2a684e9"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:orderful", "dst": "api:orderful.p.rapidapi.com:668611878e86c7a1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:orderful.p.rapidapi.com:668611878e86c7a1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:orderful.p.rapidapi.com:668611878e86c7a1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:content_type", "dst": "api:orderful.p.rapidapi.com:668611878e86c7a1"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:accept", "dst": "api:orderful.p.rapidapi.com:668611878e86c7a1"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:orderful", "dst": "api:orderful.p.rapidapi.com:1adfea60594ccd94"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:pack_send"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pack_send", "dst": "api:pack-send.p.rapidapi.com:ad63837ad19a0aea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:reference", "dst": "api:pack-send.p.rapidapi.com:ad63837ad19a0aea"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:parcel"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:parcel", "dst": "api:parcel3.p.rapidapi.com:00dd4fc60daff343"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:parcel3.p.rapidapi.com:00dd4fc60daff343"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:parcel", "dst": "api:parcel3.p.rapidapi.com:1230fa032a5e73b3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:errors", "dst": "api:parcel3.p.rapidapi.com:1230fa032a5e73b3"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:parking_system"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:parking_system", "dst": "api:parking-system.p.rapidapi.com:13c983f77ae39c67"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:parking_system", "dst": "api:parking-system.p.rapidapi.com:fa690146addc6508"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:pod_finder"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pod_finder", "dst": "api:pod-finder1.p.rapidapi.com:89080972bd258eb2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pod_finder", "dst": "api:pod-finder1.p.rapidapi.com:4032584698044189"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pod_finder", "dst": "api:pod-finder1.p.rapidapi.com:38db69e8505cbe97"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:req_id", "dst": "api:pod-finder1.p.rapidapi.com:38db69e8505cbe97"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pod_finder", "dst": "api:pod-finder1.p.rapidapi.com:d7a5c7ec3829a662"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:req_id", "dst": "api:pod-finder1.p.rapidapi.com:d7a5c7ec3829a662"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pod_finder", "dst": "api:pod-finder1.p.rapidapi.com:aa19689375abe9b2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pod_finder", "dst": "api:pod-finder1.p.rapidapi.com:eee3451a08d4296b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:to_time", "dst": "api:pod-finder1.p.rapidapi.com:eee3451a08d4296b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:from_time", "dst": "api:pod-finder1.p.rapidapi.com:eee3451a08d4296b"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pod_finder", "dst": "api:pod-finder1.p.rapidapi.com:6e5e56654f80ba3a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:to_time", "dst": "api:pod-finder1.p.rapidapi.com:6e5e56654f80ba3a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:from_time", "dst": "api:pod-finder1.p.rapidapi.com:6e5e56654f80ba3a"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pod_finder", "dst": "api:pod-finder1.p.rapidapi.com:83c004ffd1c8b670"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:postal_ninja"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:postal_ninja", "dst": "api:postal-ninja.p.rapidapi.com:1cbce4f6f2950d78"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackcode", "dst": "api:postal-ninja.p.rapidapi.com:1cbce4f6f2950d78"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:ds", "dst": "api:postal-ninja.p.rapidapi.com:1cbce4f6f2950d78"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:destcountry", "dst": "api:postal-ninja.p.rapidapi.com:1cbce4f6f2950d78"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:postal_ninja", "dst": "api:postal-ninja.p.rapidapi.com:26ccff3169b6df86"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:postal-ninja.p.rapidapi.com:26ccff3169b6df86"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:postal_ninja", "dst": "api:postal-ninja.p.rapidapi.com:be56ba30c37e391a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:list", "dst": "api:postal-ninja.p.rapidapi.com:be56ba30c37e391a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:postal-ninja.p.rapidapi.com:be56ba30c37e391a"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:postmatesapi"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:postmatesapi", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:99b0c2e22694f864"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:customerid", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:99b0c2e22694f864"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:deliveryid", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:99b0c2e22694f864"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:99b0c2e22694f864"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:postmatesapi", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:customerid", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:dropoffphonenumber", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:dropoffname", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:manifest", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:pickupphonenumber", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:pickupname", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:quoteid", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:pickupbusinessname", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:manifestreference", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:dropoffnotes", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:dropoffbusinessname", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:pickupnotes", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:fdf0f011028d4abf"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:postmatesapi", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:7616b84df51ad2cd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:customerid", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:7616b84df51ad2cd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:7616b84df51ad2cd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:filter", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:7616b84df51ad2cd"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:postmatesapi", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:c4554416e55cb213"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:deliveryid", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:c4554416e55cb213"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:customerid", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:c4554416e55cb213"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:c4554416e55cb213"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:postmatesapi", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:1f5f4992f3423043"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:customerid", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:1f5f4992f3423043"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:1f5f4992f3423043"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:1f5f4992f3423043"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:1f5f4992f3423043"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:postmatesapi", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:e1f0259afbbbdfc5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:e1f0259afbbbdfc5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:customerid", "dst": "api:postmatesapiserg-osipchukv1.p.rapidapi.com:e1f0259afbbbdfc5"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:pracels_tracker"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pracels_tracker", "dst": "api:pracels-tracker.p.rapidapi.com:0a65d2b7db189b47"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:pridnestrovie_post"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:pridnestrovie_post", "dst": "api:pridnestrovie-post.p.rapidapi.com:e55da64d051bee46"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:track_number", "dst": "api:pridnestrovie-post.p.rapidapi.com:e55da64d051bee46"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:rastreamento_de_pacotes_nos_correios"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:rastreamento_de_pacotes_nos_correios", "dst": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:package", "dst": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551"}
+{"edge_type": "api_to_parameter", "src": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:route_optimization"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:route_optimization", "dst": "api:route-optimization.p.rapidapi.com:7802ac97f02f430b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mode", "dst": "api:route-optimization.p.rapidapi.com:7802ac97f02f430b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:waypoints", "dst": "api:route-optimization.p.rapidapi.com:7802ac97f02f430b"}
+{"edge_type": "api_to_parameter", "src": "api:route-optimization.p.rapidapi.com:7802ac97f02f430b", "dst": "parameter_norm:STRING:type"}
+{"edge_type": "api_to_parameter", "src": "api:route-optimization.p.rapidapi.com:7802ac97f02f430b", "dst": "parameter_norm:ARRAY:features"}
+{"edge_type": "api_to_parameter", "src": "api:route-optimization.p.rapidapi.com:7802ac97f02f430b", "dst": "parameter_norm:OBJECT:properties"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:shippo"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:be57e6f8c1c2d65a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:be57e6f8c1c2d65a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:manifestid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:be57e6f8c1c2d65a"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:city", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:objectpurpose", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:street1", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:state", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:country", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:zip", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:name", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:phone", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:street2", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:isresidential", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:company", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:street3", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:validate", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:streetno", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ce11868c252a5fea"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:921c7f2df8ad7bf2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:carriername", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:921c7f2df8ad7bf2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:JSON:carrierparameters", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:921c7f2df8ad7bf2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:921c7f2df8ad7bf2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:carrieraccountid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:921c7f2df8ad7bf2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:carrieraccountactive", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:921c7f2df8ad7bf2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:declarationcertifysigner", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:BOOLEAN:certify", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:declarationcontentstype", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:declarationnondeliveryoption", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:LIST:declarationitems", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:declarationinvoice", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:declarationcertificate", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:declarationexporterreference", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:declarationincoterm", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:declarationeelpfc", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:declarationimporterreference", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:declarationnotes", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:declarationaesitn", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:declarationlicense", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:declarationcontentsexplanation", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:811d22096b432c03"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:itemquantity", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:itemvaluecurrency", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:itemweightmeasurementunit", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:itemorigincountry", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:itemnetweight", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:itemvalue", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:itemdescription", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:itemtariffnumber", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:586615ac65df1542"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f1d9bcc5c792b52a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:manifestsubmissiondate", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f1d9bcc5c792b52a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f1d9bcc5c792b52a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f1d9bcc5c792b52a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:carrieraccountobjectid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f1d9bcc5c792b52a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:LIST:transactions", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f1d9bcc5c792b52a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:async", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f1d9bcc5c792b52a"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:parcelheight", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:parcellength", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:parcelweight", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:parcelwidth", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:measurementunit", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:weightunit", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:template", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:JSON:extra", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:5cdffcb4f1767bbd"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:230e4bbbd95937f0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:230e4bbbd95937f0"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:transactionid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:230e4bbbd95937f0"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:parcelid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:objectpurpose", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:reference2", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:insuranceamount", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:async", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:submissiondate", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:JSON:extra", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:address", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:customsdeclarationid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:reference1", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:insurancecurrency", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0612c8095dc54071"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:carrieraccount", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:parcelid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:shipmentobjectpurpose", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:serviceleveltoken", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:file_blob", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9c935d94e38388a3"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0d0a7dea39fe5341"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0d0a7dea39fe5341"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:rateid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0d0a7dea39fe5341"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:async", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0d0a7dea39fe5341"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:SELECT:file_blob", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0d0a7dea39fe5341"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:data_payload", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0d0a7dea39fe5341"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0721402051fd583f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0721402051fd583f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:0721402051fd583f"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ef23339cb742d9e9"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ef23339cb742d9e9"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ef23339cb742d9e9"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:d8f324270d1ecf66"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:d8f324270d1ecf66"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:d8f324270d1ecf66"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:6e4b5785b6068782"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:6e4b5785b6068782"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:6e4b5785b6068782"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:817baecd2c2d4bdb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:817baecd2c2d4bdb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:817baecd2c2d4bdb"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:a2d3913a6afab82e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:a2d3913a6afab82e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:a2d3913a6afab82e"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f84055405d65bd94"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f84055405d65bd94"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:f84055405d65bd94"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:a0396f9b33d4e37d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:a0396f9b33d4e37d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:shipmentid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:a0396f9b33d4e37d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:currencycode", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:a0396f9b33d4e37d"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:a0396f9b33d4e37d"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:8c6533e40e86772e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:rateid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:8c6533e40e86772e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:8c6533e40e86772e"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:b606a8b4ed42e612"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:b606a8b4ed42e612"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:b606a8b4ed42e612"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9191116ef5da85e2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9191116ef5da85e2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9191116ef5da85e2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:e652a2054f63ecc1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:carrieraccountobjectid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:e652a2054f63ecc1"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:e652a2054f63ecc1"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:165e409c7ba36cef"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:declarationid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:165e409c7ba36cef"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:165e409c7ba36cef"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:05063013e54300cb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:05063013e54300cb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:customsitemid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:05063013e54300cb"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:17ae9720ac616fa5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:parcelid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:17ae9720ac616fa5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:17ae9720ac616fa5"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9fe9adac471b54ca"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9fe9adac471b54ca"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:refundid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:9fe9adac471b54ca"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:6b2a17ad6bf3e659"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:shipmentid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:6b2a17ad6bf3e659"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:6b2a17ad6bf3e659"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:092736c4c8f8cd45"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:transactionid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:092736c4c8f8cd45"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:092736c4c8f8cd45"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ef3eec45df2d5dc4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:carriername", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ef3eec45df2d5dc4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ef3eec45df2d5dc4"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:ef3eec45df2d5dc4"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:7ef215b7b3d978e6"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:7ef215b7b3d978e6"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:7ef215b7b3d978e6"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:11dc31947e3610e7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:carriername", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:11dc31947e3610e7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:11dc31947e3610e7"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:11dc31947e3610e7"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:7922c87ba0333c3a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:carrieraccountobjectid", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:7922c87ba0333c3a"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:7922c87ba0333c3a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:carrieraccountactive", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:7922c87ba0333c3a"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:JSON:carrierparameters", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:7922c87ba0333c3a"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:shippo", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:588af9c92a3f821e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:588af9c92a3f821e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:address", "dst": "api:shippostefan-skliarovv1.p.rapidapi.com:588af9c92a3f821e"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:snapcxaddressvalidation"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:snapcxaddressvalidation", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:df1cae3f2e456207"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:df1cae3f2e456207"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:street", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:df1cae3f2e456207"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:requestid", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:df1cae3f2e456207"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:country", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:df1cae3f2e456207"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:secondarystreet", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:df1cae3f2e456207"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:state", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:df1cae3f2e456207"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:zipcode", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:df1cae3f2e456207"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:city", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:df1cae3f2e456207"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:snapcxaddressvalidation", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:a1d1fa4aa4af2d12"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:crypto_key", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:a1d1fa4aa4af2d12"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:street", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:a1d1fa4aa4af2d12"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:requestid", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:a1d1fa4aa4af2d12"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:zipcode", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:a1d1fa4aa4af2d12"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:city", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:a1d1fa4aa4af2d12"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:secondarystreet", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:a1d1fa4aa4af2d12"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:state", "dst": "api:snapcxaddressvalidationstefan-skliarovv1.p.rapidapi.com:a1d1fa4aa4af2d12"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:squake"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:squake", "dst": "api:squake.p.rapidapi.com:d688821f1959f2e7"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:squake", "dst": "api:squake.p.rapidapi.com:6fdcf7cfa7e20eb5"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:squake", "dst": "api:squake.p.rapidapi.com:d772cb1ef7249c88"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:squake", "dst": "api:squake.p.rapidapi.com:8fabc62577f4b8f8"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:squake", "dst": "api:squake.p.rapidapi.com:cdfd25a6e8b9de76"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:squake", "dst": "api:squake.p.rapidapi.com:1fe4dded812271d5"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:squake", "dst": "api:squake.p.rapidapi.com:86fed3252358855a"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:squake", "dst": "api:squake.p.rapidapi.com:4b8fc5d2c9418de9"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:suivi_colis"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:suivi_colis", "dst": "api:suivi-colis.p.rapidapi.com:5a0b30ec69df7eda"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:suivi_colis", "dst": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:colisid", "dst": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:STRING:rawdateheure"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:STRING:pays"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:STRING:localisation"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:STRING:typeevenement"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:STRING:informations"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:STRING:date"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:STRING:status"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:OBJECT:country"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:OBJECT:localization"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "parameter_norm:STRING:itemid"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:suivi_colis", "dst": "api:suivi-colis.p.rapidapi.com:9451f90066754cfd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:colisid", "dst": "api:suivi-colis.p.rapidapi.com:9451f90066754cfd"}
+{"edge_type": "api_to_parameter", "src": "api:suivi-colis.p.rapidapi.com:9451f90066754cfd", "dst": "parameter_norm:NUMBER:nbsteps"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:suivi_colis", "dst": "api:suivi-colis.p.rapidapi.com:34bcb5faf9afbd5c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:colisid", "dst": "api:suivi-colis.p.rapidapi.com:34bcb5faf9afbd5c"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:terminal"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:terminal", "dst": "api:terminal7.p.rapidapi.com:0d95ef2d04add5aa"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:authorization", "dst": "api:terminal7.p.rapidapi.com:0d95ef2d04add5aa"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:top_window_cleaners"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:top_window_cleaners", "dst": "api:top-window-cleaners.p.rapidapi.com:2e245d6189031be8"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:windowcleanerslondon", "dst": "api:top-window-cleaners.p.rapidapi.com:2e245d6189031be8"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:track_firstflight"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:track_firstflight", "dst": "api:track-firstflight.p.rapidapi.com:be7a000e8c18ddc8"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:trackingmore_v2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackingmore_v2", "dst": "api:trackingmore.p.rapidapi.com:88937fc7cdbfbe3b"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackingmore_v2", "dst": "api:trackingmore.p.rapidapi.com:029360b8f1f9f5f5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:carriercode", "dst": "api:trackingmore.p.rapidapi.com:029360b8f1f9f5f5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:trackingmore.p.rapidapi.com:029360b8f1f9f5f5"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lang", "dst": "api:trackingmore.p.rapidapi.com:029360b8f1f9f5f5"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackingmore_v2", "dst": "api:trackingmore.p.rapidapi.com:21db88abb85031bb"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:trackingmore.p.rapidapi.com:21db88abb85031bb"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackingmore_v2", "dst": "api:trackingmore.p.rapidapi.com:db11f21c67780f2d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackingnumber", "dst": "api:trackingmore.p.rapidapi.com:db11f21c67780f2d"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:trackservice"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackservice", "dst": "api:rdrunnerxx-trackservice.p.rapidapi.com:df8d93c1656bc4c6"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackservice", "dst": "api:rdrunnerxx-trackservice.p.rapidapi.com:1c2a8c1cc51e6444"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackservice", "dst": "api:rdrunnerxx-trackservice.p.rapidapi.com:0f9a59e527645d20"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackservice", "dst": "api:rdrunnerxx-trackservice.p.rapidapi.com:acab10bc70d29e62"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackservice", "dst": "api:rdrunnerxx-trackservice.p.rapidapi.com:20525beff1983a46"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trackservice", "dst": "api:rdrunnerxx-trackservice.p.rapidapi.com:653079ac20ed3379"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:transitaires"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transitaires", "dst": "api:transitaires.p.rapidapi.com:f273b84dd106cd34"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:transitaires.p.rapidapi.com:f273b84dd106cd34"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transitaires", "dst": "api:transitaires.p.rapidapi.com:344ce560a7987aae"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:transportistas_de_argentina"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:b4fdb87f8007156f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:task_id", "dst": "api:transportistas-de-argentina.p.rapidapi.com:b4fdb87f8007156f"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:a093fcd2479a1643"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:stateisocode", "dst": "api:transportistas-de-argentina.p.rapidapi.com:a093fcd2479a1643"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:b1ef56c9649d27e2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:stateisocode", "dst": "api:transportistas-de-argentina.p.rapidapi.com:b1ef56c9649d27e2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:postcode", "dst": "api:transportistas-de-argentina.p.rapidapi.com:b1ef56c9649d27e2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:fdc232a76e61ed7f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:stateisocode", "dst": "api:transportistas-de-argentina.p.rapidapi.com:fdc232a76e61ed7f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:transportistas-de-argentina.p.rapidapi.com:fdc232a76e61ed7f"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:5176a8c420fc1a0b"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:430108a5747af3ed"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:normalizecitynamesrc", "dst": "api:transportistas-de-argentina.p.rapidapi.com:430108a5747af3ed"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:stateisocodedst", "dst": "api:transportistas-de-argentina.p.rapidapi.com:430108a5747af3ed"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:normalizecitynamedst", "dst": "api:transportistas-de-argentina.p.rapidapi.com:430108a5747af3ed"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:weight", "dst": "api:transportistas-de-argentina.p.rapidapi.com:430108a5747af3ed"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:stateisocodesrc", "dst": "api:transportistas-de-argentina.p.rapidapi.com:430108a5747af3ed"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:8d97e49ce89da28e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:postcodedst", "dst": "api:transportistas-de-argentina.p.rapidapi.com:8d97e49ce89da28e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:cuit", "dst": "api:transportistas-de-argentina.p.rapidapi.com:8d97e49ce89da28e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:operativa", "dst": "api:transportistas-de-argentina.p.rapidapi.com:8d97e49ce89da28e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:cost", "dst": "api:transportistas-de-argentina.p.rapidapi.com:8d97e49ce89da28e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:postcodesrc", "dst": "api:transportistas-de-argentina.p.rapidapi.com:8d97e49ce89da28e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:volume", "dst": "api:transportistas-de-argentina.p.rapidapi.com:8d97e49ce89da28e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:weight", "dst": "api:transportistas-de-argentina.p.rapidapi.com:8d97e49ce89da28e"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:03c2d455a3d9e6b8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:postcodedst", "dst": "api:transportistas-de-argentina.p.rapidapi.com:03c2d455a3d9e6b8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:postcodesrc", "dst": "api:transportistas-de-argentina.p.rapidapi.com:03c2d455a3d9e6b8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:weight", "dst": "api:transportistas-de-argentina.p.rapidapi.com:03c2d455a3d9e6b8"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:370874f582d99233"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:service", "dst": "api:transportistas-de-argentina.p.rapidapi.com:370874f582d99233"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tracking_code", "dst": "api:transportistas-de-argentina.p.rapidapi.com:370874f582d99233"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:12e7ba6a36c638e5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:service", "dst": "api:transportistas-de-argentina.p.rapidapi.com:12e7ba6a36c638e5"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:postcode", "dst": "api:transportistas-de-argentina.p.rapidapi.com:12e7ba6a36c638e5"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:bdd33b95339c8cba"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:transportistas-de-argentina.p.rapidapi.com:bdd33b95339c8cba"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:service", "dst": "api:transportistas-de-argentina.p.rapidapi.com:bdd33b95339c8cba"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:stateisocode", "dst": "api:transportistas-de-argentina.p.rapidapi.com:bdd33b95339c8cba"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:785c25cfdfc0ab38"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:transportistas_de_argentina", "dst": "api:transportistas-de-argentina.p.rapidapi.com:672626ef829851bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:officeisosrc", "dst": "api:transportistas-de-argentina.p.rapidapi.com:672626ef829851bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:postcodedst", "dst": "api:transportistas-de-argentina.p.rapidapi.com:672626ef829851bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:clientnumber", "dst": "api:transportistas-de-argentina.p.rapidapi.com:672626ef829851bd"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:contractnumber", "dst": "api:transportistas-de-argentina.p.rapidapi.com:672626ef829851bd"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:travelling_salesman_problem_best_route_finder"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:travelling_salesman_problem_best_route_finder", "dst": "api:travelling-salesman-problem-best-route-finder.p.rapidapi.com:9f81335f863754cb"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:units", "dst": "api:travelling-salesman-problem-best-route-finder.p.rapidapi.com:9f81335f863754cb"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:trueway_vrp"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:trueway_vrp", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_vehicle_distance", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:avoid_highways", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:avoid_tolls", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:vehicle_capacity", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:quality", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:shipment_delivery_precedence", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_vehicle_waiting_duration", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:use_traffic", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_vehicle_duration", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:avoid_ferries", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:order_service_duration", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_vehicle_orders", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:start_marker", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:max_vehicle_driving_duration", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:BOOLEAN:route_geometry", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:objective", "dst": "api:trueway-vrp.p.rapidapi.com:420ec2e87e7bfc39"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:turkey_postal_codes"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:turkey_postal_codes", "dst": "api:turkey-postal-codes.p.rapidapi.com:d9ab4656218b397e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:il", "dst": "api:turkey-postal-codes.p.rapidapi.com:d9ab4656218b397e"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:uk_delivery_tracking_all_in_one"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:uk_delivery_tracking_all_in_one", "dst": "api:uk-delivery-tracking-all-in-one.p.rapidapi.com:9972459dbeaa3507"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:zip_code", "dst": "api:uk-delivery-tracking-all-in-one.p.rapidapi.com:9972459dbeaa3507"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tracking_number", "dst": "api:uk-delivery-tracking-all-in-one.p.rapidapi.com:9972459dbeaa3507"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:usps"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:usps", "dst": "api:uspszakutynskyv1.p.rapidapi.com:c7a79126e54c3bd2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:userid", "dst": "api:uspszakutynskyv1.p.rapidapi.com:c7a79126e54c3bd2"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:LIST:trackid", "dst": "api:uspszakutynskyv1.p.rapidapi.com:c7a79126e54c3bd2"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:usps", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:userid", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tablecode", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mpdate", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackid", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mpsuffix", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:clientip", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lastname", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:firstname", "dst": "api:uspszakutynskyv1.p.rapidapi.com:4e9571b2bd1a964b"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:usps", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:requesttype", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mpsuffix", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:tablecode", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackid", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mpdate", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:userid", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lastname", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:clientip", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:firstname", "dst": "api:uspszakutynskyv1.p.rapidapi.com:3f58e690ad432b8f"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:usps", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mpsuffix", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:trackid", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:SELECT:requesttype", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:CREDENTIALS:userid", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:mpdate", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:email", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:lastname", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:clientip", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:firstname", "dst": "api:uspszakutynskyv1.p.rapidapi.com:99fe8929fd9bea83"}
+{"edge_type": "category_to_tool", "src": "category:Logistics", "dst": "tool:Logistics:z_sefaz_rest"}
+{"edge_type": "tool_to_api", "src": "tool:Logistics:z_sefaz_rest", "dst": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825"}
+{"edge_type": "api_to_parameter", "src": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825", "dst": "parameter_norm:STRING:autorizador"}
+{"edge_type": "api_to_parameter", "src": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825", "dst": "parameter_norm:STRING:autoriza_o"}
+{"edge_type": "api_to_parameter", "src": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825", "dst": "parameter_norm:STRING:retorno_autoriza_o"}
+{"edge_type": "api_to_parameter", "src": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825", "dst": "parameter_norm:STRING:inutiliza_o"}
+{"edge_type": "api_to_parameter", "src": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825", "dst": "parameter_norm:STRING:consulta_protocolo"}
+{"edge_type": "api_to_parameter", "src": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825", "dst": "parameter_norm:STRING:status_servi_o"}
+{"edge_type": "api_to_parameter", "src": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825", "dst": "parameter_norm:STRING:tempo_m_dio"}
+{"edge_type": "api_to_parameter", "src": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825", "dst": "parameter_norm:STRING:consulta_cadastro"}
+{"edge_type": "api_to_parameter", "src": "api:z-sefaz-rest.p.rapidapi.com:945c46b29a11e825", "dst": "parameter_norm:STRING:recep_o_evento"}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 127.419, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 127.419, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 127.419, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9", "dst": "api:api-timing-check.p.rapidapi.com:0a7ac21ca5193f42", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.406, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9", "dst": "api:orderful.p.rapidapi.com:668611878e86c7a1", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.879, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9", "dst": "api:transportistas-de-argentina.p.rapidapi.com:bdd33b95339c8cba", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.418, "success_freq_prior": 0.49}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:43cde569fe249bd9", "dst": "api:transportistas-de-argentina.p.rapidapi.com:fdc232a76e61ed7f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.418, "success_freq_prior": 0.49}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "api:api-deliveries.p.rapidapi.com:f21d4b30daf005a2", "mapping_signature": "match_key:STRING:authorization", "match_confidence": 1.0, "semantic_role": "authorization", "est_cost": 0.406, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "api:international-bridge-blue.p.rapidapi.com:b93ce7c8190a8d84", "mapping_signature": "match_key:STRING:authorization", "match_confidence": 1.0, "semantic_role": "authorization", "est_cost": 0.833, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "api:international-bridge-blue.p.rapidapi.com:d27240e9cc32c164", "mapping_signature": "match_key:STRING:authorization", "match_confidence": 1.0, "semantic_role": "authorization", "est_cost": 0.833, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:api-correo-argentino-paq-ar.p.rapidapi.com:e614f06cad4441dd", "dst": "api:terminal7.p.rapidapi.com:0d95ef2d04add5aa", "mapping_signature": "match_key:STRING:authorization", "match_confidence": 1.0, "semantic_role": "authorization", "est_cost": 0.485, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:cargo2zero.p.rapidapi.com:4dcef59aef24050d", "dst": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "mapping_signature": "match_key:STRING:aircraft", "match_confidence": 1.0, "semantic_role": "aircraft", "est_cost": 1.165, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "dst": "api:cargo2zero.p.rapidapi.com:fcd6c8a3cb6d8040", "mapping_signature": "match_key:STRING:aircraft", "match_confidence": 1.0, "semantic_role": "aircraft", "est_cost": 1.165, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 127.419, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 127.419, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 127.419, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc", "dst": "api:api-timing-check.p.rapidapi.com:0a7ac21ca5193f42", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.629, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc", "dst": "api:orderful.p.rapidapi.com:668611878e86c7a1", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.879, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc", "dst": "api:transportistas-de-argentina.p.rapidapi.com:bdd33b95339c8cba", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.629, "success_freq_prior": 0.49}
+{"edge_type": "depends_on", "src": "api:create-container-tracking.p.rapidapi.com:df167967ccf847fc", "dst": "api:transportistas-de-argentina.p.rapidapi.com:fdc232a76e61ed7f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.629, "success_freq_prior": 0.49}
+{"edge_type": "depends_on", "src": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:5e92ecd680f35b94", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 127.419, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:c90330c7106bb8d7", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 127.419, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551", "dst": "api:aftershipstefan-skliarovv1.p.rapidapi.com:ccbdd6630a8a3ad2", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 127.419, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551", "dst": "api:api-timing-check.p.rapidapi.com:0a7ac21ca5193f42", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.561, "success_freq_prior": 0.93}
+{"edge_type": "depends_on", "src": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551", "dst": "api:orderful.p.rapidapi.com:668611878e86c7a1", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.561, "success_freq_prior": 0.465}
+{"edge_type": "depends_on", "src": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551", "dst": "api:transportistas-de-argentina.p.rapidapi.com:bdd33b95339c8cba", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.561, "success_freq_prior": 0.955}
+{"edge_type": "depends_on", "src": "api:rastreamento-de-pacotes-nos-correios.p.rapidapi.com:6548a1c34c162551", "dst": "api:transportistas-de-argentina.p.rapidapi.com:fdc232a76e61ed7f", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 1.561, "success_freq_prior": 0.955}
+{"edge_type": "depends_on", "src": "api:route-optimization.p.rapidapi.com:7802ac97f02f430b", "dst": "api:calculate-service-area.p.rapidapi.com:4f2d9994e9582c4b", "mapping_signature": "match_key:STRING:type", "match_confidence": 1.0, "semantic_role": "type", "est_cost": 1.011, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:suivi-colis.p.rapidapi.com:1ddb5e6a5ac907ae", "dst": "api:cargo2zero.p.rapidapi.com:dac7a22b4c2132d4", "mapping_signature": "match_key:STRING:date", "match_confidence": 1.0, "semantic_role": "date", "est_cost": 1.638, "success_freq_prior": 0.995}

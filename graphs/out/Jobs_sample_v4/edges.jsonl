@@ -1,0 +1,227 @@
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:ai_resume_generator"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:ai_resume_generator", "dst": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:jobdescription", "dst": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:degree", "dst": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:university", "dst": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:skills", "dst": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:jobtitle", "dst": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623"}
+{"edge_type": "api_to_parameter", "src": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:ai_resume_generator", "dst": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:degree", "dst": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:skills", "dst": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:university", "dst": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998"}
+{"edge_type": "api_to_parameter", "src": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:demo_project"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:demo_project", "dst": "api:demo-project46763.p.rapidapi.com:e45517313070bb00"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:demo_project", "dst": "api:demo-project46763.p.rapidapi.com:7839d8a58aae690b"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:demo_project", "dst": "api:demo-project46763.p.rapidapi.com:59fea7e780caba3d"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:demo-project46763.p.rapidapi.com:59fea7e780caba3d"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:demo_project", "dst": "api:demo-project46763.p.rapidapi.com:04f3ec6847fe121c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:demo-project46763.p.rapidapi.com:04f3ec6847fe121c"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:demo_project", "dst": "api:demo-project46763.p.rapidapi.com:ca2c87147bb7f4b1"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:demo_project", "dst": "api:demo-project46763.p.rapidapi.com:bae59beeb65c2468"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:indeed_jobs_api"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:indeed_jobs_api", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:location", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:offset", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:indeed_jobs_api_finland"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:indeed_jobs_api_finland", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:location", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:offset", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:indeed_jobs_api_sweden"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:indeed_jobs_api_sweden", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:location", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:offset", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:job_descriptions_api"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:job_descriptions_api", "dst": "api:job-descriptions-api.p.rapidapi.com:4fcfda702d6ed2e0"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:job_descriptions_api", "dst": "api:job-descriptions-api.p.rapidapi.com:e4379f76ed7f0380"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:job_descriptions_api", "dst": "api:job-descriptions-api.p.rapidapi.com:95f26bd2f0990ea3"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:job_descriptions_api", "dst": "api:job-descriptions-api.p.rapidapi.com:e46c035d8bc27332"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:job_descriptions_api", "dst": "api:job-descriptions-api.p.rapidapi.com:af1c689f205f6280"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:job_descriptions_api", "dst": "api:job-descriptions-api.p.rapidapi.com:16729de16e1276d4"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:job_descriptions_api", "dst": "api:job-descriptions-api.p.rapidapi.com:7d8a5ba386975ce4"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:job_descriptions_api", "dst": "api:job-descriptions-api.p.rapidapi.com:a23fa572882a5945"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:jobsearch"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:jobsearch", "dst": "api:jobsearch4.p.rapidapi.com:20fde8242ca02ddc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:jobsearch4.p.rapidapi.com:20fde8242ca02ddc"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:jobsearch4.p.rapidapi.com:20fde8242ca02ddc"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:jobsearch", "dst": "api:jobsearch4.p.rapidapi.com:3d074627176d9f1c"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:slug", "dst": "api:jobsearch4.p.rapidapi.com:3d074627176d9f1c"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:jobsearch", "dst": "api:jobsearch4.p.rapidapi.com:a3d7fb37501f4c2c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:jobsearch4.p.rapidapi.com:a3d7fb37501f4c2c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:jobsearch4.p.rapidapi.com:a3d7fb37501f4c2c"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:searchquery", "dst": "api:jobsearch4.p.rapidapi.com:a3d7fb37501f4c2c"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:jobspider_resumes"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:jobspider_resumes", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:state", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:linkedin_jobs_python_developer"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:linkedin_jobs_python_developer", "dst": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:DATE (YYYY-MM-DD):post_date", "dst": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:place", "dst": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:company", "dst": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e"}
+{"edge_type": "api_to_parameter", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:linkedin_jobs_python_developer", "dst": "api:linkedin-jobs-python-developer.p.rapidapi.com:4d368c004ebad4fc"}
+{"edge_type": "api_to_parameter", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:4d368c004ebad4fc", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:4d368c004ebad4fc", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:linkedin_jobs_scraper_api"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:linkedin_jobs_scraper_api", "dst": "api:linkedin-jobs-scraper-api.p.rapidapi.com:4e2cc6ad1b15f50f"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:linkedin_jobs_scraper_api", "dst": "api:linkedin-jobs-scraper-api.p.rapidapi.com:b7565a4438064104"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:linkedin_jobs_scraper_api", "dst": "api:linkedin-jobs-scraper-api.p.rapidapi.com:316badf0d4bd6ef6"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:linkedin_jobs_scraper_api", "dst": "api:linkedin-jobs-scraper-api.p.rapidapi.com:e2050ee03aaad2b2"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:open_to_work_remote_api"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:open_to_work_remote_api", "dst": "api:open-to-work-remote-api.p.rapidapi.com:83521f7eb7797034"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:id", "dst": "api:open-to-work-remote-api.p.rapidapi.com:83521f7eb7797034"}
+{"edge_type": "api_to_parameter", "src": "api:open-to-work-remote-api.p.rapidapi.com:83521f7eb7797034", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:open-to-work-remote-api.p.rapidapi.com:83521f7eb7797034", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:open_to_work_remote_api", "dst": "api:open-to-work-remote-api.p.rapidapi.com:609a3aa24bbdf65b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:salarymin", "dst": "api:open-to-work-remote-api.p.rapidapi.com:609a3aa24bbdf65b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:company", "dst": "api:open-to-work-remote-api.p.rapidapi.com:609a3aa24bbdf65b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:open-to-work-remote-api.p.rapidapi.com:609a3aa24bbdf65b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:location", "dst": "api:open-to-work-remote-api.p.rapidapi.com:609a3aa24bbdf65b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:page_cursor", "dst": "api:open-to-work-remote-api.p.rapidapi.com:609a3aa24bbdf65b"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:page_cursor", "dst": "api:open-to-work-remote-api.p.rapidapi.com:609a3aa24bbdf65b"}
+{"edge_type": "api_to_parameter", "src": "api:open-to-work-remote-api.p.rapidapi.com:609a3aa24bbdf65b", "dst": "parameter_norm:OBJECT:page_cursor"}
+{"edge_type": "api_to_parameter", "src": "api:open-to-work-remote-api.p.rapidapi.com:609a3aa24bbdf65b", "dst": "parameter_norm:ARRAY:jobs"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:random_gradient_resume_template_generator"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:random_gradient_resume_template_generator", "dst": "api:random-gradient-resume-template-generator.p.rapidapi.com:7be16d3871d5da4a"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:random_gradient_resume_template_generator", "dst": "api:random-gradient-resume-template-generator.p.rapidapi.com:bd4a8f544b52d8e4"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:remote_jobs_api"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:remote_jobs_api", "dst": "api:remote-jobs-api.p.rapidapi.com:53d75a48d8a65a39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:company", "dst": "api:remote-jobs-api.p.rapidapi.com:53d75a48d8a65a39"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:ENUM:category", "dst": "api:remote-jobs-api.p.rapidapi.com:53d75a48d8a65a39"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:remote_jobs_api", "dst": "api:remote-jobs-api.p.rapidapi.com:008bb754acbf7caf"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:remote-jobs-api.p.rapidapi.com:008bb754acbf7caf"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:remote_jobs_api", "dst": "api:remote-jobs-api.p.rapidapi.com:cbe8dedd88424912"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:NUMBER:page_cursor", "dst": "api:remote-jobs-api.p.rapidapi.com:cbe8dedd88424912"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:upwork_api"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_api", "dst": "api:upwork-api2.p.rapidapi.com:0e8a54f85cdcc5db"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:0e8a54f85cdcc5db", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:0e8a54f85cdcc5db", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_api", "dst": "api:upwork-api2.p.rapidapi.com:847063ccb5e069e4"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:847063ccb5e069e4", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:847063ccb5e069e4", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_api", "dst": "api:upwork-api2.p.rapidapi.com:cff74a30b8aee9f7"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:cff74a30b8aee9f7", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:cff74a30b8aee9f7", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_api", "dst": "api:upwork-api2.p.rapidapi.com:deac3cc8ee9a033b"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:deac3cc8ee9a033b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:deac3cc8ee9a033b", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_api", "dst": "api:upwork-api2.p.rapidapi.com:14986acfc099ad28"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:upwork-api2.p.rapidapi.com:14986acfc099ad28"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:14986acfc099ad28", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:14986acfc099ad28", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_api", "dst": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:count", "dst": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:skills", "dst": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:rate", "dst": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:q", "dst": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:offset", "dst": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:STRING:title", "dst": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_api", "dst": "api:upwork-api2.p.rapidapi.com:5a13b50639c0b39e"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:id", "dst": "api:upwork-api2.p.rapidapi.com:5a13b50639c0b39e"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:5a13b50639c0b39e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:5a13b50639c0b39e", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_api", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:crypto_key", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:count", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:offset", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "category_to_tool", "src": "category:Jobs", "dst": "tool:Jobs:upwork_jobs_api"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_jobs_api", "dst": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:content_type", "dst": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8"}
+{"edge_type": "parameter_to_api", "role": "required", "src": "parameter_norm:STRING:jobid", "dst": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_jobs_api", "dst": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:offset", "dst": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "api_to_parameter", "src": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2", "dst": "parameter_norm:STRING:crypto_key"}
+{"edge_type": "tool_to_api", "src": "tool:Jobs:upwork_jobs_api", "dst": "api:upwork-jobs-api1.p.rapidapi.com:1e8f73c1ec869441"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:limit", "dst": "api:upwork-jobs-api1.p.rapidapi.com:1e8f73c1ec869441"}
+{"edge_type": "parameter_to_api", "role": "optional", "src": "parameter_norm:NUMBER:offset", "dst": "api:upwork-jobs-api1.p.rapidapi.com:1e8f73c1ec869441"}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:8514ce84b2a3d623", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.98}
+{"edge_type": "depends_on", "src": "api:ai-resume-generator.p.rapidapi.com:99f75b0013a40998", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 15.89, "success_freq_prior": 0.99}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:4d368c004ebad4fc", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:4d368c004ebad4fc", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:4d368c004ebad4fc", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:4d368c004ebad4fc", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:4d368c004ebad4fc", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.65, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:linkedin-jobs-python-developer.p.rapidapi.com:7bcf1f42bbf8082e", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:open-to-work-remote-api.p.rapidapi.com:83521f7eb7797034", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:open-to-work-remote-api.p.rapidapi.com:83521f7eb7797034", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:open-to-work-remote-api.p.rapidapi.com:83521f7eb7797034", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:open-to-work-remote-api.p.rapidapi.com:83521f7eb7797034", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 0.646, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:open-to-work-remote-api.p.rapidapi.com:83521f7eb7797034", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:0e8a54f85cdcc5db", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:0e8a54f85cdcc5db", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:0e8a54f85cdcc5db", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:0e8a54f85cdcc5db", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:0e8a54f85cdcc5db", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:14986acfc099ad28", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:14986acfc099ad28", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:14986acfc099ad28", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:14986acfc099ad28", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:14986acfc099ad28", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:5a13b50639c0b39e", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:5a13b50639c0b39e", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:5a13b50639c0b39e", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:5a13b50639c0b39e", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:5a13b50639c0b39e", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:847063ccb5e069e4", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:847063ccb5e069e4", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:847063ccb5e069e4", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:847063ccb5e069e4", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:847063ccb5e069e4", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:cff74a30b8aee9f7", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:cff74a30b8aee9f7", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:cff74a30b8aee9f7", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:cff74a30b8aee9f7", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:cff74a30b8aee9f7", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:deac3cc8ee9a033b", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:deac3cc8ee9a033b", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:deac3cc8ee9a033b", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:deac3cc8ee9a033b", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:deac3cc8ee9a033b", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.436, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 3.79, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 4.236, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-api2.p.rapidapi.com:fb844d757350e9c0", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 2.736, "success_freq_prior": 1.0}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:2bc7ce05973f59a8", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2", "dst": "api:indeed-jobs-api-finland.p.rapidapi.com:8fa2831512ab18af", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2", "dst": "api:indeed-jobs-api-sweden.p.rapidapi.com:b9270a59d3301dad", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2", "dst": "api:indeed-jobs-api.p.rapidapi.com:d35c7f99d0882d81", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.5}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2", "dst": "api:jobspider-resumes.p.rapidapi.com:2598cdd5d309cccc", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.0}
+{"edge_type": "depends_on", "src": "api:upwork-jobs-api1.p.rapidapi.com:e05ab4d5b8e129d2", "dst": "api:upwork-api2.p.rapidapi.com:c0d78e01e9a6f1f3", "mapping_signature": "match_key:STRING:crypto_key", "match_confidence": 1.0, "semantic_role": "crypto_key", "est_cost": 13.517, "success_freq_prior": 0.5}
