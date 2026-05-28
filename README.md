@@ -95,7 +95,14 @@ Interactive HTML is included for **all 51** `*_sample_v4` categories. **eCommerc
 
 A few raw ToolBench JSON files in `source_data/` also exceed 100MB; see `OMITTED_LARGE_FILES.txt`.
 
-### Reproduce stats
+### Clone with LFS
+
+```bash
+git lfs install
+git clone https://github.com/UpAwache/API-KG.git
+cd API-KG
+git lfs pull   # fetch LFS blobs (eCommerce viz)
+```
 
 ```bash
 python scripts/aggregate_toolllm_category_stats.py \
